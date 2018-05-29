@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>ChungNam Linguistic Communities' Corpus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<style>
+/* Style the tab content */
+.tabcontent2 {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	overflow:auto;
+	border:1px solid black;
+	width: 89%; 
+	height:240px; 
+	min-width:935px;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	overflow:auto;
+	border:1px solid black;
+	width: 89%; 
+	height:240px; 
+	min-width:935px;
+}
+/* Style the Text panel */
+.text {
+    overflow: hidden;
+	font-size: 10px;
+}
+/* Raw Sentence panel */
+.senlist {
+    overflow: hidden;
+    font-size: 12px;
+	min-width:935px;
+}
+
+.button {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	font-size: 10px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	min-width:935px;
+}
+
+.vertical {
+  display: inline-block;
+  width: 20%;
+  height: 20px;
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+.progress-bar {
+  background-color: blue;
+  height: 20px;
+  box-shadow: inset 4px 4px 6px rgba(10,100,100,0.6);
+}
+</style>
+</head>
+<script src="./lib/search.js">/* CORPUS SEARCH MODULE */</script>
+
+<script src="./js/Chart.js"></script>
+<script src="./js/jsdiff.js"></script>
+<script>
+/* Gloval Variables */
+    var newArr;
+    var vngram;
+    var vnindice;
+    var vngramAddr;
+    var indice=["l"];
+    var sequence=["l"];
+    var dic = {"KEY-":"1"};
+    var pdic = {"KEY-":["1"]};
+    var colorIdx = {};
+    var searchTerm = {};
+	var changeLog = {};
+	var globalAnnotation = {};
+	var log = {};
+	var selectedSid = "";
+    var stat = {};
+	var wchart;
+	var winfochart;
+	var ann = "annotator";
+	var searchRes = {};
+	var parseVal;
+	var prevScheme = "";
+	var statTemplate = {};
+	var bgColor = [
+						'rgba(255, 99, 132, 0.2)',
+						'rgba(54, 162, 235, 0.2)',
+						'rgba(255, 206, 86, 0.2)',
+						'rgba(75, 192, 192, 0.2)',
+						'rgba(153, 102, 255, 0.2)',
+						'rgba(255, 159, 64, 0.2)'
+				];	
+	var bdColor= [
+						'rgba(255,99,132,1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)',
+						'rgba(75, 192, 192, 1)',
+						'rgba(153, 102, 255, 1)',
+						'rgba(255, 159, 64, 1)'
+				];
+    function test(){
+		//var ar = search(newArr,kw);
+		//return ar;
+		bigger();
+	}
+	/* Load Stats */
+	function loadStat(newArr){
+		stat = getStat(newArr);		
+	}	
+	function plotWord(stat,kwd){
+
+		var vnx2 = document.getElementById("wordplot");
+		while(vnx2.firstChild){
+			vnx2.removeChild(vnx2.firstChild);
+		}
+		var wch2 = document.createElement("CANVAS");
+		wch2.setAttribute("id","winfochart");
+		wch2.setAttribute("width",100);
+		wch2.setAttribute("height",100);
+		oHash2 = getStatByLex(stat,kwd);
+		
+		var bgcolor2 = [];
+		var bdcolor2 = [];
+		for (i=0;i<oHash2["pos_word"].length;i++){
+			var num2 = i%6;
+			bgcolor2.push(bgColor[num2]);
+			bdcolor2.push(bdColor[num2]);
+		}
+		
+		var ctx2 = wch2.getContext('2d');
+		winfochart = new Chart(ctx2, {
+			type: 'pie',
+			data: {
+				labels: oHash2["pos_word"],
+				datasets: [{
+					label: '# of '+kwd,
+					data: oHash2["counts"],
+					backgroundColor: bgcolor2,
+					borderColor: bdcolor2,
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					yAxes: [{
+						ticks: {
+							beginAtZero:true
+						}
+					}]
+				},
+				legend: {
+            		display: false,
+                	position: 'right'
+        		}
+			}
+		});
+		vnx2.appendChild(wch2);
+	}
+    function plotStat(stat,kwd){
+		
+		var vnx = document.getElementById("statistics");
+		while(vnx.firstChild){
+			vnx.removeChild(vnx.firstChild);
+		}
+		var h3 = document.createElement("H3");
+		h3.innerHTML="Statistics";
+		vnx.appendChild(h3);
+		var wch = document.createElement("CANVAS");
+		wch.setAttribute("id","myChart");
+		wch.setAttribute("width",160);
+		wch.setAttribute("height",30);
+		oHash = getStatBysform(stat,kwd);
+		var bgcolor = [];
+		var bdcolor = [];
+		var wdCnt = 0;
+		for (i=0;i<oHash["lexemes"].length;i++){
+			var num = i%6;
+			bgcolor.push(bgColor[num]);
+			bdcolor.push(bdColor[num]);
+			wdCnt = wdCnt + parseInt(oHash["counts"][i]);
+		}
+		var ctx = wch.getContext('2d');
+		wchart = new Chart(ctx, {
+			type: 'bar',
+			data: {
+				labels: oHash["lexemes"],
+				datasets: [{
+					label: "# of "+kwd+":  "+oHash["counts"].length+" TYPES, "+wdCnt+" TOKENS",
+					data: oHash["counts"],
+					backgroundColor: bgcolor,
+					borderColor: bdcolor,
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					yAxes: [{
+						ticks: {
+							beginAtZero:true
+						}
+					}]
+				},
+				onClick: function(evt){
+            		var activePoints = wchart.getElementsAtEvent(evt);
+            		var firstPoint = activePoints[0];
+            		var label = wchart.data.labels[firstPoint._index];
+					var value = wchart.data.datasets[firstPoint._datasetIndex].data[firstPoint._index];
+					var wpos = label.split(" ");
+					findConc(kwd,wpos[0],wpos[1]);
+					plotWord(stat,wpos[1]);
+       			 }
+			},
+			
+		});
+		vnx.appendChild(wch);
+	}
+	/* Load Change Log file*/
+	function loadChangeLog() {
+		var input, file, fr;
+
+		if (typeof window.FileReader !== 'function') {
+			alert("The file API isn't supported on this browser yet.");
+			return;
+    		}
+
+		input = document.getElementById('fileload2');
+		if (!input) {
+			alert("Um, couldn't find the fileinput element.");
+		}
+		else if (!input.files) {
+			alert("This browser doesn't seem to support the `files` property of file inputs.");
+		}
+		else if (!input.files[0]) {
+			alert("Please select a file before clicking 'Load'");
+		}
+		else {
+			file = input.files[0];
+			fr = new FileReader();
+			fr.onload = receivedText;
+			fr.readAsText(file);
+    	}
+	/* Sprinkle  Values tp WORD-POS Panel*/
+		function receivedText(e) {
+		lines = e.target.result;
+		var log = JSON.parse(lines); 
+		changeLog = log["changeLog"];
+		globalAnnotation = log["globalAnnotation"];
+		updateChangeLog(changeLog);
+		}
+ 	 }
+	/* 100 sentences per one block. make button */
+	function loadFile() {
+		var input, file, fr;
+
+		if (typeof window.FileReader !== 'function') {
+			alert("The file API isn't supported on this browser yet.");
+			return;
+    		}
+
+		input = document.getElementById('fileload');
+		if (!input) {
+			alert("Um, couldn't find the fileinput element.");
+		}
+		else if (!input.files) {
+			alert("This browser doesn't seem to support the `files` property of file inputs.");
+		}
+		else if (!input.files[0]) {
+			alert("Please select a file before clicking 'Load'");
+		}
+		else {
+			file = input.files[0];
+			fr = new FileReader();
+			fr.onload = receivedText;
+			fr.readAsText(file);
+			///document.getElementById('demo') = fr.result
+    	}
+	/* Sprinkle  Values tp WORD-POS Panel*/
+		function receivedText(e) {
+		lines = e.target.result;
+		newArr = JSON.parse(lines); 
+		setBlockTable();
+
+		loadStat(newArr);
+		resetText(0);
+
+		}
+		
+ 	 }
+ 
+  function loadvn() {
+   alert("under construction.");
+  }
+</script>
+<body>
+	<div id="wrap">
+		<div id="container">
+			<div class="content">
+				<div class="section_file">
+					<dl>
+						<table border ="0" cellpadding ="0" cellspacing ="0">
+							<tr valign ="middle" >
+                            <td style ="width:50px">
+                            </td>
+							<td>
+							<button type="button" id="loadvn" onclick="downloadCorpus();">Download latest corpus</input>
+							</td>
+							<td>
+							<div class="file_input_div">
+                                 <input type="file" id="fileload" class="file_input_hidden" onchange="loadFile();"><span class="btn_file" id = "fileImg"></span></input>
+                            </div>
+							</td>
+							<td>
+                                load Change Log <input type="file" id="fileload2" class="file_input_hidden" onchange="loadChangeLog();"><span class="btn_file" id = "fileImg"></span></input>
+							</td>
+							<td id="logintd">
+								<button onclick="undisableTxt();">set annotator name:</button>
+								<input type="text" id="setuser" onkeypress="setUser(event);"/>
+<script>
+function setUser(evt){
+	var val = document.getElementById("setuser").value;
+	var keyCode = evt.which?evt.which:event.keyCode;
+	if (keyCode=="13"){
+		ann = val;
+    		document.getElementById("setuser").disabled = true;
+    		document.getElementById("setuser").style.backgroundColor = 'lightgray';
+	}
+}
+function undisableTxt() {
+    document.getElementById("setuser").disabled = false;
+    document.getElementById("setuser").style.backgroundColor = 'white';
+ }
+
+</script>
+							</td>
+							</tr>
+						</table>
+					</dl>
+					<dl>
+					<div style="width:90%; min-width:960">
+						<div align="right">
+							<input type="hidden" id="tagerdis" onclick="loadvn();">3 taggers disagreement</input>
+							<input type="hidden" id="loadvn" onclick="loadVngram();"><font color="red"> load variation n-grams</font></input>
+							</td>
+							<td>
+						<font color="blue">hepax legomena</font> 
+						<button type="button" id="save" onclick="saveWithChanges();">Save with Changes</button>
+						</div>
+					</div>
+					</dl>
+				<dd>
+<div id="senList" style="overflow:auto;border:1px solid black;width:90%; height:50px; min-width:960px;">
+	<script>
+	function setBlockTable(){
+        	var btbl = document.createElement('TABLE');
+		btbl.setAttribute("id","btbl");
+		var ntr = document.createElement('TR');
+		c = 0;
+		bnum = newArr.sents.length/100;
+		for (i=0;i<bnum;i++){
+			if (i%30==0 && i>0){
+				btbl.appendChild(ntr);
+				var ntr = document.createElement('TR');
+			}
+			var ntd = document.createElement('TD');
+			var pbar = document.createElement('BUTTON');
+			//pbar.setAttribute("class","progress-bar vertical");
+			pbar.innerHTML = i;
+			pbar.setAttribute("width","25");
+				pbar.addEventListener("click", function(){
+					/*Pop-up module: assign correction to button and data structure.
+					popup = window.open('tagAutoComplete.html', 'name', 'width=700,height=350');*/
+					var zz = this.textContent;
+					resetText(parseInt(zz));
+				});
+			ntd.appendChild(pbar);
+			ntr.appendChild(ntd);
+		}		
+		btbl.appendChild(ntr);
+         	var senL = document.getElementById("senList");
+         	senL.appendChild(btbl);
+	}	
+	</script>						
+</div>
+<div id="onesen" class="senlist" style="overflow:auto;border:1px solid black;width:90%; height:50px; min-width:960px;" class="text">
+	<script>
+	function setOneSentence(sennum) {
+		document.getElementById("onesen").innerHTML = ""
+		var sentbl = document.createElement('TABLE');
+		sentbl.setAttribute("id","sentbl");
+		var ntr = document.createElement('TR');
+		ntr.setAttribute("id",sennum.toString());
+		ntr.addEventListener("click", function(){
+			var searchKey = this.id;
+			var kint = parseInt(parseInt(searchKey)/100);
+			resetText(kint);
+		});
+
+		var ntdn = document.createElement('TD');
+		ntdn.innerHTML = sennum;
+		ntr.appendChild(ntdn);
+
+		c = 0;
+
+		newArr.sents.forEach(function(se){
+
+			if (c==sennum){
+
+				var rsdict = se.rawsen;
+				var rskeys = Object.keys(rsdict);
+
+				rskeys.forEach(function(rsk){
+					var s = rsdict[rsk];
+                    var ntd = document.createElement('TD');
+					ntd.setAttribute("sid",sennum);
+					ntd.innerHTML = s;
+					ntd.setAttribute("id","#"+rsk);
+					ntd.addEventListener("click", function(){
+
+						var zz = this.textContent;
+						var sid = this.getAttribute("sid");
+						var ejnum = this.getAttribute("id");
+						ejnum = ejnum.substring(1);
+						segmentation(sid,ejnum);
+					});
+					ntr.appendChild(ntd);
+				});
+				sentbl.appendChild(ntr);
+			}
+			c = c+1;
+		});
+         	var senL = document.getElementById("onesen");
+         	senL.appendChild(sentbl);
+
+	}
+	function segmentation(snum,eNum){
+		//!!!Statistics를 켜지 않으면 분리가 잘 안되는 이상한 버그가 있음...
+		var se = newArr.sents[snum];
+		var wdz = se.sen;
+		var twz = [];
+		var original_seg = "";
+		var original_ej = "";
+		var startPoint = -1;
+		for (i=0;i<wdz.length;i++){
+			var wd = wdz[i];
+			if (wd.enum==eNum){
+				if (startPoint==-1){
+					startPoint = i;
+				}
+				original_seg = original_seg+" "+wd.sform;
+				original_ej = original_ej+wd.sform;
+				twz.push(wd);
+			}
+		}
+		original_seg = original_seg.substring(1);
+		var corr = prompt("Try new segmantation.", original_seg);
+		if(corr){
+			if(corr==original_seg){
+
+			}else{
+				/* Chaged Segmentation, 1) validate New segmentation */
+				var nsg = corr.split(" ");
+				var ejValid = "";
+				var newSeg = [];
+				for (i=0;i<nsg.length;i++){
+					ejValid = ejValid + nsg[i];
+					newSeg.push(nsg[i]);
+				}
+				if (ejValid!=original_ej){
+					alert("This segmentation does not include original string sequence!");
+				}else{
+					/* 2) Diff and re-organize data. */
+					var diffst = diffString(original_seg,corr);
+					diffst = diffst.trim();
+					var diffoperation = diffst.split(" ");
+					//alert("-"+diffst+"-");
+					var pointer = startPoint;
+					//alert(diffoperation);
+					deleteOrder = 0;
+					insertOrder = 0;
+					//alert(diffoperation.length);
+					for (d=0;d<diffoperation.length;d++){
+						
+						var op = diffoperation[d];
+						//alert(op);
+						op = op.trim();
+						if (op){
+							if (op.startsWith("<del>")){
+								op = op.substring(5)
+								//alert("DELETE at: "+pointer+" "+op);
+								var zz = newArr.sents[snum].sen[pointer].sform;
+								newArr.sents[snum].sen.splice(pointer,1)
+								//var kzz = snum.toString()+"_"+pointer.toString();
+								//Change Log.
+								var day = new Date().getTime();
+								if (eNum in changeLog){
+									var cglist = changeLog[eNum];
+									cglist.push([snum,zz,"","*DEL*",day.toString(),deleteOrder,ann,""]);
+									changeLog[eNum] = cglist;
+								}else{
+									var cglist = [];
+									cglist.push([snum,zz,"","*DEL*",day.toString(),deleteOrder,ann,""]);
+									changeLog[eNum] = cglist;
+								}
+								deleteOrder+=1;
+							}else if (op.startsWith("<ins>")){
+								op = op.substring(5)
+								var nItem = {};
+								nItem["sform"] = op;
+								nItem["enum"] = eNum;
+								//Exists in Lexicon
+								if (op in stat["lexicon"]){
+									mx_p_l = selectPOS(stat,op);
+									nItem["pos"] = mx_p_l[0];
+									nItem["lex"] = op;
+								}else{
+									nItem["pos"] = "";
+									nItem["lex"] = op;
+								}
+								var day = new Date().getTime();
+								if (eNum in changeLog){
+									var cglist = changeLog[eNum];
+									cglist.push([snum,"","*INS_w*",op,day.toString(),insertOrder,ann]);
+									cglist.push([snum,"","*INS_p*",nItem["pos"],day.toString(),insertOrder,ann,""]);
+									cglist.push([snum,"","*INS_l*",nItem["lex"],day.toString(),insertOrder,ann,""]);
+									changeLog[eNum] = cglist;
+								}else{
+									var cglist = [];
+									cglist.push([snum,"","*INS_w*",op,day.toString(),insertOrder,ann]);
+									cglist.push([snum,"","*INS_p*",nItem["pos"],day.toString(),insertOrder,ann,""]);
+									cglist.push([snum,"","*INS_l*",nItem["lex"],day.toString(),insertOrder,ann,""]);
+									changeLog[eNum] = cglist;
+								}
+								//alert("INSERT at: "+pointer+" "+op);							
+								newArr.sents[snum].sen.splice(pointer,0,nItem);
+								pointer = pointer + 1;
+								insertOrder +=1;
+							} else{
+								/* re-new word id*/
+								//alert("SKIP at: "+pointer);
+								pointer = pointer + 1;
+								deleteOrder +=1;
+								insertOrder +=1;
+							}
+						}
+					}
+					/* Should update Change Log. */
+					updateChangeLog(changeLog);
+					
+				}
+			}
+		}
+
+	}
+	function selectPOS(stat,op){
+
+		oHash2 = getStatBysform(stat,op);
+		var cntz = oHash["counts"];
+		var lxmz = oHash["lexemes"];
+		maxCnt = 0;
+		maxPos = "";
+		for(i=0;i<cntz.length;i++){
+			if (cntz[i]>maxCnt){
+				p_l = lxmz[i].split(" ");
+				maxPos = p_l[0];
+				maxLex = p_l[1];
+				maxCnt = cntz[i];
+			}
+		}
+		var out = [maxPos,maxLex]
+		return out;
+	}
+	</script>						
+</div>
+<div id="textcontent" style="overflow:auto;border:1px solid black;width:90%; min-width:960px; height:180px; font-size: 5" class="text" >
+	<script>
+	function updateColor(){
+		for (ci in colorIdx) {
+			var cc = document.getElementById(ci)
+			if (cc){
+				cc.setAttribute("style","color:red;");
+			}
+		}
+	}
+	function sortTable(n) {
+		var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+		table = document.getElementById("ltbl");
+		switching = true;
+		// Set the sorting direction to ascending:
+		dir = "asc"; 
+		/* Make a loop that will continue until
+		no switching has been done: */
+
+		while (switching) {
+			// Start by saying: no switching is done:
+			switching = false;
+			rows = table.getElementsByTagName("TR");
+			/* Loop through all table rows (except the
+			first, which contains table headers): */
+			for (i = 1; i < (rows.length - 1); i++) {
+			// Start by saying there should be no switching:
+			shouldSwitch = false;
+			/* Get the two elements you want to compare,
+			one from current row and one from the next: */
+			x = rows[i].getElementsByTagName("TD")[n];
+			y = rows[i + 1].getElementsByTagName("TD")[n];
+			/* Check if the two rows should switch place,
+			based on the direction, asc or desc: */
+			if (dir == "asc") {
+				if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+				// If so, mark as a switch and break the loop:
+				shouldSwitch= true;
+				break;
+				}
+			} else if (dir == "desc") {
+				if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+				// If so, mark as a switch and break the loop:
+				shouldSwitch= true;
+				break;
+				}
+			}
+			}
+			if (shouldSwitch) {
+			/* If a switch has been marked, make the switch
+			and mark that a switch has been done: */
+			rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+			switching = true;
+			// Each time a switch is done, increase this count by 1:
+			switchcount ++; 
+			} else {
+			/* If no switching has been done AND the direction is "asc",
+			set the direction to "desc" and run the while loop again. */
+			if (switchcount == 0 && dir == "asc") {
+				dir = "desc";
+				switching = true;
+			}
+			}
+		}
+	}
+	function updateChangeLog(changeLog){
+		//var dex = document.getElementById("changeLog");
+		
+
+		var ltbl = document.getElementById("ltbl");
+		ltbl.setAttribute("id","ltbl");
+		while(ltbl.firstChild){
+			ltbl.removeChild(ltbl.firstChild);
+		}
+		var thr = document.createElement('TR');
+
+		var th1 = document.createElement('TH');
+		th1.innerHTML="WID";
+		th1.addEventListener("click",  function(){
+			sortTable(0);
+		});
+		thr.appendChild(th1);	
+		var th2 = document.createElement('TH');
+		th2.innerHTML="SentenceID";
+		th2.addEventListener("click",  function(){
+			sortTable(1);
+		});
+		thr.appendChild(th2);
+		var th3 = document.createElement('TH');
+		th3.innerHTML="WORD";
+		th3.addEventListener("click",   function(){
+			sortTable(2);
+		});
+		thr.appendChild(th3);
+		var th4 = document.createElement('TH');
+		th4.innerHTML="POS";
+		th4.addEventListener("click",  function(){
+			sortTable(3);
+		});
+		thr.appendChild(th4);
+		var th5 = document.createElement('TH');
+		th5.innerHTML="";
+		thr.appendChild(th5);
+
+		var th6 = document.createElement('TH');
+		th6.innerHTML="CHANGE";
+		th6.addEventListener("click",  function(){
+			sortTable(5);
+		});
+		thr.appendChild(th6);
+		var th7 = document.createElement('TH');
+		th7.innerHTML="TIME";
+		th7.addEventListener("click",  function(){
+			sortTable(6);
+		});
+		thr.appendChild(th7);
+		var th8 = document.createElement('TH');
+		th8.innerHTML="POSITION";
+		th8.addEventListener("click",   function(){
+			sortTable(7);
+		});
+		thr.appendChild(th8);
+		var th9 = document.createElement('TH');
+		th9.innerHTML="ANNOTATOR";
+		th9.addEventListener("click",  function(){
+			sortTable(8);
+		});
+		thr.appendChild(th9);
+		var th0 = document.createElement('TH');
+		th0.innerHTML="REF to # of GA";
+		th0.addEventListener("click",   function(){
+			sortTable(9);
+		});
+		thr.appendChild(th0);
+
+		ltbl.appendChild(thr);
+
+		for (ci in changeLog) {
+			var changes = changeLog[ci];
+			for (cg=0;cg<changes.length;cg++){
+				var cc = document.getElementById(ci)
+				var ntr = document.createElement('TR');
+				var ntd = document.createElement('TD');
+				var cl = changes[cg];
+				ntd.innerHTML=ci;
+				ntr.appendChild(ntd);
+				//Sentence Number
+				var td0 = document.createElement('TD');
+				td0.innerHTML=cl[0];
+				td0.style.color = "blue";
+				td0.addEventListener("click", function(){
+					var sid = this.textContent;
+					setOneSentence(sid);
+				});
+				ntr.appendChild(td0);				
+				//Word Sform
+				var sform = cl[1];
+				var td1 = document.createElement('TD');
+				td1.innerHTML=sform;
+				td1.style.color = "blue";
+				ntr.appendChild(td1);
+				//Before
+				var td2 = document.createElement('TD');
+				td2.innerHTML=cl[2];
+				td2.style.color = "green";
+				ntr.appendChild(td2);
+
+				//Arrow
+				var ntd2 = document.createElement('TD');
+				ntd2.innerHTML= "->"
+				ntr.appendChild(ntd2);
+
+				//After
+				var td3 = document.createElement('TD');
+				td3.innerHTML=cl[3];
+				td3.style.color = "red";
+				ntr.appendChild(td3);
+				//Date
+				var td4 = document.createElement('TD');
+				td4.innerHTML=cl[4];
+				td4.style.color = "orange";
+				ntr.appendChild(td4);
+				//Pointer				
+				var td5 = document.createElement('TD');
+				td5.innerHTML=cl[5];
+				td5.style.color = "purple";
+				ntr.appendChild(td5);
+				//Annotator.
+				var td6 = document.createElement('TD');
+				td6.innerHTML=cl[6];
+				td6.style.color = "purple";
+				ntr.appendChild(td6);
+
+				//Pattern, Global annotation
+				var td7 = document.createElement('TD');
+				td7.innerHTML=cl[7];
+				td7.style.color = "black";
+				ntr.appendChild(td7);
+
+				ltbl.appendChild(ntr);
+				//!!!!!!!!!!!Update Data by ChangeLog.
+				//newArr.sents[parseInt(sw[0])].sen[parseInt(sw[1])].pos = cl[1];
+			}
+		}
+		loadStat(newArr);
+
+		plotStat(stat,sform);
+		//dex.appendChild(ltbl);
+	}
+	function download(content, fileName, contentType) {
+	    var myJson = JSON.stringify(content,null, ' ');
+	    var a = document.createElement("a");
+	    var file = new Blob([myJson], {type: contentType});
+	    a.href = URL.createObjectURL(file);
+	    a.download = fileName;
+	    a.click();
+	}
+	function saveWithChanges(){
+		alert("Save with Changes");
+		download(newArr, 'out.json', 'text/plain');
+		log["changeLog"] = changeLog;
+		log["globalAnnotation"] = globalAnnotation;
+		download(log, 'changeLog.json', 'text/plain');
+	}
+	function resetText(secnum) {
+		newArr.sents.forEach(function(sx){
+				var sxarray = sx.sen;
+				for (var i = 0; i < sxarray.length ; i++){
+					var s = sxarray[i];	
+					var wdx = s.sform;
+					if(wdx in dic){
+						dic[wdx].push(wdx);
+					}else{
+						dic[wdx] = [wdx];
+					}
+				}	
+    	});
+        var dex = document.getElementById("textcontent");
+		while(dex.firstChild){
+			dex.removeChild(dex.firstChild);
+		}
+        var stbl = document.createElement('TABLE');
+		stbl.setAttribute("id","stbl");
+		/*Load Dictionary*/
+		var frm = secnum * 100;
+		var to =  (secnum+1) * 100;
+		var section = newArr.sents.slice(frm,to);
+		var cnt = frm;
+    		section.forEach(function(se){
+				var sarray = se.sen;
+				for (var i = 0; i < sarray.length ; i++){
+					var s = sarray[i];	
+					var pos = s.pos;
+					var wd = s.sform;
+					if(wd in pdic){
+						pdic[wd].push(cnt+"_"+i);
+					}else{
+						pdic[wd] = [cnt+"_"+i];
+					}
+				}	
+				cnt = cnt+1;
+    		});
+		cnt = frm;
+
+
+		/* make table */
+		section.forEach(function(se){
+			var sarray = se.sen;
+			var ntr = document.createElement('TR');
+
+            var ntd = document.createElement('TD');
+            var intb = document.createElement('TABLE');
+			var intr = document.createElement('TR');
+			var numbertd = document.createElement('TD');
+			ntd.setAttribute("class","text");
+			numbertd.setAttribute("id",cnt.toString());
+			numbertd.innerHTML=cnt;
+			numbertd.addEventListener("click", function(){
+				var searchKey = this.textContent;
+				setOneSentence(searchKey);
+			});
+			intr.appendChild(numbertd);
+			/* Word */
+			for (var i = 0; i < sarray.length ; i++){
+                        	var intd = document.createElement('TD');
+				var s = sarray[i];
+				intd.setAttribute("class","text");
+				intd.innerHTML = s.sform;
+				
+				/* set text background by change log*/
+				var eNum = s.enum;
+				if(eNum in changeLog){
+					intd.style.backgroundColor = "yellow";
+				}
+				intd.setAttribute("id",cnt.toString()+"-"+i.toString());
+				var wd = s.sform;
+
+				if(wd in dic){
+					if (dic[wd].length==1){
+						intd.setAttribute('style', 'color:' + 'blue'  + ';');
+					}
+				}
+				oHash = stat["lexicon"];
+				if (Object.keys(oHash[wd]).length>1){
+					intd.setAttribute('style', 'color:' + 'red'  + ';');
+				}
+				intd.addEventListener("click", function(){
+					var idz = this.getAttribute("id");
+					var idxz = idz.split("-");
+					var sid = idxz[0];
+					var searchKey = this.textContent;
+					plotStat(stat,searchKey);
+					openTab(event,"statistics");
+					setOneSentence(sid);
+					if (selectedSid!=""){
+						var selectedTR = document.getElementById(selectedSid);
+						if (selectedTR){
+							selectedTR.style.backgroundColor = "white";
+						}
+						this.style.backgroundColor = "yellow";
+					}else{
+						this.style.backgroundColor = "yellow";						
+					}
+					selectedSid = idz;
+				});
+				intd.setAttribute('align','center');
+                        	/*var ntr = document.getElementById("demo");*/
+				intr.insertBefore(intd, intr.childNodes[intr.length]);
+			}
+                        intb.appendChild(intr);
+			var intr2 = document.createElement('TR');
+                        var numbertdp = document.createElement('TD');
+			intr2.appendChild(numbertdp);
+			/* POS Button */
+			for (var i = 0; i < sarray.length ; i++){
+                        	var intd = document.createElement('TD');
+				var s = sarray[i];
+							var btn=document.createElement('BUTTON');
+				btnId = cnt+"_"+i;
+				btn.setAttribute("id", btnId);
+				btn.setAttribute("class","text");
+				btn.innerHTML = s.pos;
+				btn.addEventListener("click", function(){
+					/*Pop-up module: assign correction to button and data structure.*/
+					//var kzz = this.getAttribute("id");
+					//annotation(kzz);
+					var zz = this.textContent;
+					var corr = prompt("Type new Annotation.", zz);
+					var kz = this.getAttribute("id");
+					var kzz = kz.split("_");
+					var eNum = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].enum;
+					var wd = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sform;
+					// Identify order in Word Group.
+					var pointer = findPointer(newArr.sents[parseInt(kzz[0])].sen,eNum,kzz);
+
+					if(corr){
+						newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].pos = corr;
+						var d = new Date().getTime();
+						if (eNum in changeLog){
+							var cglist = changeLog[eNum];
+							cglist.push([kzz[0],wd,zz,corr,d.toString(),pointer,ann,""]);
+							changeLog[eNum] = cglist;
+						}else{
+							var cglist = [];
+							cglist.push([kzz[0],wd,zz,corr,d.toString(),pointer,ann,""]);
+							changeLog[eNum] = cglist;
+						}
+						updateChangeLog(changeLog);
+						this.innerHTML = corr;
+						var cgd = document.getElementById(kz);
+						cgd.style.backgroundColor = "yellow";
+					}
+				});
+				btn.addEventListener("mouseover",function(){
+					var kzz = this.getAttribute("id").split("_");;
+					var enm = newArr.sents[kzz[0]].sen[kzz[1]].enum;
+					promptColor(kzz,enm,"lightgray");
+				});
+				btn.addEventListener("mouseout",function(){
+                                        var kzz = this.getAttribute("id").split("_");
+                                        var enm = newArr.sents[kzz[0]].sen[kzz[1]].enum;
+					promptColor(kzz,enm,"white");
+                                });
+                        	intd.appendChild(btn);
+				intd.setAttribute('align','center');
+				/*new_div.innerHTML = JSON.stringify(s)*/
+				intr2.insertBefore(intd, intr2.childNodes[intr2.length]);
+			}
+                        intb.appendChild(intr2);
+                        ntd.appendChild(intb);
+                        ntr.insertBefore(ntd, ntr.childNodes[ntr.length]);
+                        stbl.appendChild(ntr);
+			cnt = cnt+1
+                });
+         var textcontent = document.getElementById("textcontent");
+         textcontent.appendChild(stbl);
+	updateColor();
+	}
+	function promptColor(kzz,num,targetColor){
+		var sn = kzz[0];
+		var wlst = newArr.sents[sn].sen;
+		var eoz = document.getElementById("#"+num);
+		if(eoz){
+			eoz.style.backgroundColor = targetColor;
+		}
+		for (i=0;i<wlst.length;i++){
+			var wd = wlst[i];
+			if (wd.enum==num){
+				var w = document.getElementById(sn+"_"+i);
+				w.style.backgroundColor = targetColor;
+			}
+		}
+                
+	}
+	function findPointer(sn,eNum,swnumArray){
+		pointer = 0;
+		for (i=0;i<sn.length;i++){
+			if(sn[i].enum==eNum){
+				if(i==parseInt(swnumArray[1])){
+					return pointer;
+				}
+				pointer+=1;
+			}
+		}
+		return 0;
+	}
+	</script>
+</div>
+<div class="select_con">
+<div style="border:1px solid black;width:90%; min-width:700px;" class="tab">
+  <button class="tablinks" onclick="openTab(event, 'statistics')">Statistics</button>
+  <button class="tablinks" onclick="openTab(event, 'wordinfo')">Word Information</button>
+  <button class="tablinks" onclick="openTab(event, 'changelog')">Change Log</button>
+</div>
+<div id="statistics" class="tabcontent">
+	<h3>Statistics</h3>
+</div>
+<div id="wordinfo" class="tabcontent">
+	<h3>Word Info</h3>
+	<table >
+		<tr>
+			<td style="width:80%;min-height:100px">
+				<div id="wordplot" style="min-width:200px">
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="changelog" class="tabcontent" valign="top">
+	<h3>Change Log</h3>
+	<table id="ltbl"></table>
+</div>
+<script>document.getElementById("statistics").style.display = "block";</script>							
+</div>
+<script>
+function openTab2(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent2");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+function openTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+</script>
+<div style="font-size: 8; overflow:auto; border:1px solid black;width:90%; height:253px; min-width:960px;" id="vn" class="text">
+<table><tr><td style="border: 1px solid black;"><table style="height: 250px;"><tr><td style="overflow: auto">
+<div id="vnt" valign="top" style="width: 70%; min-width:700px; height: 240px;">
+	<h3>CONCORDANCE</h3>
+	<div id="vnfind" style="overflow: auto; font-size: 8; border: 1px; width: 60%; height: 250px;"></div>
+</div></td></tr></table></td><td>
+<div id="vnt2" valign="top" style="width:400px; height: 240px;">
+<h3>PATTERN SEARCH</h3>
+	<div id="regex" style=" font-size: 8; width: 40%;" valign="top">
+	<input type="text" size="60" id="patternsearch" onkeypress="searchPattern(event);"/><button onclick="downStat()">검색결과 탬플릿으로 내려받기</button>
+	<div style="width: 400px;">
+	* WORD - W:한국   <br>
+	* POS -  P:NNG<br>
+	* LEMMA - L:한국 <br>
+	* next item: W+1, W+2,.., P+1,..,L+1,..<br>
+	* previous item: W-1, W-2,.., P-1,..,L-1,..<br>
+	* at anywhere previous or next to WORD: W--, W++..L++. <br>
+	* conjunction: ,<br>
+	* rewrite: -><br>
+	<br>
+	* EX> <b>W:한국,P:NNG -> P:NNP</b>(Change all instances of word '한국'`s POS 'NNG' to 'NNP'.)
+	</div>
+	</div>
+	<div></div>
+</div></td></tr></table>
+</div>
+	<script>
+	function downStat(){
+		var a = window.document.createElement('a');
+		var wz = statTemplate["lexemes"];
+		var cntz = statTemplate["counts"];
+		var json = JSON.stringify(statTemplate);
+		var str = "";
+		for (i=0;i<wz.length;i++){
+			str = str + wz[i]+"\t"+cntz[i]+"\n";
+		}
+		var blob = new Blob([str], {type: 'text/csv'});
+		url = window.URL.createObjectURL(blob);
+		
+		//url = window.URL.createObjectURL(blob);
+        a.href = url;
+        a.download = 'result.csv';
+        a.click();
+        window.URL.revokeObjectURL(url);
+	}
+	function downloadCorpus(){
+		var link = document.createElement("a");
+		link.download = "sejong.json";
+		link.href = "sejong.json";
+		link.click();
+	}
+	function setConcPanel(sres){
+		var div = document.getElementById('vnt');
+		while(div.firstChild){
+			div.removeChild(div.firstChild);
+		}
+		var ctbl = document.createElement('TABLE');
+		ctbl.setAttribute("id","conctbl");
+		var resCnt =0;
+		for (k in sres){
+			if (resCnt==100){
+				break;
+			}
+			var pairs = sres[k];
+			var words = pairs["word"];
+			var poz = pairs["pos"];
+			var tr = document.createElement('TR');
+			var numtd = document.createElement('TD');
+			var numbtn = document.createElement('BUTTON');
+			var numz = k.split("_");
+			numbtn.innerHTML = numz[0];
+			numbtn.addEventListener("click", function(){
+				var searchKey = this.textContent;
+				setOneSentence(searchKey);
+			});
+			numtd.appendChild(numbtn);
+
+			tr.appendChild(numtd);
+			words.forEach(function(wd){
+				var conctd = document.createElement('TD');
+				
+				conctd.innerHTML = wd;
+				tr.appendChild(conctd);
+
+			});
+			ctbl.appendChild(tr);
+			var tr2 = document.createElement('TR');
+			var numtd2 = document.createElement('TD');
+			numtd2.innerHTML = " ";
+			tr2.appendChild(numtd2);
+			/*Context 3. So only 4th buttons are given EventListener*/
+			for (i=0;i<poz.length;i++){
+				var conctd2 = document.createElement('TD');
+				var numbtn2 = document.createElement('BUTTON');
+				numbtn2.innerHTML = poz[i];
+				numbtn2.setAttribute("id",k);
+				if(i==3){
+					numbtn2.addEventListener("click", function(){
+						/*Pop-up module: assign correction to button and data structure.*/
+						//var kzz = this.getAttribute("id");
+						//annotation(kzz);
+						var zz = this.textContent;
+						var corr = prompt("Type new Annotation.", zz);
+						var kz = this.getAttribute("id");
+						var kzz = kz.split("_");
+						var eNum = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].enum;
+						var wd = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sform;
+						var pointer = findPointer(newArr.sents[parseInt(kzz[0])].sen,eNum,kzz)
+						if(corr){
+							newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].pos = corr;
+							var d = new Date().getTime();
+							if (eNum in changeLog){
+								var cglist = changeLog[eNum];
+								cglist.push([kzz[0],wd,zz,corr,d.toString(),pointer,ann,""]);
+								changeLog[eNum] = cglist;
+							}else{
+								var cglist = [];
+								cglist.push([kzz[0],wd,zz,corr,d.toString(),pointer,ann,""]);
+								changeLog[eNum] = cglist;
+							}
+							updateChangeLog(changeLog);
+							this.innerHTML = corr;
+							plotStat(stat,newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sform);	
+						}
+					});
+				}
+				conctd2.appendChild(numbtn2);
+				tr2.appendChild(conctd2);
+			}
+			resCnt+=1;
+			ctbl.appendChild(tr2);
+		}
+		div.appendChild(ctbl);
+	}
+
+	function findConc(kw,pos,lx){
+		var ar;
+		if(pos){
+			ar = searchLex(newArr,kw,pos,lx);
+		}else{
+			ar = search(newArr,"W",kw)["result"];
+		}
+		var sres = getConc(ar,3);
+		setConcPanel(sres);
+	}
+
+ 	function findVngrams(keys){
+		var div = document.getElementById('vnt');
+
+		while(div.firstChild){
+		    div.removeChild(div.firstChild);
+		}
+        var fvtbl = document.createElement('TABLE');
+        fvtbl.setAttribute("id","fvtbl");
+		for ( k in keys){	
+			var se = keys[k];
+			var bb = se.split("_");
+			var sn = parseInt(bb[0]);
+			var wn = parseInt(bb[1]);
+			if (sn < newArr.sents.length){
+				var tr = document.createElement('TR');
+				var sent = newArr.sents[sn].sen;
+				var numtd = document.createElement('TD');
+				var numbtn = document.createElement('BUTTON');
+				numbtn.addEventListener("click", function(){
+					var searchKey = this.textContent;
+					setOneSentence(searchKey);	
+				});
+				
+				numbtn.innerHTML = sn;
+				numtd.appendChild(numbtn);
+				tr.appendChild(numtd);
+				for (si=wn-2;si<sent.length&&si<wn+keys.length+2;si++){
+					if(si>-1){
+						var wd = sent[si].sform;
+						var pos = sent[si].pos;
+						var td = document.createElement('TD');
+						td.innerHTML = wd;
+						tr.appendChild(td);
+					}
+				}
+				var tr2 = document.createElement('TR');
+				var xtd = document.createElement('TD');
+				var xbtn = document.createElement('BUTTON');
+				xtd.appendChild(xbtn);
+				tr2.appendChild(xtd);
+				for (si=wn-2;si<sent.length&&si<wn+keys.length+2;si++){
+					if(si>-1){
+						var pos = sent[si].pos;
+						var td2 = document.createElement('TD');
+						var btn = document.createElement('BUTTON');
+						btn.innerHTML = pos;
+						td2.appendChild(btn);
+						tr2.appendChild(td2);
+					}
+				}
+                       		fvtbl.appendChild(tr);
+                       		fvtbl.appendChild(tr2);
+			}
+		}
+         	var textcontent = document.getElementById("vnfind");
+         	textcontent.appendChild(fvtbl);
+	}
+	function searchPattern(evt){
+		var keyCode = evt.which?evt.which:event.keyCode;
+		if (keyCode=="13" | keyCode=="188"){
+			/* Variation N-gram table*/
+			var div = document.getElementById('vnt');
+			while(div.firstChild){
+			    div.removeChild(div.firstChild);
+			}
+			var val = document.getElementById("patternsearch").value;
+			if (val){
+				
+			}else{
+				searchRes={};
+			}
+			if (val.length<prevScheme.length){
+				searchRes={};
+			}
+			parseVal = parsePattern(val);
+
+			//Speed-up
+			if ("result" in searchRes){
+				searchRes = searchByPattern(searchRes,parseVal);
+			}else{
+				searchRes = searchByPattern(newArr,parseVal);
+			}
+			var sres = getConc(searchRes["result"],3);
+			
+			var res_stat = getStatByPattern(searchRes["stat"]);
+			
+			if("INST_P" in parseVal){
+				var corr = confirm("Will you proceed?: "+ val);
+				if(corr){
+					var glength;
+					
+					if(globalAnnotation){
+						glength = Object.keys(globalAnnotation).length;
+					}else{
+						glength = 0;
+					}
+					globalAnnotation[glength]= val;
+					for (i in searchRes["result"]){
+						//alert(i);
+						var kzz = i.split("_");
+						var zz = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].pos;
+						var eNum = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].enum;
+						var wd = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sform;
+						var pointer = findPointer(newArr.sents[parseInt(kzz[0])].sen,eNum,kzz);
+						
+						newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].pos = parseVal["INST_P"];
+
+						var d = new Date().getTime();
+						if (eNum in changeLog){
+							var cglist = changeLog[eNum];
+							cglist.push([kzz[0],wd,zz,parseVal["INST_P"],d.toString(),pointer,ann,glength]);
+							changeLog[eNum] = cglist;
+						}else{
+							var cglist = [];
+							cglist.push([kzz[0],wd,zz,parseVal["INST_P"],d.toString(),pointer,ann,glength]);
+							changeLog[eNum] = cglist;
+						}
+					}
+					updateChangeLog(changeLog);
+					loadStat(newArr);
+					plotStat(stat,wd);					
+				}
+				
+			}
+
+
+			setConcPanel(sres);
+			plotPatternStat(res_stat,val)
+			prevScheme = val;
+		}
+	}
+
+
+function plotPatternStat(stat,kwd){
+		
+		var vnx = document.getElementById("statistics");
+		while(vnx.firstChild){
+			vnx.removeChild(vnx.firstChild);
+		}
+		var h3 = document.createElement("H3");
+		h3.innerHTML="Statistics";
+		vnx.appendChild(h3);
+		var wch = document.createElement("CANVAS");
+		wch.setAttribute("id","myChart");
+		wch.setAttribute("width",200);
+		wch.setAttribute("height",40);
+
+		var bgcolor = [];
+		var bdcolor = [];
+		var wdCnt = 0;
+		for (i=0;i<stat["lexemes"].length;i++){
+			var num = i%6;
+			bgcolor.push(bgColor[num]);
+			bdcolor.push(bdColor[num]);
+			wdCnt = wdCnt + parseInt(stat["counts"][i]);
+		}
+
+		statTemplate["lexemes"] = stat["lexemes"];
+		statTemplate["counts"] = stat["counts"];
+		var ctx = wch.getContext('2d');
+		wchart = new Chart(ctx, {
+			type: 'bar',
+			data: {
+				labels: stat["lexemes"],
+				datasets: [{
+					label: stat["counts"].length+" TYPES, "+wdCnt+" TOKENS",
+					data: stat["counts"],
+					backgroundColor: bgcolor,
+					borderColor: bdcolor,
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					yAxes: [{
+						ticks: {
+							beginAtZero:true
+						}
+					}]
+				},
+				onClick: function(evt){
+            		var activePoints = wchart.getElementsAtEvent(evt);
+            		var firstPoint = activePoints[0];
+            		var label = wchart.data.labels[firstPoint._index];
+					var value = wchart.data.datasets[firstPoint._datasetIndex].data[firstPoint._index];
+					var wpos = label.split(" ");
+       			 }
+			},
+			
+		});
+		vnx.appendChild(wch);
+	}
+
+	function searchWord(evt){
+		var keyCode = evt.which?evt.which:event.keyCode;
+		if (keyCode=="13"){
+			/* Variation N-gram table*/
+			var div = document.getElementById('vnt');
+			while(div.firstChild){
+			    div.removeChild(div.firstChild);
+			}
+			var val = document.getElementById("textsearch").value;
+			valeng = val.split(" ").length;
+			if (valeng<2){
+				plotStat(stat,val);	
+			}else{
+			var enarray = vngramAddr.ent;
+                	var vtbl = document.createElement('TABLE');
+                	vtbl.setAttribute("id","vtbl");
+			var tr0 = document.createElement('TR');
+			var td0 = document.createElement('TD');
+    		td0.innerHTML = val;
+            tr0.appendChild(td0);
+            vtbl.appendChild(tr0);
+			
+			for (i=0;i< enarray.length;i++){
+				var en = enarray[i];
+				if (val==en.word){
+					var parray = en.vars;
+					for (pseq in parray){
+						var tr = document.createElement('TR');
+						var ventry = parray[pseq];
+						var vpos = ventry.pos;
+						var vaddrs = ventry.addr;
+						/* write first column POSs */
+						var td1 = document.createElement('TD');
+						
+						/* write Second column  */
+						var td2 = document.createElement('TD');
+						var btn = document.createElement('BUTTON');
+    						td2.innerHTML = vaddrs.length;
+						btn.innerHTML = vpos;
+						searchTerm[vpos] = vaddrs;
+						btn.addEventListener("click", function(){
+							var searchKey = this.textContent;
+							findVngrams(searchTerm[searchKey]);	
+						});
+						td1.appendChild(btn);
+						tr.appendChild(td1);
+						tr.appendChild(td2);
+						vtbl.appendChild(tr);
+					}
+					break;
+				}
+			}
+         		var textcontent = document.getElementById("vnt");
+         		textcontent.appendChild(vtbl);
+			}/*find v-ngram or find Word Information*/
+		}
+	}
+// When the user clicks on <div>, open the popup
+	function annotation(num) {
+		var popup = window.open('tagAutoComplete.html', 'name', 'width=700,height=350');
+		if (popup!=null){
+       		x="Hello " + name + "! How are you today?";
+      		alert(x);
+  		}
+	}
+
+	</script>
+							</div>
+                                        </dd>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+

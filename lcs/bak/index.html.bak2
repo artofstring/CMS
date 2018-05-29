@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>ChungNam Linguistic Communities' Corpus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<script type="application/ecmascript" async src="fileSaver.js">
+<input type="hidden" id="loadJsonText"/>
+<input type="hidden" id="saveJsonText"/>
+</script>
+<script>
+/* Gloval Variables */
+    var newArr;
+    var vngram;
+    var indice=["l"];
+    var sequence=["l"];
+    var dic = {"KEY-":"1"};
+    var pdic = {"KEY-":["1"]};
+    var colorIdx = {};
+    var changeLog = {};
+    var POS = ["GridNoun","ProperNoun","CountNoun","Pronoun","ProcessNoun","StateNoun","VAdjunctNoun","MassNoun","PO","PN","PA","PG","Adjective"];
+  function loadFile() {
+    var input, file, fr;
+
+    if (typeof window.FileReader !== 'function') {
+      alert("The file API isn't supported on this browser yet.");
+      return;
+    }
+
+    input = document.getElementById('fileload');
+    if (!input) {
+      alert("Um, couldn't find the fileinput element.");
+    }
+    else if (!input.files) {
+      alert("This browser doesn't seem to support the `files` property of file inputs.");
+    }
+    else if (!input.files[0]) {
+      alert("Please select a file before clicking 'Load'");
+    }
+    else {
+      file = input.files[0];
+      fr = new FileReader();
+      fr.onload = receivedText;
+      fr.readAsText(file);
+      document.getElementById('demo') = fr.result
+    }
+/* Sprinkle  Values tp WORD-POS Panel*/
+    function receivedText(e) {
+      lines = e.target.result;
+      newArr = JSON.parse(lines); 
+      resetText(0);
+    }
+  }
+  function loadVngram() {
+   var indice=["l"];
+   var sequence=["l"];
+   var request = new XMLHttpRequest();
+   request.open("GET", "vngram.json", false);
+   request.send(null);
+   vngram = JSON.parse(request.responseText);
+   request.open("GET", "vnindice.json", false);
+   request.send(null);
+   vnindice = JSON.parse(request.responseText);
+    /* sequence array of all text to find variation n-grams */
+    for(i=0;i<newArr.sents.length;i++){
+	var kk = newArr.sents[i];
+	for(j=0;j<kk.sen.length;j++){
+	    indice.push(i+"_"+j);
+            sequence.push(kk.sen[j].sform);
+        }
+    }
+    indice.shift();
+    sequence.shift();
+   var donCnt = 0;
+   if(newArr){
+	for(i=0;i<vngram.ent.length;i++){
+            var en = vngram.ent[i];
+            /*how many grams?*/
+            var hmgrm = en.word.split(" "); 
+	    /* ignore unigrams */
+	    if (hmgrm.length==1){
+		continue;
+	    }
+	    /* ignore bigrams */
+	    if (hmgrm.length==2){
+		continue;
+	    }
+	    var hnum = hmgrm.length;
+            /*set pos key per variation entry */
+	    var poskeys = {};
+	    for (y=0;y<en.vars.length;y++){
+		poskeys[en.vars[y].pos] = en.vars[y].cnt;
+	    }
+	    donCnt = donCnt+1;
+            if (hmgrm[0] in pdic){
+		var pdicEntries = pdic[hmgrm[0]];
+		    for (p=0;p<pdicEntries.length;p++){
+			pdicKey = pdicEntries[p];
+		    var compIndex = indice.indexOf(pdicKey);
+                    if (compIndex+hnum < indice.length){
+		        var seq = sequence.slice(compIndex,compIndex+hnum);
+		        var hst = hmgrm.toString();
+		        var sst = seq.toString();
+		    /* match to saved sequence */
+		        if (hst.valueOf()==sst.valueOf()){
+			/*Temporary  Store index */
+			    tmpStore = {};
+			/*get index of variation string match*/
+			    var iseq = indice.slice(compIndex,compIndex+hnum);
+			/*POS key*/
+			    var pkey = "";
+ 			/* making pos key complete: PO + Delimiter + CountNoun  = PO Delimiter CountNoun */
+			    for (var ise in iseq){
+			        var bb = iseq[ise].split("_");
+			        var sn = parseInt(bb[0]);
+			        var wn = parseInt(bb[1]);
+			        tmpStore[iseq[ise]] = bb;
+			        var nk = newArr.sents[sn].sen[wn].pos;
+			        pkey = pkey+" "+ nk;
+			    }	
+				pkey = pkey.trim();
+			/* give color number to color index dict */
+			/* pkey = "PO Delimiter" , poskeys key--> "CountNoun PN"*/
+			    if (pkey in poskeys){
+			   	for (tkey in tmpStore){
+				    var bbz = tmpStore[tkey];
+			   	    colorIdx[tkey] = poskeys[pkey]; 
+			   	}
+			    }
+		        }   
+		    }
+	    	    }
+	    }
+        }
+   }
+	updateColor();
+   alert (donCnt+" Variation N-grams loaded!");
+  }
+  function loadvn() {
+   alert("On the construction.");
+   alert(changeLog["0_0"]);
+
+  }
+</script>
+<body onload="load()">
+	<div id="wrap">
+		<div id="container">
+			<div class="content">
+				<div class="section_file">
+					<dl>
+						<table border ="0" cellpadding ="0" cellspacing ="0">
+							<tr valign ="middle" >
+                                                      	<td style ="width:50px">
+                                                         	
+                                                      	</td>
+							<td>
+							<button type="button" id="loadvn" onclick="loadvn();">Download latest corpus</input>
+							</td>
+							<td>
+							<div class="file_input_div">
+                                                                <input type="file" id="fileload" class="file_input_hidden" onchange="loadFile();"  onmouseover="changeFsColor(this)"><span class="btn_file" id = "fileImg"></span></input>
+                                                        </div>
+							</td>
+							<td>
+							<input type="checkbox" id="loadvn" onclick="loadVngram();">load variation n-grams</input>
+							</td>
+							<td>
+							<input type="checkbox" id="loadvn" onclick="loadvn();">3 taggers disagreement</input>
+							</td>
+							<td>
+							<input type="checkbox" id="loadvn" onclick="loadvn();">shallow parsing</input>
+							</td>
+							<td>
+							<button type="button" id="loadvn" onclick="loadvn();">submit correction</input>
+							</td>
+							</tr>
+						</table>
+					</dl>
+					<dl>
+					<div><font color="blue">hepax legomena</font> <font color="red"> variation n-grams</font>
+						<button type="button" id="save" onclick="saveWithChanges();">Save with Changes</input>
+					</div>
+					</dl>
+					<dd>
+                                                        <div id="senList">
+                                                                <select id="multiple" name="sel" data-placeholder="Choose the sentence" multiple="multiple" size="3" style="width:70%; min-width:930;"></select>
+                                                        </div>
+                                                        <div class="select_con">
+                                                                <div style="position:absolute;overflow:auto;border:1px solid black;width:70%; height:550px; min-width:930px;" id="textcontent">
+	<script>
+        function updateColor(){
+		for (ci in colorIdx) {
+			document.getElementById(ci).setAttribute("style","color:red;");
+		}
+        }
+	function saveWithChanges(){
+		
+
+
+	}
+	function resetText(secnum) {
+                var stbl = document.createElement('TABLE');
+                stbl.setAttribute("id","stbl");
+		/*Load Dictionary*/
+		var cnt = 0
+    		newArr.sents.forEach(function(se){
+			var sarray = se.sen;
+			for (var i = 0; i < sarray.length ; i++){
+				var s = sarray[i];	
+				var pos = s.pos;
+				var wd = s.sform;
+				if(wd in pdic){
+					pdic[wd].push(cnt+"_"+i);
+				}
+				else{
+					pdic[wd] = [cnt+"_"+i];
+				}
+			}	
+			cnt = cnt+1;
+    		});
+		alert(pdic);
+		cnt = 0
+		/**/
+		newArr.sents.forEach(function(se){
+			if (cnt > secnum*100-1 && cnt < ((secnum+1)*100)){
+			var sarray = se.sen;
+			var ntr = document.createElement('TR');
+                        var ntd = document.createElement('TD');
+                        var intb = document.createElement('TABLE');
+			var intr = document.createElement('TR');
+                        var numbertd = document.createElement('TD');
+			numbertd.innerHTML=cnt;
+			intr.appendChild(numbertd);
+			/* Word */
+			for (var i = 0; i < sarray.length ; i++){
+                        	var intd = document.createElement('TD');
+				var s = sarray[i];
+				intd.innerHTML = s.sform;
+				var wd = s.sform;
+				if(wd in dic){
+					if (pdic[wd].length==1){
+						intd.setAttribute('style', 'color:' + 'blue'  + ';');
+					}
+				}
+				intd.setAttribute('align','center');
+                        	/*var ntr = document.getElementById("demo");*/
+				intr.insertBefore(intd, intr.childNodes[intr.length]);
+			}
+                        intb.appendChild(intr);
+			var intr2 = document.createElement('TR');
+                        var numbertdp = document.createElement('TD');
+			intr2.appendChild(numbertdp);
+			/* POS */
+			for (var i = 0; i < sarray.length ; i++){
+                        	var intd = document.createElement('TD');
+				var s = sarray[i];
+                        	var btn=document.createElement('BUTTON');
+				btn.setAttribute("id", cnt+"_"+i);
+				btn.innerHTML = s.pos;
+				btn.addEventListener("click", function(){
+					/*Pop-up module: assign correction to button and data structure.
+					popup = window.open('tagAutoComplete.html', 'name', 'width=700,height=350');*/
+					var zz = this.textContent;
+					var corr = prompt();
+					if (corr in POS){
+					var kzz = this.getAttribute("id");
+					changeLog[kzz] = [zz,corr];
+    					this.innerHTML = corr;
+					} else{
+						alert("Not in tagset");
+					}
+				});
+                        	intd.appendChild(btn);
+				intd.setAttribute('align','center');
+				/*new_div.innerHTML = JSON.stringify(s)*/
+				intr2.insertBefore(intd, intr2.childNodes[intr2.length]);
+			}
+                        intb.appendChild(intr2);
+                        ntd.appendChild(intb);
+                        ntr.insertBefore(ntd, ntr.childNodes[ntr.length]);
+                        stbl.appendChild(ntr);
+			}
+			cnt = cnt+1
+                });
+         var textcontent = document.getElementById("textcontent");
+         textcontent.appendChild(stbl);
+	}
+	</script>
+</table>
+                                                                       </div>
+                                                                </div>
+                                                        </div>
+                                        </dd>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+</script>
+</body>
+</html>

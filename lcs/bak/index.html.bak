@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>ChungNam Linguicsic Communities' Corpus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<script type="application/ecmascript" async src="fileSaver.js">
+<input type="hidden" id="loadJsonText"/>
+<input type="hidden" id="saveJsonText"/>
+</script>
+<script>
+    var newArr;
+    var vngram;
+  function loadFile() {
+    var input, file, fr;
+
+    if (typeof window.FileReader !== 'function') {
+      alert("The file API isn't supported on this browser yet.");
+      return;
+    }
+
+    input = document.getElementById('fileload');
+    if (!input) {
+      alert("Um, couldn't find the fileinput element.");
+    }
+    else if (!input.files) {
+      alert("This browser doesn't seem to support the `files` property of file inputs.");
+    }
+    else if (!input.files[0]) {
+      alert("Please select a file before clicking 'Load'");
+    }
+    else {
+      file = input.files[0];
+      fr = new FileReader();
+      fr.onload = receivedText;
+      fr.readAsText(file);
+      document.getElementById('demo') = fr.result
+    }
+/* Sprinkle  Values tp WORD-POS Panel*/
+    function receivedText(e) {
+      lines = e.target.result;
+      newArr = JSON.parse(lines); 
+      resetText(newArr)
+    }
+  }
+  function loadvn() {
+   alert("On preparing.");
+
+  }
+</script>
+<body onload="load()">
+	<div id="wrap">
+		<div id="container">
+			<div class="content">
+				<div class="section_file">
+					<dl>
+						<table border ="0" cellpadding ="0" cellspacing ="0">
+							<tr valign ="middle" >
+                                                      	<td style ="width:130px">
+                                                         	
+                                                      	</td>
+							<td>
+							<div class="file_input_div">
+                                                                <input type="file" id="fileload" class="file_input_hidden" onchange="loadFile();"  onmouseover="changeFsColor(this)"><span class="btn_file" id = "fileImg"></span></input>
+                                                        </div>
+							</td>
+							<td>
+							<input type="button" id="loadvn" onclick="loadvn();">load variation n-gram</input>
+							</td>
+							</tr>
+						</table>
+					</dl>
+					<dd>
+                                                        <div id="senList">
+                                                                <select id="multiple" name="sel" data-placeholder="Choose the sentence" multiple="multiple" size="3" style="width:70%; min-width:930;"></select>
+                                                        </div>
+                                                        <div class="select_con">
+                                                                <div style="position:absolute;overflow:auto;border:1px solid black;width:70%; height:550px; min-width:930px;">
+											<script type="text/javascript">  
+    											ShowTime();  
+											</script>
+<table id="stbl" font-size="5">
+	<script>
+	function resetText() {
+		newArr.sents.forEach(function(se){
+			var sarray = se.sen
+			var ntr = document.createElement('TR');
+                        var ntd = document.createElement('TD');
+                        var intb = document.createElement('TABLE');
+			var intr = document.createElement('TR');
+			/* Word */
+			for (i = 0; i < sarray.length ; i++){
+                        	var intd = document.createElement('TD');
+				var s = sarray[i];
+				intd.innerHTML = s.sform;
+				intd.setAttribute('align','center');
+                        	/*var ntr = document.getElementById("demo");*/
+				intr.insertBefore(intd, intr.childNodes[intr.length]);
+			}
+                        intb.appendChild(intr);
+			var intr2 = document.createElement('TR');
+			/* POS */
+			for (i = 0; i < sarray.length ; i++){
+                        	var intd = document.createElement('TD');
+				var s = sarray[i];
+                        	var new_div=document.createElement('BUTTON');
+				new_div.innerHTML = s.pos;
+                        	intd.appendChild(new_div);
+				intd.setAttribute('align','center');
+				/*new_div.innerHTML = JSON.stringify(s)*/
+				intr2.insertBefore(intd, intr2.childNodes[intr2.length]);
+			}
+                        intb.appendChild(intr2);
+                        ntd.appendChild(intb);
+                        ntr.insertBefore(ntd, ntr.childNodes[ntr.length]);
+                        document.getElementById("stbl").appendChild(ntr);
+                });
+	}
+	</script>
+</table>
+                                                                       </div>
+                                                                </div>
+                                                        </div>
+                                        </dd>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+</script>
+</body>
+</html>

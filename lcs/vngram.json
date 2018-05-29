@@ -1,0 +1,6605 @@
+{"ent":[
+	{"word":"것 이다 .",
+	"vars":[
+		{"pos":"CntN DECL.ROOTF FPunct","cnt":"15"},
+		{"pos":"MssN DECL.ROOTF FPunct","cnt":"293"},
+		{"pos":"MssN DECL.NPST.REAL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"하고 있다 .",
+	"vars":[
+		{"pos":"ACF DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.ROOTF FPunct","cnt":"67"}
+		]},
+	{"word":"고 말 했다",
+	"vars":[
+		{"pos":"Compzr PcsN DECL.PST.ROOTF","cnt":"46"},
+		{"pos":"Compzr PcsN PST.ACF","cnt":"2"},
+		{"pos":"Compzr PcsN DECL.PST.INDQF","cnt":"2"}
+		]},
+	{"word":"는 것 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DECL.ROOTF","cnt":"14"},
+		{"pos":"NCCF MssN DECL.ROOTF","cnt":"34"}
+		]},
+	{"word":"할 수 있는",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN RELCF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.NCCF","cnt":"5"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.RELCF","cnt":"39"}
+		]},
+	{"word":"요 ? ``",
+	"vars":[
+		{"pos":"DM FPunct CQ","cnt":"39"},
+		{"pos":"INT.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"일 이다 .",
+	"vars":[
+		{"pos":"CntN DECL.ROOTF FPunct","cnt":"35"},
+		{"pos":"Msur DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"하기 로 했다",
+	"vars":[
+		{"pos":"DECL.NMCF PO DECL.PST.ROOTF","cnt":"32"},
+		{"pos":"DECL.NMCF PO DECL.PST.INDQF","cnt":"2"}
+		]},
+	{"word":"거 야 .",
+	"vars":[
+		{"pos":"MssN DEL FPunct","cnt":"1"},
+		{"pos":"MssN INT.NPST.ROOTF FPunct","cnt":"2"},
+		{"pos":"MssN INT.ROOTF FPunct","cnt":"1"},
+		{"pos":"CntN DECL.NPST.ROOTF FPunct","cnt":"3"},
+		{"pos":"MssN DECL.NPST.ROOTF FPunct","cnt":"24"}
+		]},
+	{"word":"한 것 은",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"8"},
+		{"pos":"REAL.NCCF MssN DEL","cnt":"1"},
+		{"pos":"REAL.RELCF CntN DEL","cnt":"8"},
+		{"pos":"PST.REAL.NCCF MssN DEL","cnt":"12"}
+		]},
+	{"word":"천 만 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"27"},
+		{"pos":"NMADJ NMADJ Msur","cnt":"1"}
+		]},
+	{"word":"야 . ``",
+	"vars":[
+		{"pos":"DECL.ROOTF FPunct CQ","cnt":"1"},
+		{"pos":"PO FPunct CQ","cnt":"2"},
+		{"pos":"DECL.NPST.ROOTF FPunct CQ","cnt":"24"}
+		]},
+	{"word":"는 것 을",
+	"vars":[
+		{"pos":"NPST.NCCF MssN PA","cnt":"1"},
+		{"pos":"NCCF MssN PA","cnt":"18"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"7"}
+		]},
+	{"word":"하는 것 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"22"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"3"}
+		]},
+	{"word":"할 수 있다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"5"},
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"19"}
+		]},
+	{"word":"것 이라 고",
+	"vars":[
+		{"pos":"MssN DECL.NPST.INDQF Compzr","cnt":"15"},
+		{"pos":"CntN DECL.NPST.INDQF Compzr","cnt":"6"},
+		{"pos":"MssN DECL.INDQF Compzr","cnt":"2"}
+		]},
+	{"word":"것 같다 .",
+	"vars":[
+		{"pos":"CntN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN DECL.ROOTF FPunct","cnt":"22"}
+		]},
+	{"word":"`` 그래 ,",
+	"vars":[
+		{"pos":"OQ DECL.NPST.ROOTF COMMA","cnt":"1"},
+		{"pos":"OQ DECL.ROOTF COMMA","cnt":"22"}
+		]},
+	{"word":"것 으로 나타났다",
+	"vars":[
+		{"pos":"MssN PO DECL.PST.INDQF","cnt":"2"},
+		{"pos":"MssN PO DECL.PST.ROOTF","cnt":"20"}
+		]},
+	{"word":"하는 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"20"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"아무 것 도",
+	"vars":[
+		{"pos":"ADJ CntN DEL","cnt":"13"},
+		{"pos":"ProN CntN DEL","cnt":"4"},
+		{"pos":"ADJ MssN DEL","cnt":"3"},
+		{"pos":"ProN MssN DEL","cnt":"1"}
+		]},
+	{"word":"말 이다 .",
+	"vars":[
+		{"pos":"PcsN DECL.ROOTF FPunct","cnt":"18"},
+		{"pos":"CntN DECL.ROOTF FPunct","cnt":"3"}
+		]},
+	{"word":". 3 %",
+	"vars":[
+		{"pos":"FPunct NM Msur","cnt":"19"},
+		{"pos":"IPunct NM Msur","cnt":"1"}
+		]},
+	{"word":"백 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"15"},
+		{"pos":"NM NM Msur","cnt":"4"}
+		]},
+	{"word":"그 것 이",
+	"vars":[
+		{"pos":"DADJ MssN PN","cnt":"1"},
+		{"pos":"DADJ CntN PN","cnt":"18"}
+		]},
+	{"word":"그 건 건",
+	"vars":[
+		{"pos":"DADJ MssN MssN","cnt":"1"},
+		{"pos":"DADJ CntN CntN","cnt":"18"}
+		]},
+	{"word":". 5 %",
+	"vars":[
+		{"pos":"FPunct NM Msur","cnt":"18"},
+		{"pos":"IPunct NM Msur","cnt":"1"}
+		]},
+	{"word":"키 로 했다",
+	"vars":[
+		{"pos":"DECL.NPST.NMCF PO DECL.PST.ROOTF","cnt":"17"},
+		{"pos":"DECL.NPST.NMCF PO DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"수 밖에 없다",
+	"vars":[
+		{"pos":"CntN DEL DECL.INDQF","cnt":"4"},
+		{"pos":"CntN DEL DECL.ROOTF","cnt":"14"}
+		]},
+	{"word":"있다 는 것",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"10"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"7"}
+		]},
+	{"word":"수 도 있다",
+	"vars":[
+		{"pos":"CntN DEL DECL.ROOTF","cnt":"14"},
+		{"pos":"CntN DEL DECL.INDQF","cnt":"3"}
+		]},
+	{"word":"는 것 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"5"},
+		{"pos":"NCCF MssN DEL","cnt":"10"},
+		{"pos":"NPST.RELCF CntN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"할 수 도",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DEL","cnt":"13"},
+		{"pos":"IRRL.NCCF CntN DEL","cnt":"3"}
+		]},
+	{"word":"한 것 이",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN PN","cnt":"8"},
+		{"pos":"PST.REAL.RELCF CntN PN","cnt":"4"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"3"},
+		{"pos":"RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"점 이다 .",
+	"vars":[
+		{"pos":"CntN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN DECL.ROOTF FPunct","cnt":"15"}
+		]},
+	{"word":"억 원 을",
+	"vars":[
+		{"pos":"NM Msur PA","cnt":"2"},
+		{"pos":"NMADJ Msur PA","cnt":"14"}
+		]},
+	{"word":"는 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"8"},
+		{"pos":"NCCF MssN PN","cnt":"5"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"},
+		{"pos":"RELCF CntN PN","cnt":"1"},
+		{"pos":"NPST.NCCF MssN PN","cnt":"1"}
+		]},
+	{"word":"것 이었다 .",
+	"vars":[
+		{"pos":"CntN DECL.PST.ROOTF FPunct","cnt":"3"},
+		{"pos":"MssN DECL.PST.ROOTF FPunct","cnt":"13"}
+		]},
+	{"word":"것 이라 는",
+	"vars":[
+		{"pos":"CntN DECL.INDQF NCCF","cnt":"3"},
+		{"pos":"MssN DECL.INDQF NPST.REAL.NCCF","cnt":"4"},
+		{"pos":"MssN DECL.INDQF NCCF","cnt":"3"},
+		{"pos":"MssN DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"5"},
+		{"pos":"MssN DECL.NPST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"것 `` 이라",
+	"vars":[
+		{"pos":"MssN OQ DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"CntN CQ DECL.INDQF","cnt":"1"},
+		{"pos":"MssN CQ DECL.NPST.INDQF","cnt":"13"},
+		{"pos":"MssN CQ DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"천 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"13"},
+		{"pos":"NM NM Msur","cnt":"1"},
+		{"pos":"NMADJ NMADJ Msur","cnt":"1"}
+		]},
+	{"word":"이라 는 것",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.RELCF CntN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.REAL.INDQF NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"10"}
+		]},
+	{"word":"야 ? ``",
+	"vars":[
+		{"pos":"INT.NPST.ROOTF FPunct CQ","cnt":"14"},
+		{"pos":"INT.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"뒷 ᆺ 문",
+	"vars":[
+		{"pos":"VadjN SS CntN","cnt":"1"},
+		{"pos":"MssN SS CntN","cnt":"14"}
+		]},
+	{"word":"한다 는 것",
+	"vars":[
+		{"pos":"DECL.REAL.INDQF NCCF MssN","cnt":"4"},
+		{"pos":"DECL.INDQF NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.NPST.INDQF NCCF MssN","cnt":"3"},
+		{"pos":"DECL.REAL.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"2"}
+		]},
+	{"word":"하고 있다 는",
+	"vars":[
+		{"pos":"GF DECL.INDQF NPST.REAL.RELCF","cnt":"3"},
+		{"pos":"GF DECL.NPST.REAL.INDQF RELCF","cnt":"1"},
+		{"pos":"GF DECL.INDQF NPST.REAL.NCCF","cnt":"5"},
+		{"pos":"GF DECL.INDQF NCCF","cnt":"5"}
+		]},
+	{"word":"하게 된다 .",
+	"vars":[
+		{"pos":"GF DECL.NPST.ROOTF FPunct","cnt":"12"},
+		{"pos":"ACF DECL.NPST.ROOTF FPunct","cnt":"2"}
+		]},
+	{"word":"억 원 으로",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"11"},
+		{"pos":"NM Msur PO","cnt":"3"}
+		]},
+	{"word":"백 만 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"13"},
+		{"pos":"NMADJ NMADJ Msur","cnt":"1"}
+		]},
+	{"word":"것 이 아니라",
+	"vars":[
+		{"pos":"MssN PN NPST.ACF","cnt":"1"},
+		{"pos":"MssN PN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"MssN PN ACF","cnt":"7"},
+		{"pos":"MssN PN DECL.INDQF","cnt":"2"},
+		{"pos":"CntN PN ACF","cnt":"3"}
+		]},
+	{"word":". 6 %",
+	"vars":[
+		{"pos":"FPunct NM Msur","cnt":"13"},
+		{"pos":"IPunct NM Msur","cnt":"1"}
+		]},
+	{"word":"할 수 없다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"8"},
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"5"}
+		]},
+	{"word":"한 것 으로",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN PO","cnt":"11"},
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"1"},
+		{"pos":"REAL.NCCF MssN PO","cnt":"1"}
+		]},
+	{"word":"하는 것 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DECL.ROOTF","cnt":"12"},
+		{"pos":"NPST.REAL.RELCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 점 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DECL.ROOTF","cnt":"9"},
+		{"pos":"NCCF MssN DECL.ROOTF","cnt":"4"}
+		]},
+	{"word":"것 은 그",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"2"},
+		{"pos":"MssN DEL ProN","cnt":"3"},
+		{"pos":"MssN DEL DADJ","cnt":"3"},
+		{"pos":"CntN DEL ProN","cnt":"5"}
+		]},
+	{"word":"천 8 백",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"8"},
+		{"pos":"NM NM NMADJ","cnt":"4"}
+		]},
+	{"word":"인 것 으로",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"11"}
+		]},
+	{"word":"이 들 은",
+	"vars":[
+		{"pos":"ProN PM DEL","cnt":"6"},
+		{"pos":"CntN PM DEL","cnt":"6"}
+		]},
+	{"word":"야 ! ``",
+	"vars":[
+		{"pos":"DEL FPunct CQ","cnt":"1"},
+		{"pos":"PO FPunct CQ","cnt":"1"},
+		{"pos":"DECL.NPST.ROOTF FPunct CQ","cnt":"10"}
+		]},
+	{"word":"는 없다 .",
+	"vars":[
+		{"pos":"DEL DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"DEL DECL.ROOTF FPunct","cnt":"11"}
+		]},
+	{"word":"는 게 게",
+	"vars":[
+		{"pos":"NCCF MssN MssN","cnt":"7"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"5"}
+		]},
+	{"word":"5 백 만",
+	"vars":[
+		{"pos":"NM NMADJ NMADJ","cnt":"3"},
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"8"}
+		]},
+	{"word":"할 예정 이다",
+	"vars":[
+		{"pos":"IRRL.NCCF PcsN DECL.ROOTF","cnt":"7"},
+		{"pos":"IRRL.RELCF PcsN DECL.ROOTF","cnt":"4"}
+		]},
+	{"word":"할 방침 이다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"3"},
+		{"pos":"IRRL.NCCF CntN DECL.ROOTF","cnt":"8"}
+		]},
+	{"word":"천 5 백",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"10"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"중요 한 것",
+	"vars":[
+		{"pos":"SttN REAL.RELCF CntN","cnt":"6"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"5"}
+		]},
+	{"word":"있다 `` 고",
+	"vars":[
+		{"pos":"DECL.INDQF CQ Compzr","cnt":"1"},
+		{"pos":"DECL.ROOTF CQ Compzr","cnt":"10"}
+		]},
+	{"word":"있는 것 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"6"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"5"}
+		]},
+	{"word":"이기 도 하다",
+	"vars":[
+		{"pos":"DECL.NMCF DEL DECL.ROOTF","cnt":"10"},
+		{"pos":"DECL.NMCF DEL DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"억 원 에",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"6"},
+		{"pos":"NM Msur PO","cnt":"5"}
+		]},
+	{"word":"모든 것 을",
+	"vars":[
+		{"pos":"ADJ MssN PA","cnt":"3"},
+		{"pos":"ADJ CntN PA","cnt":"8"}
+		]},
+	{"word":"만 달러 로",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"9"},
+		{"pos":"NM Msur PO","cnt":"2"}
+		]},
+	{"word":"만 5 천",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"2"},
+		{"pos":"NM NM NMADJ","cnt":"9"}
+		]},
+	{"word":"들 이다 .",
+	"vars":[
+		{"pos":"PM DECL.ROOTF FPunct","cnt":"10"},
+		{"pos":"PM DECL.RELCF FPunct","cnt":"1"}
+		]},
+	{"word":"는 안 된다",
+	"vars":[
+		{"pos":"DEL ADV DECL.NPST.INDQF","cnt":"2"},
+		{"pos":"DEL ADV DECL.NPST.ROOTF","cnt":"9"}
+		]},
+	{"word":"( 1 만",
+	"vars":[
+		{"pos":"OParen NM NMADJ","cnt":"2"},
+		{"pos":"OParen NM NM","cnt":"9"}
+		]},
+	{"word":"해야 한다 는",
+	"vars":[
+		{"pos":"ACF DECL.NPST.INDQF RELCF","cnt":"2"},
+		{"pos":"ACF DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"4"},
+		{"pos":"ACF DECL.NPST.INDQF NCCF","cnt":"3"},
+		{"pos":"ACF DECL.NPST.INDQF NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"할 계획 이다",
+	"vars":[
+		{"pos":"IRRL.NCCF PcsN DECL.ROOTF","cnt":"6"},
+		{"pos":"IRRL.RELCF PcsN DECL.ROOTF","cnt":"4"}
+		]},
+	{"word":"하게 될 것",
+	"vars":[
+		{"pos":"ACF IRRL.NCCF MssN","cnt":"4"},
+		{"pos":"GF IRRL.NCCF MssN","cnt":"6"}
+		]},
+	{"word":"천 원 )",
+	"vars":[
+		{"pos":"NMADJ Msur CParen","cnt":"9"},
+		{"pos":"NM Msur CParen","cnt":"1"}
+		]},
+	{"word":"이 들 의",
+	"vars":[
+		{"pos":"ProN PM PG","cnt":"7"},
+		{"pos":"CntN PM PG","cnt":"3"}
+		]},
+	{"word":"이 것 은",
+	"vars":[
+		{"pos":"DADJ MssN DEL","cnt":"1"},
+		{"pos":"DADJ CntN DEL","cnt":"9"}
+		]},
+	{"word":"억 원 (",
+	"vars":[
+		{"pos":"NM Msur OParen","cnt":"1"},
+		{"pos":"NMADJ Msur OParen","cnt":"9"}
+		]},
+	{"word":"씨 는 ``",
+	"vars":[
+		{"pos":"CntN DEL CQ","cnt":"1"},
+		{"pos":"CntN DEL OQ","cnt":"9"}
+		]},
+	{"word":"수 있다 는",
+	"vars":[
+		{"pos":"CntN DECL.INDQF NPST.REAL.NCCF","cnt":"2"},
+		{"pos":"CntN DECL.INDQF NCCF","cnt":"7"},
+		{"pos":"CntN DECL.INDQF RELCF","cnt":"1"}
+		]},
+	{"word":"수 있는 것",
+	"vars":[
+		{"pos":"CntN NPST.REAL.NCCF MssN","cnt":"7"},
+		{"pos":"CntN NPST.REAL.RELCF CntN","cnt":"3"}
+		]},
+	{"word":"백 만 주",
+	"vars":[
+		{"pos":"NM NMADJ CntN","cnt":"5"},
+		{"pos":"NMADJ NMADJ CntN","cnt":"5"}
+		]},
+	{"word":"만 하다 .",
+	"vars":[
+		{"pos":"SttN DECL.ROOTF FPunct","cnt":"3"},
+		{"pos":"SttN DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"DEL DECL.ROOTF FPunct","cnt":"6"}
+		]},
+	{"word":"라 는 것",
+	"vars":[
+		{"pos":"DECL.INDQF RELCF CntN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"3"},
+		{"pos":"DECL.INDQF NPST.REAL.RELCF CntN","cnt":"2"}
+		]},
+	{"word":"들 은 이",
+	"vars":[
+		{"pos":"PM DEL PRN","cnt":"1"},
+		{"pos":"PM DEL DADJ","cnt":"6"},
+		{"pos":"PM DEL ProN","cnt":"3"}
+		]},
+	{"word":"들 은 그",
+	"vars":[
+		{"pos":"PM DEL DADJ","cnt":"5"},
+		{"pos":"PM DEL ProN","cnt":"5"}
+		]},
+	{"word":"되는 것 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"8"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"2"}
+		]},
+	{"word":"나 는 그",
+	"vars":[
+		{"pos":"ProN DEL DADJ","cnt":"8"},
+		{"pos":"ProN DEL ProN","cnt":"2"}
+		]},
+	{"word":"것 들 은",
+	"vars":[
+		{"pos":"CntN PM DEL","cnt":"9"},
+		{"pos":"MssN PM DEL","cnt":"1"}
+		]},
+	{"word":"' 라 는",
+	"vars":[
+		{"pos":"CQ DECL.INDQF NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"CQ DECL.INDQF NPST.RELCF","cnt":"1"},
+		{"pos":"CQ DECL.INDQF NCCF","cnt":"4"},
+		{"pos":"CQ DECL.INDQF NPST.REAL.NCCF","cnt":"3"}
+		]},
+	{"word":"할 수 없는",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN NPST.REAL.NCCF","cnt":"2"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.RELCF","cnt":"7"}
+		]},
+	{"word":"큰 폭 으로",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"3"},
+		{"pos":"NPST.REAL.RELCF MssN PO","cnt":"6"}
+		]},
+	{"word":"천 4 백",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"8"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"에 따르면 지난",
+	"vars":[
+		{"pos":"PO ACF PST.REAL.RELCF","cnt":"8"},
+		{"pos":"PO ACF PST.RELCF","cnt":"1"}
+		]},
+	{"word":"억 원 의",
+	"vars":[
+		{"pos":"NMADJ Msur PG","cnt":"6"},
+		{"pos":"NM Msur PG","cnt":"3"}
+		]},
+	{"word":"억 원 )",
+	"vars":[
+		{"pos":"NMADJ Msur CParen","cnt":"7"},
+		{"pos":"NM Msur CParen","cnt":"2"}
+		]},
+	{"word":"뿐 만 아니라",
+	"vars":[
+		{"pos":"VadjN DEL ACF","cnt":"1"},
+		{"pos":"MssN DEL DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"MssN DEL ACF","cnt":"7"}
+		]},
+	{"word":"될 수 있다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"4"},
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"5"}
+		]},
+	{"word":"된 것 이다",
+	"vars":[
+		{"pos":"PST.NCCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DECL.NPST.REAL.ROOTF","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DECL.ROOTF","cnt":"7"}
+		]},
+	{"word":"는 말 을",
+	"vars":[
+		{"pos":"NCCF PcsN PA","cnt":"5"},
+		{"pos":"DEL PcsN PA","cnt":"3"},
+		{"pos":"NPST.REAL.RELCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"내려 갔다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"8"},
+		{"pos":"IMP.ROOTF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"게 게 아니라",
+	"vars":[
+		{"pos":"MssN MssN ACF","cnt":"8"},
+		{"pos":"MssN MssN DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"거 야 ?",
+	"vars":[
+		{"pos":"MssN INT.NPST.ROOTF FPunct","cnt":"8"},
+		{"pos":"MssN INT.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"5 천 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"8"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"5 천 만",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"8"}
+		]},
+	{"word":"한다 `` 고",
+	"vars":[
+		{"pos":"DECL.NPST.ROOTF CQ Compzr","cnt":"6"},
+		{"pos":"DECL.NPST.INDQF CQ Compzr","cnt":"2"}
+		]},
+	{"word":"한 것 이다",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN DECL.ROOTF","cnt":"5"},
+		{"pos":"REAL.NCCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"PST.NCCF MssN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"천 2 백",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"6"},
+		{"pos":"NM NM NMADJ","cnt":"2"}
+		]},
+	{"word":"지수 8 백",
+	"vars":[
+		{"pos":"MssN NM NMADJ","cnt":"2"},
+		{"pos":"MssN NM NM","cnt":"6"}
+		]},
+	{"word":"있는 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"6"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"2"}
+		]},
+	{"word":"이라 고 밝혔다",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF Compzr DECL.PST.ROOTF","cnt":"5"},
+		{"pos":"DECL.INDQF Compzr DECL.PST.ROOTF","cnt":"3"}
+		]},
+	{"word":"이 들 이",
+	"vars":[
+		{"pos":"ProN PM PN","cnt":"7"},
+		{"pos":"CntN PM PN","cnt":"1"}
+		]},
+	{"word":"수 밖에 없는",
+	"vars":[
+		{"pos":"CntN DEL NPST.REAL.NCCF","cnt":"3"},
+		{"pos":"CntN DEL NPST.REAL.RELCF","cnt":"5"}
+		]},
+	{"word":"수 는 없다",
+	"vars":[
+		{"pos":"CntN DEL DECL.ROOTF","cnt":"7"},
+		{"pos":"CntN DEL DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"만 원 을",
+	"vars":[
+		{"pos":"NM Msur PA","cnt":"1"},
+		{"pos":"NMADJ Msur PA","cnt":"7"}
+		]},
+	{"word":"등 을 통해",
+	"vars":[
+		{"pos":"VadjN PA ACF","cnt":"7"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"니 ? ``",
+	"vars":[
+		{"pos":"ACF FPunct CQ","cnt":"1"},
+		{"pos":"INT.ROOTF FPunct CQ","cnt":"7"}
+		]},
+	{"word":"는 사실 을",
+	"vars":[
+		{"pos":"NCCF VadjN PA","cnt":"6"},
+		{"pos":"NPST.REAL.NCCF VadjN PA","cnt":"2"}
+		]},
+	{"word":"는 4 일",
+	"vars":[
+		{"pos":"DEL NM GrdN","cnt":"6"},
+		{"pos":"DEL NM Msur","cnt":"2"}
+		]},
+	{"word":"것 이 좋다",
+	"vars":[
+		{"pos":"MssN PN DECL.ROOTF","cnt":"7"},
+		{"pos":"MssN PN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"거 야 !",
+	"vars":[
+		{"pos":"CntN DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN DECL.NPST.ROOTF FPunct","cnt":"7"}
+		]},
+	{"word":"가 필요 하다",
+	"vars":[
+		{"pos":"PN SttN DECL.INDQF","cnt":"3"},
+		{"pos":"PN SttN DECL.ROOTF","cnt":"5"}
+		]},
+	{"word":"`` 이라 며",
+	"vars":[
+		{"pos":"CQ DECL.NPST.INDQF ACF","cnt":"7"},
+		{"pos":"CQ DECL.INDQF ACF","cnt":"1"}
+		]},
+	{"word":"3 천 만",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"3"},
+		{"pos":"NM NM NMADJ","cnt":"5"}
+		]},
+	{"word":"1 천 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"7"}
+		]},
+	{"word":"1 천 만",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"7"}
+		]},
+	{"word":"해야 할 것",
+	"vars":[
+		{"pos":"ACF IRRL.NCCF MssN","cnt":"6"},
+		{"pos":"ACF IRRL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"할 수 있을",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN IRRL.NCCF","cnt":"6"},
+		{"pos":"IRRL.RELCF CntN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"할 때 는",
+	"vars":[
+		{"pos":"IRRL.NCCF VadjN DEL","cnt":"1"},
+		{"pos":"IRRL.RELCF VadjN DEL","cnt":"6"}
+		]},
+	{"word":"한 사람 이",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"},
+		{"pos":"NMADJ CntN PN","cnt":"2"},
+		{"pos":"REAL.RELCF CntN PN","cnt":"4"}
+		]},
+	{"word":"하는 게 게",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN CntN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"6"}
+		]},
+	{"word":"필요 가 있다",
+	"vars":[
+		{"pos":"SttN PN DECL.ROOTF","cnt":"6"},
+		{"pos":"SttN PN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"있다 는 점",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"4"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"3"}
+		]},
+	{"word":"이라 고 한다",
+	"vars":[
+		{"pos":"DECL.INDQF Compzr DECL.NPST.ROOTF","cnt":"2"},
+		{"pos":"DECL.NPST.INDQF Compzr DECL.NPST.ROOTF","cnt":"5"}
+		]},
+	{"word":"을 비롯 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"6"},
+		{"pos":"PA PcsN PST.RELCF","cnt":"1"}
+		]},
+	{"word":"라 고 할",
+	"vars":[
+		{"pos":"IMP.INDQF Compzr IRRL.NCCF","cnt":"1"},
+		{"pos":"DECL.INDQF Compzr IRRL.RELCF","cnt":"4"},
+		{"pos":"DECL.INDQF Compzr IRRL.NCCF","cnt":"2"}
+		]},
+	{"word":"는 점 에서",
+	"vars":[
+		{"pos":"NCCF MssN PO","cnt":"4"},
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"3"}
+		]},
+	{"word":"는 인상 을",
+	"vars":[
+		{"pos":"DEL MssN PA","cnt":"1"},
+		{"pos":"NCCF MssN PA","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"4"}
+		]},
+	{"word":"는 생각 이",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN PN","cnt":"1"},
+		{"pos":"NPST.NCCF PcsN PN","cnt":"2"},
+		{"pos":"NCCF PcsN PN","cnt":"4"}
+		]},
+	{"word":"과 관련 된",
+	"vars":[
+		{"pos":"PC PcsN PST.REAL.NCCF","cnt":"2"},
+		{"pos":"PC PcsN PST.REAL.RELCF","cnt":"4"},
+		{"pos":"PC PcsN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"`` 예 ,",
+	"vars":[
+		{"pos":"OQ CntN COMMA","cnt":"3"},
+		{"pos":"OQ INTJ COMMA","cnt":"4"}
+		]},
+	{"word":") 는 ``",
+	"vars":[
+		{"pos":"CParen DEL CQ","cnt":"2"},
+		{"pos":"CParen DEL OQ","cnt":"5"}
+		]},
+	{"word":"( 길 )",
+	"vars":[
+		{"pos":"OParen CntN CParen","cnt":"6"},
+		{"pos":"OParen UKN CParen","cnt":"1"}
+		]},
+	{"word":"했다 는 것",
+	"vars":[
+		{"pos":"DECL.PST.INDQF NCCF MssN","cnt":"4"},
+		{"pos":"DECL.PST.INDQF NPST.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.PST.INDQF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"해 줄 것",
+	"vars":[
+		{"pos":"GF NCCF MssN","cnt":"1"},
+		{"pos":"GF IRRL.NCCF MssN","cnt":"5"}
+		]},
+	{"word":"해 보였다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"2"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"4"}
+		]},
+	{"word":"해 나 갈",
+	"vars":[
+		{"pos":"ACF ACF IRRL.NCCF","cnt":"4"},
+		{"pos":"GF ACF IRRL.NCCF","cnt":"2"}
+		]},
+	{"word":"할 것 은",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DEL","cnt":"5"},
+		{"pos":"IRRL.NCCF MssN DEL","cnt":"1"}
+		]},
+	{"word":"한 사람 들",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PM","cnt":"1"},
+		{"pos":"REAL.RELCF CntN PM","cnt":"4"},
+		{"pos":"NPST.REAL.RELCF CntN PM","cnt":"1"}
+		]},
+	{"word":"하다 는 것",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"4"}
+		]},
+	{"word":"천 여 명",
+	"vars":[
+		{"pos":"NMADJ NM Cssfr","cnt":"1"},
+		{"pos":"NM NM Cssfr","cnt":"5"}
+		]},
+	{"word":"이라 며 ``",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF ACF OQ","cnt":"5"},
+		{"pos":"DECL.NPST.INDQF ACF CQ","cnt":"1"}
+		]},
+	{"word":"은 지난 해",
+	"vars":[
+		{"pos":"DEL PST.RELCF GrdN","cnt":"1"},
+		{"pos":"DEL PST.REAL.RELCF GrdN","cnt":"5"}
+		]},
+	{"word":"에 나 와",
+	"vars":[
+		{"pos":"PO ACF GF","cnt":"1"},
+		{"pos":"PO ACF ACF","cnt":"5"}
+		]},
+	{"word":"없다 는 것",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"5"}
+		]},
+	{"word":"억 원 이상",
+	"vars":[
+		{"pos":"NM Msur VadjN","cnt":"1"},
+		{"pos":"NMADJ Msur VadjN","cnt":"5"}
+		]},
+	{"word":"양도 소득 세",
+	"vars":[
+		{"pos":"PcsN MssN ACF","cnt":"1"},
+		{"pos":"PcsN MssN CntN","cnt":"5"}
+		]},
+	{"word":"아 ! ``",
+	"vars":[
+		{"pos":"INTJ FPunct CQ","cnt":"1"},
+		{"pos":"PO FPunct CQ","cnt":"5"}
+		]},
+	{"word":"수 없다 는",
+	"vars":[
+		{"pos":"CntN DECL.INDQF NPST.REAL.NCCF","cnt":"2"},
+		{"pos":"CntN DECL.INDQF NCCF","cnt":"4"}
+		]},
+	{"word":"볼 수 있다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"5"},
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"백 여 명",
+	"vars":[
+		{"pos":"NMADJ NM Cssfr","cnt":"4"},
+		{"pos":"NM NM Cssfr","cnt":"2"}
+		]},
+	{"word":"받을 수 있는",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.RELCF","cnt":"5"}
+		]},
+	{"word":"미국 산 쇠고기",
+	"vars":[
+		{"pos":"PRN MssN CntN","cnt":"5"},
+		{"pos":"PRN CntN CntN","cnt":"1"}
+		]},
+	{"word":"된 것 은",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN DEL","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DEL","cnt":"5"}
+		]},
+	{"word":"도 많다 .",
+	"vars":[
+		{"pos":"DEL DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"DEL DECL.ROOTF FPunct","cnt":"5"}
+		]},
+	{"word":"다르지 않다 .",
+	"vars":[
+		{"pos":"DECL.NMCF DECL.ROOTF FPunct","cnt":"5"},
+		{"pos":"DECL.NPST.NMCF DECL.NPST.REAL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"는 지난 해",
+	"vars":[
+		{"pos":"DEL PST.RELCF GrdN","cnt":"3"},
+		{"pos":"DEL PST.REAL.RELCF GrdN","cnt":"3"}
+		]},
+	{"word":"는 미국 의",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PRN PG","cnt":"1"},
+		{"pos":"RELCF PRN PG","cnt":"1"},
+		{"pos":"NCCF PRN PG","cnt":"1"},
+		{"pos":"DEL PRN PG","cnt":"3"}
+		]},
+	{"word":"는 말 이",
+	"vars":[
+		{"pos":"NPST.NCCF PcsN PN","cnt":"1"},
+		{"pos":"NCCF PcsN PN","cnt":"5"}
+		]},
+	{"word":"는 것 도",
+	"vars":[
+		{"pos":"NPST.NCCF MssN DEL","cnt":"1"},
+		{"pos":"NCCF MssN DEL","cnt":"4"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"는 거 야",
+	"vars":[
+		{"pos":"NPST.NCCF MssN DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"NPST.NCCF MssN INT.NPST.ROOTF","cnt":"1"},
+		{"pos":"NPST.NCCF CntN DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN INT.NPST.ROOTF","cnt":"1"},
+		{"pos":"NCCF MssN INT.NPST.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"근로 자 주택",
+	"vars":[
+		{"pos":"PcsN CntN CntN","cnt":"5"},
+		{"pos":"PcsN ACF CntN","cnt":"1"}
+		]},
+	{"word":"그 것 들",
+	"vars":[
+		{"pos":"DADJ MssN PM","cnt":"1"},
+		{"pos":"DADJ CntN PM","cnt":"5"}
+		]},
+	{"word":"것 은 ,",
+	"vars":[
+		{"pos":"MssN DEL COMMA","cnt":"3"},
+		{"pos":"CntN DEL COMMA","cnt":"3"}
+		]},
+	{"word":"것 도 없다",
+	"vars":[
+		{"pos":"MssN DEL DECL.INDQF","cnt":"1"},
+		{"pos":"CntN DEL DECL.ROOTF","cnt":"2"},
+		{"pos":"CntN DEL DECL.INDQF","cnt":"1"},
+		{"pos":"MssN DEL DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"가장 중요 한",
+	"vars":[
+		{"pos":"ADV SttN REAL.RELCF","cnt":"2"},
+		{"pos":"ADV SttN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ADV SttN NPST.REAL.RELCF","cnt":"3"}
+		]},
+	{"word":"7 백 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"5"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"1 년 간",
+	"vars":[
+		{"pos":"NM Msur VadjN","cnt":"5"},
+		{"pos":"NM GrdN VadjN","cnt":"1"}
+		]},
+	{"word":"해야 할 일",
+	"vars":[
+		{"pos":"ACF IRRL.RELCF CntN","cnt":"4"},
+		{"pos":"ACF IRRL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"해야 한다 ``",
+	"vars":[
+		{"pos":"ACF DECL.NPST.ROOTF CQ","cnt":"4"},
+		{"pos":"ACF DECL.NPST.INDQF CQ","cnt":"1"}
+		]},
+	{"word":"해 주는 것",
+	"vars":[
+		{"pos":"GF NPST.REAL.RELCF CntN","cnt":"2"},
+		{"pos":"GF NCCF MssN","cnt":"1"},
+		{"pos":"GF NPST.REAL.NCCF MssN","cnt":"2"}
+		]},
+	{"word":"할 필요 가",
+	"vars":[
+		{"pos":"NCCF SttN PN","cnt":"1"},
+		{"pos":"IRRL.RELCF SttN PN","cnt":"3"},
+		{"pos":"IRRL.NCCF SttN PN","cnt":"1"}
+		]},
+	{"word":"할 만 한",
+	"vars":[
+		{"pos":"IRRL.NCCF SttN REAL.RELCF","cnt":"1"},
+		{"pos":"IRRL.NCCF SttN RELCF","cnt":"2"},
+		{"pos":"IRRL.NCCF SttN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"IRRL.NCCF SttN NPST.RELCF","cnt":"1"}
+		]},
+	{"word":"할 가능성 이",
+	"vars":[
+		{"pos":"IRRL.NCCF MssN PN","cnt":"4"},
+		{"pos":"IRRL.RELCF MssN PN","cnt":"1"}
+		]},
+	{"word":"한 셈 이다",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN DECL.ROOTF","cnt":"4"},
+		{"pos":"REAL.NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"한 사람 의",
+	"vars":[
+		{"pos":"PST.RELCF CntN PG","cnt":"1"},
+		{"pos":"NPST.RELCF CntN PG","cnt":"1"},
+		{"pos":"NMADJ CntN PG","cnt":"3"}
+		]},
+	{"word":"한 사람 은",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN DEL","cnt":"3"},
+		{"pos":"PST.NCCF CntN DEL","cnt":"1"},
+		{"pos":"RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"한 바 있다",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN DECL.ROOTF","cnt":"4"},
+		{"pos":"PST.NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"한 목 소리",
+	"vars":[
+		{"pos":"NPST.RELCF CntN MssN","cnt":"1"},
+		{"pos":"REAL.RELCF CntN MssN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN MssN","cnt":"3"}
+		]},
+	{"word":"한 느낌 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF DECL.NMCF PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"NPST.RELCF MssN PA","cnt":"2"},
+		{"pos":"PST.REAL.RELCF MssN PA","cnt":"1"}
+		]},
+	{"word":"한 곳 에",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PO","cnt":"3"},
+		{"pos":"REAL.RELCF CntN PO","cnt":"1"},
+		{"pos":"NMADJ CntN PO","cnt":"1"}
+		]},
+	{"word":"한 게 게",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN MssN","cnt":"3"},
+		{"pos":"RELCF CntN CntN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"1"}
+		]},
+	{"word":"한 것 도",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DEL","cnt":"4"}
+		]},
+	{"word":"하는 바람 에",
+	"vars":[
+		{"pos":"NCCF MssN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"4"}
+		]},
+	{"word":"하는 것 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"3"}
+		]},
+	{"word":"하기 때문 에",
+	"vars":[
+		{"pos":"DECL.NMCF MssN PO","cnt":"4"},
+		{"pos":"MssN MssN PO","cnt":"1"}
+		]},
+	{"word":"필요 는 없다",
+	"vars":[
+		{"pos":"SttN DEL DECL.INDQF","cnt":"1"},
+		{"pos":"SttN DEL DECL.ROOTF","cnt":"4"}
+		]},
+	{"word":"추진 하고 있는",
+	"vars":[
+		{"pos":"PcsN GF NPST.REAL.NCCF","cnt":"3"},
+		{"pos":"PcsN GF NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"천 3 백",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"4"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"지난 해 말",
+	"vars":[
+		{"pos":"PST.RELCF GrdN VadjN","cnt":"3"},
+		{"pos":"PST.REAL.RELCF GrdN VadjN","cnt":"2"}
+		]},
+	{"word":"잖니 ? ``",
+	"vars":[
+		{"pos":"INT.ROOTF FPunct CQ","cnt":"3"},
+		{"pos":"DECL.NMCF FPunct CQ","cnt":"2"}
+		]},
+	{"word":"있는 데 도",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN DEL","cnt":"4"}
+		]},
+	{"word":"이 필요 한",
+	"vars":[
+		{"pos":"PN SttN REAL.NCCF","cnt":"2"},
+		{"pos":"PN SttN REAL.RELCF","cnt":"3"}
+		]},
+	{"word":"이 에 대해",
+	"vars":[
+		{"pos":"ProN PO ACF","cnt":"4"},
+		{"pos":"ProN PO GF","cnt":"1"}
+		]},
+	{"word":"이 아니라 는",
+	"vars":[
+		{"pos":"PN DECL.NPST.INDQF NCCF","cnt":"1"},
+		{"pos":"PN DECL.INDQF NCCF","cnt":"3"},
+		{"pos":"PN DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"이 밖 에",
+	"vars":[
+		{"pos":"PN MssN PO","cnt":"1"},
+		{"pos":"ProN MssN PO","cnt":"4"}
+		]},
+	{"word":"이 그 동안",
+	"vars":[
+		{"pos":"PN DADJ VadjN","cnt":"1"},
+		{"pos":"PN ProN VadjN","cnt":"4"}
+		]},
+	{"word":"을 하고 있다",
+	"vars":[
+		{"pos":"PA GF DECL.INDQF","cnt":"2"},
+		{"pos":"PA GF DECL.ROOTF","cnt":"3"}
+		]},
+	{"word":"을 갖고 있다",
+	"vars":[
+		{"pos":"PA GF DECL.ROOTF","cnt":"2"},
+		{"pos":"PA GF DECL.INDQF","cnt":"3"}
+		]},
+	{"word":"월 말 까지",
+	"vars":[
+		{"pos":"GrdN VadjN PO","cnt":"4"},
+		{"pos":"GrdN VadjN DEL","cnt":"1"}
+		]},
+	{"word":"에 불과 하다",
+	"vars":[
+		{"pos":"PO SttN DECL.INDQF","cnt":"2"},
+		{"pos":"PO SttN DECL.ROOTF","cnt":"3"}
+		]},
+	{"word":"에 따라 이",
+	"vars":[
+		{"pos":"PO ACF DADJ","cnt":"2"},
+		{"pos":"PO ACF ProN","cnt":"3"}
+		]},
+	{"word":"억 원 이",
+	"vars":[
+		{"pos":"NMADJ Msur PN","cnt":"3"},
+		{"pos":"NM Msur PN","cnt":"2"}
+		]},
+	{"word":"억 5 천",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"4"},
+		{"pos":"NMADJ NM NM","cnt":"1"}
+		]},
+	{"word":"부 장관 은",
+	"vars":[
+		{"pos":"CntN CntN DEL","cnt":"4"},
+		{"pos":"MssN CntN DEL","cnt":"1"}
+		]},
+	{"word":"봐 요 .",
+	"vars":[
+		{"pos":"IMP.ROOTF DM FPunct","cnt":"3"},
+		{"pos":"DECL.ROOTF DM FPunct","cnt":"2"}
+		]},
+	{"word":"본 적 이",
+	"vars":[
+		{"pos":"PST.REAL.RELCF MssN PN","cnt":"3"},
+		{"pos":"PST.RELCF MssN PN","cnt":"2"}
+		]},
+	{"word":"바람 직 하다",
+	"vars":[
+		{"pos":"DECL.NMCF SttN DECL.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF SttN DECL.ROOTF","cnt":"4"}
+		]},
+	{"word":"많은 사람 들",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PM","cnt":"4"},
+		{"pos":"NPST.REAL.RELCF CntN PM","cnt":"1"}
+		]},
+	{"word":"많은 것 을",
+	"vars":[
+		{"pos":"REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN PA","cnt":"3"}
+		]},
+	{"word":"만 달러 에",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"3"},
+		{"pos":"NM Msur PO","cnt":"2"}
+		]},
+	{"word":"만 4 천",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"2"},
+		{"pos":"NM NM NMADJ","cnt":"3"}
+		]},
+	{"word":"로 한 것",
+	"vars":[
+		{"pos":"PO PST.REAL.NCCF MssN","cnt":"4"},
+		{"pos":"PO PST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"따르면 지난 해",
+	"vars":[
+		{"pos":"ACF PST.REAL.RELCF GrdN","cnt":"4"},
+		{"pos":"ACF PST.RELCF GrdN","cnt":"1"}
+		]},
+	{"word":"들 을 위한",
+	"vars":[
+		{"pos":"PM PA NPST.REAL.RELCF","cnt":"4"},
+		{"pos":"PM PA NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"들 에 대한",
+	"vars":[
+		{"pos":"PM PO NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PM PO NPST.REAL.RELCF","cnt":"4"}
+		]},
+	{"word":"뒤 에 도",
+	"vars":[
+		{"pos":"MssN PO DEL","cnt":"3"},
+		{"pos":"VadjN PO DEL","cnt":"2"}
+		]},
+	{"word":"될 전망 이다",
+	"vars":[
+		{"pos":"IRRL.NCCF PcsN DECL.ROOTF","cnt":"4"},
+		{"pos":"IRRL.RELCF PcsN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"될 것 이라",
+	"vars":[
+		{"pos":"IRRL.NCCF MssN DECL.INDQF","cnt":"2"},
+		{"pos":"IRRL.NCCF MssN DECL.NPST.INDQF","cnt":"3"}
+		]},
+	{"word":"는 점 을",
+	"vars":[
+		{"pos":"NPST.NCCF MssN PA","cnt":"1"},
+		{"pos":"NCCF MssN PA","cnt":"3"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"는 이유 로",
+	"vars":[
+		{"pos":"NCCF CntN PO","cnt":"4"},
+		{"pos":"NPST.REAL.NCCF CntN PO","cnt":"1"}
+		]},
+	{"word":"는 걸 걸",
+	"vars":[
+		{"pos":"NPST.REAL.NMCF MssN MssN","cnt":"1"},
+		{"pos":"NCCF MssN MssN","cnt":"4"}
+		]},
+	{"word":"내림 세 를",
+	"vars":[
+		{"pos":"DECL.NMCF CntN PA","cnt":"1"},
+		{"pos":"DECL.NMCF MssN PA","cnt":"4"}
+		]},
+	{"word":"그 만 한",
+	"vars":[
+		{"pos":"ProN SttN RELCF","cnt":"2"},
+		{"pos":"ProN SttN NPST.REAL.RELCF","cnt":"3"}
+		]},
+	{"word":"것 이 아니다",
+	"vars":[
+		{"pos":"CntN PN DECL.ROOTF","cnt":"2"},
+		{"pos":"MssN PN DECL.ROOTF","cnt":"3"}
+		]},
+	{"word":"것 이 바로",
+	"vars":[
+		{"pos":"CntN PN ADV","cnt":"3"},
+		{"pos":"MssN PN ADV","cnt":"2"}
+		]},
+	{"word":"것 은 아무",
+	"vars":[
+		{"pos":"MssN DEL ADJ","cnt":"1"},
+		{"pos":"CntN DEL ADJ","cnt":"2"},
+		{"pos":"CntN DEL ProN","cnt":"2"}
+		]},
+	{"word":"가 아이 들",
+	"vars":[
+		{"pos":"PN CntN PM","cnt":"2"},
+		{"pos":"MssN CntN PM","cnt":"3"}
+		]},
+	{"word":"가 많다 .",
+	"vars":[
+		{"pos":"PN DECL.NPST.REAL.ROOTF FPunct","cnt":"1"},
+		{"pos":"PN DECL.ROOTF FPunct","cnt":"4"}
+		]},
+	{"word":"`` 는 것",
+	"vars":[
+		{"pos":"CQ NPST.NCCF MssN","cnt":"1"},
+		{"pos":"CQ NPST.REAL.NCCF MssN","cnt":"4"}
+		]},
+	{"word":"8 백 선",
+	"vars":[
+		{"pos":"NM NMADJ CntN","cnt":"4"},
+		{"pos":"NM NM CntN","cnt":"1"}
+		]},
+	{"word":"3 백 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"2"},
+		{"pos":"NM NM NMADJ","cnt":"3"}
+		]},
+	{"word":"협회 는 이",
+	"vars":[
+		{"pos":"MssN DEL ProN","cnt":"3"},
+		{"pos":"MssN DEL DADJ","cnt":"1"}
+		]},
+	{"word":"할 필요 는",
+	"vars":[
+		{"pos":"IRRL.NCCF SttN DEL","cnt":"1"},
+		{"pos":"IRRL.RELCF SttN DEL","cnt":"3"}
+		]},
+	{"word":"할 수 있게",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN GF","cnt":"3"},
+		{"pos":"IRRL.RELCF CntN ACF","cnt":"1"}
+		]},
+	{"word":"한다 는 점",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"한 일 이",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"3"},
+		{"pos":"REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"한 것 에",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN PO","cnt":"3"},
+		{"pos":"PST.REAL.RELCF CntN PO","cnt":"1"}
+		]},
+	{"word":"하자 가 없다",
+	"vars":[
+		{"pos":"CntN PN DECL.INDQF","cnt":"2"},
+		{"pos":"CntN PN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"하는 일 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN PN","cnt":"2"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"2"}
+		]},
+	{"word":"하는 경우 도",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN DEL","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF VadjN DEL","cnt":"2"}
+		]},
+	{"word":"하는 것 으로",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"3"},
+		{"pos":"NPST.REAL.RELCF CntN PO","cnt":"1"}
+		]},
+	{"word":"하는 거 야",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN INT.NPST.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN DECL.NPST.ROOTF","cnt":"3"}
+		]},
+	{"word":"직 하다 .",
+	"vars":[
+		{"pos":"SttN DECL.ROOTF FPunct","cnt":"3"},
+		{"pos":"SttN DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"지난 달 말",
+	"vars":[
+		{"pos":"PST.RELCF GrdN VadjN","cnt":"3"},
+		{"pos":"PST.REAL.RELCF GrdN VadjN","cnt":"1"}
+		]},
+	{"word":"지 . ``",
+	"vars":[
+		{"pos":"DECL.ROOTF FPunct CQ","cnt":"2"},
+		{"pos":"DECL.NPST.ROOTF FPunct CQ","cnt":"2"}
+		]},
+	{"word":"주가 가 큰",
+	"vars":[
+		{"pos":"MssN PN NPST.REAL.RELCF","cnt":"3"},
+		{"pos":"MssN PN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"정부 에 대한",
+	"vars":[
+		{"pos":"CntN PO NPST.REAL.RELCF","cnt":"3"},
+		{"pos":"CntN PO NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"장관 은 이",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"2"},
+		{"pos":"CntN DEL ProN","cnt":"2"}
+		]},
+	{"word":"있다 는 사실",
+	"vars":[
+		{"pos":"DECL.NPST.REAL.INDQF NCCF VadjN","cnt":"1"},
+		{"pos":"DECL.INDQF NPST.REAL.NCCF VadjN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF VadjN","cnt":"2"}
+		]},
+	{"word":"있다 `` 며",
+	"vars":[
+		{"pos":"DECL.ROOTF CQ ACF","cnt":"3"},
+		{"pos":"DECL.INDQF CQ ACF","cnt":"1"}
+		]},
+	{"word":"있는 건 건",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN CntN","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"2"}
+		]},
+	{"word":"이란 EMPTYSTEM 것",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF PST.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF PST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"이 필요 하다",
+	"vars":[
+		{"pos":"PN SttN DECL.ROOTF","cnt":"3"},
+		{"pos":"PN SttN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"이 그 것",
+	"vars":[
+		{"pos":"PN DADJ MssN","cnt":"1"},
+		{"pos":"PN DADJ CntN","cnt":"3"}
+		]},
+	{"word":"이 것 을",
+	"vars":[
+		{"pos":"DADJ CntN PA","cnt":"2"},
+		{"pos":"DADJ MssN PA","cnt":"2"}
+		]},
+	{"word":"이 1 억",
+	"vars":[
+		{"pos":"PN NM NMADJ","cnt":"2"},
+		{"pos":"PN NM NM","cnt":"2"}
+		]},
+	{"word":"을 유지 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"2"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"을 앞 두고",
+	"vars":[
+		{"pos":"PA MssN GF","cnt":"1"},
+		{"pos":"PA MssN ACF","cnt":"3"}
+		]},
+	{"word":"을 선택 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"3"}
+		]},
+	{"word":"을 받아야 한다",
+	"vars":[
+		{"pos":"PA ACF DECL.INDQF","cnt":"1"},
+		{"pos":"PA ACF DECL.NPST.ROOTF","cnt":"3"}
+		]},
+	{"word":"을 마련 해",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"2"},
+		{"pos":"PA PcsN GF","cnt":"2"}
+		]},
+	{"word":"을 겪고 있는",
+	"vars":[
+		{"pos":"PA GF NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"PA GF NCCF","cnt":"1"},
+		{"pos":"PA GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"은 아무 것",
+	"vars":[
+		{"pos":"DEL ADJ CntN","cnt":"3"},
+		{"pos":"DEL ProN MssN","cnt":"1"}
+		]},
+	{"word":"울려 나 오는",
+	"vars":[
+		{"pos":"ACF ACF RELCF","cnt":"1"},
+		{"pos":"ACF ACF NPST.REAL.RELCF","cnt":"3"}
+		]},
+	{"word":"요구 하고 있다",
+	"vars":[
+		{"pos":"PcsN GF DECL.ROOTF","cnt":"3"},
+		{"pos":"PcsN GF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"에 해당 한다",
+	"vars":[
+		{"pos":"PO PcsN DECL.NPST.ROOTF","cnt":"3"},
+		{"pos":"PO PcsN DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"에 들어 간",
+	"vars":[
+		{"pos":"PO ACF PST.REAL.RELCF","cnt":"2"},
+		{"pos":"PO ACF PST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"에 는 이",
+	"vars":[
+		{"pos":"PO DEL PRN","cnt":"3"},
+		{"pos":"PO DEL ProN","cnt":"1"}
+		]},
+	{"word":"에 는 그",
+	"vars":[
+		{"pos":"PO DEL DADJ","cnt":"3"},
+		{"pos":"PO DEL ProN","cnt":"1"}
+		]},
+	{"word":"억 달러 에",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"2"},
+		{"pos":"NM Msur PO","cnt":"2"}
+		]},
+	{"word":"아무 도 없었다",
+	"vars":[
+		{"pos":"ProN DEL DECL.PST.ROOTF","cnt":"3"},
+		{"pos":"ProN DEL DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"신 의 뜻",
+	"vars":[
+		{"pos":"CntN PG MssN","cnt":"2"},
+		{"pos":"CntN PG PcsN","cnt":"2"}
+		]},
+	{"word":"생각 할 수",
+	"vars":[
+		{"pos":"PcsN IRRL.RELCF CntN","cnt":"3"},
+		{"pos":"PcsN IRRL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"사이 에 두고",
+	"vars":[
+		{"pos":"MssN PO ACF","cnt":"3"},
+		{"pos":"MssN PO GF","cnt":"1"}
+		]},
+	{"word":"사람 이 많다",
+	"vars":[
+		{"pos":"CntN PN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"CntN PN DECL.INDQF","cnt":"1"},
+		{"pos":"CntN PN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"뿐 이라 는",
+	"vars":[
+		{"pos":"MssN DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"3"},
+		{"pos":"MssN DECL.INDQF NPST.NCCF","cnt":"1"}
+		]},
+	{"word":"분 의 1",
+	"vars":[
+		{"pos":"MssN PG NM","cnt":"3"},
+		{"pos":"GrdN PG NM","cnt":"1"}
+		]},
+	{"word":"볼 필요 가",
+	"vars":[
+		{"pos":"IRRL.RELCF SttN PN","cnt":"3"},
+		{"pos":"IRRL.NCCF SttN PN","cnt":"1"}
+		]},
+	{"word":"백 만 달러",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"3"},
+		{"pos":"NMADJ NMADJ Msur","cnt":"1"}
+		]},
+	{"word":"박 필수 상공",
+	"vars":[
+		{"pos":"PRN UnmdN ADJ","cnt":"2"},
+		{"pos":"PRN PRN MssN","cnt":"1"},
+		{"pos":"PRN PRN ADJ","cnt":"1"}
+		]},
+	{"word":"바람 직 한",
+	"vars":[
+		{"pos":"DECL.NMCF SttN NPST.REAL.RELCF","cnt":"3"},
+		{"pos":"DECL.NMCF SttN REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"모든 것 이",
+	"vars":[
+		{"pos":"ADJ CntN PN","cnt":"2"},
+		{"pos":"ADJ MssN PN","cnt":"2"}
+		]},
+	{"word":"만 원 까지",
+	"vars":[
+		{"pos":"NMADJ Msur DEL","cnt":"1"},
+		{"pos":"NMADJ Msur PO","cnt":"3"}
+		]},
+	{"word":"만 6 천",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"3"}
+		]},
+	{"word":"만 1 천",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"3"}
+		]},
+	{"word":"를 제외 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"3"},
+		{"pos":"PA PcsN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"를 열어 이",
+	"vars":[
+		{"pos":"PA ACF DADJ","cnt":"2"},
+		{"pos":"PA ACF ProN","cnt":"2"}
+		]},
+	{"word":"를 실시 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"2"},
+		{"pos":"PA PcsN PST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"를 비롯 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"3"},
+		{"pos":"PA PcsN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"떠 올랐다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"3"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"떠 오르는 것",
+	"vars":[
+		{"pos":"ACF NPST.REAL.RELCF CntN","cnt":"2"},
+		{"pos":"GF NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"ACF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"들여다 보았습니다 .",
+	"vars":[
+		{"pos":"GF DECL.PST.NRET.ROOTF FPunct","cnt":"1"},
+		{"pos":"ACF DECL.PST.NRET.ROOTF FPunct","cnt":"3"}
+		]},
+	{"word":"들 이 그",
+	"vars":[
+		{"pos":"PM PN DADJ","cnt":"1"},
+		{"pos":"PM PN ProN","cnt":"3"}
+		]},
+	{"word":"들 도 많다",
+	"vars":[
+		{"pos":"PM DEL DECL.INDQF","cnt":"1"},
+		{"pos":"PM DEL DECL.ROOTF","cnt":"2"},
+		{"pos":"PM DEL DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"두기 로 했다",
+	"vars":[
+		{"pos":"DECL.NMCF PO DECL.PST.ROOTF","cnt":"3"},
+		{"pos":"DECL.NMCF PO DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"되고 있다 는",
+	"vars":[
+		{"pos":"GF DECL.INDQF NCCF","cnt":"3"},
+		{"pos":"GF DECL.NPST.REAL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"되고 있는 것",
+	"vars":[
+		{"pos":"GF NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"GF NPST.REAL.NCCF MssN","cnt":"3"}
+		]},
+	{"word":"더 중요 한",
+	"vars":[
+		{"pos":"ADV SttN REAL.RELCF","cnt":"2"},
+		{"pos":"ADV SttN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"달 말 까지",
+	"vars":[
+		{"pos":"GrdN VadjN PO","cnt":"3"},
+		{"pos":"GrdN VadjN DEL","cnt":"1"}
+		]},
+	{"word":"다가 왔다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"3"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"는 주장 이",
+	"vars":[
+		{"pos":"RELCF PcsN PN","cnt":"1"},
+		{"pos":"NCCF CntN PN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF PcsN PN","cnt":"2"}
+		]},
+	{"word":"는 언제 나",
+	"vars":[
+		{"pos":"DEL ProN ACF","cnt":"3"},
+		{"pos":"DEL ProN DEL","cnt":"1"}
+		]},
+	{"word":"는 안 될",
+	"vars":[
+		{"pos":"DEL ADV IRRL.NCCF","cnt":"2"},
+		{"pos":"DEL ADV IRRL.RELCF","cnt":"2"}
+		]},
+	{"word":"는 아버지 의",
+	"vars":[
+		{"pos":"DEL CntN PG","cnt":"3"},
+		{"pos":"RELCF CntN PG","cnt":"1"}
+		]},
+	{"word":"는 생각 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN DECL.ROOTF","cnt":"2"},
+		{"pos":"NCCF PcsN DECL.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF PcsN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 등 의",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF VadjN PG","cnt":"1"},
+		{"pos":"NCCF VadjN PG","cnt":"3"}
+		]},
+	{"word":"까지 했다 .",
+	"vars":[
+		{"pos":"PO DECL.PST.ROOTF FPunct","cnt":"3"},
+		{"pos":"PO DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"그러나 그 것",
+	"vars":[
+		{"pos":"ACF DADJ MssN","cnt":"1"},
+		{"pos":"ACF DADJ CntN","cnt":"3"}
+		]},
+	{"word":"그래 요 .",
+	"vars":[
+		{"pos":"DECL.NPST.ROOTF DM FPunct","cnt":"2"},
+		{"pos":"DECL.ROOTF DM FPunct","cnt":"2"}
+		]},
+	{"word":"고 생각 한다",
+	"vars":[
+		{"pos":"Compzr PcsN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"Compzr PcsN DECL.NPST.ROOTF","cnt":"3"}
+		]},
+	{"word":"것 이 우리",
+	"vars":[
+		{"pos":"CntN PN ProN","cnt":"1"},
+		{"pos":"MssN PN ProN","cnt":"3"}
+		]},
+	{"word":"것 은 이",
+	"vars":[
+		{"pos":"MssN DEL ProN","cnt":"3"},
+		{"pos":"MssN DEL DADJ","cnt":"1"}
+		]},
+	{"word":"것 으로 보고",
+	"vars":[
+		{"pos":"MssN PO ACF","cnt":"1"},
+		{"pos":"MssN PO GF","cnt":"3"}
+		]},
+	{"word":"것 만 은",
+	"vars":[
+		{"pos":"CntN DEL DEL","cnt":"1"},
+		{"pos":"MssN DEL DEL","cnt":"3"}
+		]},
+	{"word":"걸 까 ?",
+	"vars":[
+		{"pos":"MssN INT.IRRL.NMCF FPunct","cnt":"1"},
+		{"pos":"MssN INT.ROOTF FPunct","cnt":"3"}
+		]},
+	{"word":"거 예 요",
+	"vars":[
+		{"pos":"MssN INT.NPST.ROOTF DM","cnt":"1"},
+		{"pos":"MssN DECL.NPST.ROOTF DM","cnt":"3"}
+		]},
+	{"word":"거 니 ?",
+	"vars":[
+		{"pos":"CntN INT.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN INT.ROOTF FPunct","cnt":"3"}
+		]},
+	{"word":"간 의 갈등",
+	"vars":[
+		{"pos":"VadjN PG CntN","cnt":"2"},
+		{"pos":"VadjN PG MssN","cnt":"2"}
+		]},
+	{"word":"가 큰 폭",
+	"vars":[
+		{"pos":"PN NPST.REAL.RELCF MssN","cnt":"3"},
+		{"pos":"PN NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"가 없다 면",
+	"vars":[
+		{"pos":"PN DECL.NPST.REAL.INDQF ACF","cnt":"2"},
+		{"pos":"PN DECL.INDQF ACF","cnt":"2"}
+		]},
+	{"word":"가 . ``",
+	"vars":[
+		{"pos":"IMP.ROOTF FPunct CQ","cnt":"3"},
+		{"pos":"DECL.NPST.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"…… . 그",
+	"vars":[
+		{"pos":"FPunct FPunct FPunct ProN","cnt":"1"},
+		{"pos":"FPunct FPunct FPunct DADJ","cnt":"3"}
+		]},
+	{"word":"88 년 의",
+	"vars":[
+		{"pos":"NM GrdN PG","cnt":"3"},
+		{"pos":"NM Msur PG","cnt":"1"}
+		]},
+	{"word":"8 백 만",
+	"vars":[
+		{"pos":"NM NMADJ NMADJ","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"3"}
+		]},
+	{"word":"5 백 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"3"}
+		]},
+	{"word":"3 분 의",
+	"vars":[
+		{"pos":"NM GrdN PG","cnt":"1"},
+		{"pos":"NM MssN PG","cnt":"3"}
+		]},
+	{"word":"3 백 만",
+	"vars":[
+		{"pos":"NM NMADJ NMADJ","cnt":"1"},
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"2"}
+		]},
+	{"word":"3 백 60",
+	"vars":[
+		{"pos":"NM NMADJ NM","cnt":"1"},
+		{"pos":"NM NM NM","cnt":"3"}
+		]},
+	{"word":"2 백 만",
+	"vars":[
+		{"pos":"NM NMADJ NMADJ","cnt":"2"},
+		{"pos":"NM NM NMADJ","cnt":"2"}
+		]},
+	{"word":"15 07 ``",
+	"vars":[
+		{"pos":"NM NM CQ","cnt":"1"},
+		{"pos":"NM NM OQ","cnt":"3"}
+		]},
+	{"word":". 5 살",
+	"vars":[
+		{"pos":"FPunct NM Msur","cnt":"3"},
+		{"pos":"IPunct NM Msur","cnt":"1"}
+		]},
+	{"word":", 지난 해",
+	"vars":[
+		{"pos":"COMMA PST.RELCF GrdN","cnt":"2"},
+		{"pos":"COMMA PST.REAL.RELCF GrdN","cnt":"2"}
+		]},
+	{"word":"흐를수록 낙폭 이",
+	"vars":[
+		{"pos":"ACF CntN PN","cnt":"2"},
+		{"pos":"UKN CntN PN","cnt":"1"}
+		]},
+	{"word":"했지만 , 이",
+	"vars":[
+		{"pos":"PST.ACF COMMA DADJ","cnt":"2"},
+		{"pos":"PST.ACF COMMA ProN","cnt":"1"}
+		]},
+	{"word":"해야 마땅 하다",
+	"vars":[
+		{"pos":"ACF SttN DECL.INDQF","cnt":"1"},
+		{"pos":"ACF SttN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"해 요 .",
+	"vars":[
+		{"pos":"DECL.NPST.ROOTF DM FPunct","cnt":"2"},
+		{"pos":"DECL.ROOTF DM FPunct","cnt":"1"}
+		]},
+	{"word":"해 나 가기",
+	"vars":[
+		{"pos":"GF ACF DECL.NMCF","cnt":"1"},
+		{"pos":"ACF ACF DECL.NMCF","cnt":"2"}
+		]},
+	{"word":"할 정도 로",
+	"vars":[
+		{"pos":"IRRL.NCCF VadjN PO","cnt":"2"},
+		{"pos":"IRRL.RELCF VadjN PO","cnt":"1"}
+		]},
+	{"word":"할 길 이",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN PN","cnt":"2"},
+		{"pos":"IRRL.NCCF CntN PN","cnt":"1"}
+		]},
+	{"word":"한 적 이",
+	"vars":[
+		{"pos":"PST.REAL.RELCF MssN PN","cnt":"2"},
+		{"pos":"PST.REAL.NCCF MssN PN","cnt":"1"}
+		]},
+	{"word":"한 이 들",
+	"vars":[
+		{"pos":"PST.REAL.RELCF ProN PM","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN PM","cnt":"2"}
+		]},
+	{"word":"한 응답 자",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN CntN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF PcsN CntN","cnt":"2"}
+		]},
+	{"word":"한 심정 으로",
+	"vars":[
+		{"pos":"REAL.RELCF MssN PO","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PO","cnt":"1"},
+		{"pos":"NPST.RELCF MssN PO","cnt":"1"}
+		]},
+	{"word":"한 삶 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"2"},
+		{"pos":"REAL.RELCF MssN PA","cnt":"1"}
+		]},
+	{"word":"한 번 도",
+	"vars":[
+		{"pos":"NMADJ Msur DEL","cnt":"2"},
+		{"pos":"PST.REAL.RELCF GrdN DEL","cnt":"1"}
+		]},
+	{"word":"한 마음 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"한 동안 말",
+	"vars":[
+		{"pos":"NMADJ MssN PcsN","cnt":"1"},
+		{"pos":"NMADJ VadjN PcsN","cnt":"2"}
+		]},
+	{"word":"한 눈 빛",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN CntN","cnt":"1"},
+		{"pos":"NPST.RELCF CntN CntN","cnt":"1"},
+		{"pos":"RELCF CntN CntN","cnt":"1"}
+		]},
+	{"word":"한 것 이라",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN DECL.INDQF","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"REAL.RELCF CntN DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"한 것 을",
+	"vars":[
+		{"pos":"PST.NCCF MssN PA","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN PA","cnt":"2"}
+		]},
+	{"word":"하지 못하고 있다",
+	"vars":[
+		{"pos":"DECL.NMCF GF DECL.ROOTF","cnt":"1"},
+		{"pos":"DECL.NMCF GF DECL.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF GF DECL.NPST.REAL.INDQF","cnt":"1"}
+		]},
+	{"word":"하는 일 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN DEL","cnt":"2"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"하는 방안 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF CntN PA","cnt":"1"}
+		]},
+	{"word":"하는 모습 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PN","cnt":"2"}
+		]},
+	{"word":"하기 로 한",
+	"vars":[
+		{"pos":"DECL.NMCF PO PST.REAL.RELCF","cnt":"1"},
+		{"pos":"DECL.NMCF PO PST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"하기 도 한다",
+	"vars":[
+		{"pos":"DECL.NMCF DEL DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF DEL DECL.NPST.ROOTF","cnt":"2"}
+		]},
+	{"word":"하겠다 는 것",
+	"vars":[
+		{"pos":"DECL.IRRL.INDQF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"DECL.IRRL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"하게 된 것",
+	"vars":[
+		{"pos":"GF PST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"ACF PST.REAL.NCCF MssN","cnt":"2"}
+		]},
+	{"word":"필요 한 것",
+	"vars":[
+		{"pos":"SttN REAL.NCCF MssN","cnt":"2"},
+		{"pos":"SttN REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"필수 상공 부",
+	"vars":[
+		{"pos":"PRN ADJ CntN","cnt":"1"},
+		{"pos":"UnmdN ADJ CntN","cnt":"2"}
+		]},
+	{"word":"통화 량 은",
+	"vars":[
+		{"pos":"MssN MssN DEL","cnt":"2"},
+		{"pos":"PcsN MssN DEL","cnt":"1"}
+		]},
+	{"word":"테 다 .",
+	"vars":[
+		{"pos":"MssN DECL.ROOTF FPunct","cnt":"2"},
+		{"pos":"MssN PO FPunct","cnt":"1"}
+		]},
+	{"word":"책임 이 있다",
+	"vars":[
+		{"pos":"MssN PN DECL.INDQF","cnt":"1"},
+		{"pos":"MssN PN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"지적 이다 .",
+	"vars":[
+		{"pos":"PcsN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"UnmdN DECL.ROOTF FPunct","cnt":"2"}
+		]},
+	{"word":"지원 키 로",
+	"vars":[
+		{"pos":"PcsN DECL.NPST.NMCF PO","cnt":"2"},
+		{"pos":"PcsN DECL.NMCF PO","cnt":"1"}
+		]},
+	{"word":"지수 7 백",
+	"vars":[
+		{"pos":"MssN NM NMADJ","cnt":"1"},
+		{"pos":"MssN NM NM","cnt":"2"}
+		]},
+	{"word":"지는 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"2"}
+		]},
+	{"word":"지난 해 12",
+	"vars":[
+		{"pos":"PST.RELCF GrdN NM","cnt":"2"},
+		{"pos":"PST.REAL.RELCF GrdN NM","cnt":"1"}
+		]},
+	{"word":"지난 달 24",
+	"vars":[
+		{"pos":"PST.RELCF GrdN NM","cnt":"2"},
+		{"pos":"PST.REAL.RELCF GrdN NM","cnt":"1"}
+		]},
+	{"word":"지난 3 일",
+	"vars":[
+		{"pos":"PST.RELCF NM GrdN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF NM Msur","cnt":"1"},
+		{"pos":"PST.REAL.RELCF NM GrdN","cnt":"1"}
+		]},
+	{"word":"줄이는 데 그쳤다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF VadjN DECL.PST.ROOTF","cnt":"2"},
+		{"pos":"NPST.REAL.RELCF VadjN DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"좋아 했다 .",
+	"vars":[
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"2"},
+		{"pos":"GF DECL.PST.REAL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"조 원 을",
+	"vars":[
+		{"pos":"NM Msur PA","cnt":"1"},
+		{"pos":"NMADJ Msur PA","cnt":"2"}
+		]},
+	{"word":"조 8 백",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"2"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"점 이라 는",
+	"vars":[
+		{"pos":"MssN DECL.INDQF NCCF","cnt":"1"},
+		{"pos":"Msur DECL.NPST.INDQF NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"MssN DECL.INDQF NPST.RELCF","cnt":"1"}
+		]},
+	{"word":"작년 12 월",
+	"vars":[
+		{"pos":"UKN NM GrdN","cnt":"1"},
+		{"pos":"MssN NM GrdN","cnt":"2"}
+		]},
+	{"word":"있을 것 이라",
+	"vars":[
+		{"pos":"IRRL.NCCF MssN DECL.INDQF","cnt":"1"},
+		{"pos":"IRRL.NCCF MssN DECL.NPST.INDQF","cnt":"2"}
+		]},
+	{"word":"있었던 것 은",
+	"vars":[
+		{"pos":"PST.RET.NMCF MssN DEL","cnt":"1"},
+		{"pos":"PST.RET.NCCF MssN DEL","cnt":"2"}
+		]},
+	{"word":"있다 고 할",
+	"vars":[
+		{"pos":"DECL.INDQF Compzr IRRL.RELCF","cnt":"2"},
+		{"pos":"DECL.INDQF Compzr IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"있다 ” 고",
+	"vars":[
+		{"pos":"DECL.ROOTF CQ Compzr","cnt":"1"},
+		{"pos":"DECL.INDQF CQ Compzr","cnt":"2"}
+		]},
+	{"word":"있다 `` 는",
+	"vars":[
+		{"pos":"DECL.INDQF CQ NCCF","cnt":"1"},
+		{"pos":"DECL.ROOTF CQ NPST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"있는 데 다",
+	"vars":[
+		{"pos":"NPST.NCCF VadjN PO","cnt":"1"},
+		{"pos":"NCCF VadjN PO","cnt":"2"}
+		]},
+	{"word":"있는 것 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"2"}
+		]},
+	{"word":"일 발표 한",
+	"vars":[
+		{"pos":"GrdN PcsN PST.REAL.RELCF","cnt":"2"},
+		{"pos":"GrdN PcsN PST.RELCF","cnt":"1"}
+		]},
+	{"word":"인 데 다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF VadjN PO","cnt":"1"},
+		{"pos":"NCCF VadjN PO","cnt":"2"}
+		]},
+	{"word":"이에 요 .",
+	"vars":[
+		{"pos":"DECL.NPST.ROOTF DM FPunct","cnt":"2"},
+		{"pos":"DECL.ROOTF DM FPunct","cnt":"1"}
+		]},
+	{"word":"이뤄 져야 한다",
+	"vars":[
+		{"pos":"GF ACF DECL.NPST.ROOTF","cnt":"2"},
+		{"pos":"GF ACF DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"이라 는 게",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"2"}
+		]},
+	{"word":"이 흐를수록 낙폭",
+	"vars":[
+		{"pos":"PN UKN CntN","cnt":"1"},
+		{"pos":"PN ACF CntN","cnt":"2"}
+		]},
+	{"word":"이 쪽 저",
+	"vars":[
+		{"pos":"NM MssN DADJ","cnt":"1"},
+		{"pos":"DADJ MssN DADJ","cnt":"2"}
+		]},
+	{"word":"이 자리 를",
+	"vars":[
+		{"pos":"DADJ CntN PA","cnt":"2"},
+		{"pos":"PN CntN PA","cnt":"1"}
+		]},
+	{"word":"이 없을 때",
+	"vars":[
+		{"pos":"PN IRRL.NCCF VadjN","cnt":"1"},
+		{"pos":"PN IRRL.RELCF VadjN","cnt":"2"}
+		]},
+	{"word":"이 없다 는",
+	"vars":[
+		{"pos":"PN DECL.INDQF NCCF","cnt":"2"},
+		{"pos":"PN DECL.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"이 시급 하다",
+	"vars":[
+		{"pos":"PN SttN DECL.INDQF","cnt":"1"},
+		{"pos":"PN SttN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"이 별로 없다",
+	"vars":[
+		{"pos":"PN ADV DECL.ROOTF","cnt":"1"},
+		{"pos":"PN ADV DECL.INDQF","cnt":"2"}
+		]},
+	{"word":"이 모든 것",
+	"vars":[
+		{"pos":"DADJ ADJ CntN","cnt":"2"},
+		{"pos":"DADJ ADJ MssN","cnt":"1"}
+		]},
+	{"word":"이 들 에",
+	"vars":[
+		{"pos":"ProN PM PO","cnt":"2"},
+		{"pos":"CntN PM PO","cnt":"1"}
+		]},
+	{"word":"이 것 저",
+	"vars":[
+		{"pos":"DADJ MssN DADJ","cnt":"1"},
+		{"pos":"DADJ CntN DADJ","cnt":"2"}
+		]},
+	{"word":"이 가능 하다",
+	"vars":[
+		{"pos":"PN SttN DECL.ROOTF","cnt":"1"},
+		{"pos":"PN SttN DECL.INDQF","cnt":"2"}
+		]},
+	{"word":"의 일방적 인",
+	"vars":[
+		{"pos":"PG UnmdN NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"PG UnmdN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"의 의지 를",
+	"vars":[
+		{"pos":"PG MssN PA","cnt":"2"},
+		{"pos":"PG PcsN PA","cnt":"1"}
+		]},
+	{"word":"의 실질적 인",
+	"vars":[
+		{"pos":"PG UnmdN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PG UnmdN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PG UnmdN RELCF","cnt":"1"}
+		]},
+	{"word":"의 말 이다",
+	"vars":[
+		{"pos":"PG CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"PG PcsN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"의 강력 한",
+	"vars":[
+		{"pos":"PG SttN NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"PG SttN REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"을 했다 는",
+	"vars":[
+		{"pos":"PA DECL.PST.INDQF NPST.NCCF","cnt":"1"},
+		{"pos":"PA DECL.PST.INDQF NCCF","cnt":"1"},
+		{"pos":"PA DECL.PST.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 해야 한다",
+	"vars":[
+		{"pos":"PA ACF DECL.NPST.ROOTF","cnt":"2"},
+		{"pos":"PA ACF DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"을 한다 는",
+	"vars":[
+		{"pos":"PA DECL.NPST.INDQF NCCF","cnt":"1"},
+		{"pos":"PA DECL.REAL.INDQF NCCF","cnt":"2"}
+		]},
+	{"word":"을 한 장",
+	"vars":[
+		{"pos":"PA NMADJ Msur","cnt":"1"},
+		{"pos":"PA NMADJ Cssfr","cnt":"2"}
+		]},
+	{"word":"을 져야 한다",
+	"vars":[
+		{"pos":"PA ACF DECL.INDQF","cnt":"1"},
+		{"pos":"PA ACF DECL.NPST.ROOTF","cnt":"2"}
+		]},
+	{"word":"을 요구 했다",
+	"vars":[
+		{"pos":"PA PcsN DECL.PST.ROOTF","cnt":"2"},
+		{"pos":"PA PcsN DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"을 쓸 때",
+	"vars":[
+		{"pos":"PA IRRL.RELCF VadjN","cnt":"2"},
+		{"pos":"PA IRRL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"을 발휘 할",
+	"vars":[
+		{"pos":"PA PcsN IRRL.NCCF","cnt":"2"},
+		{"pos":"PA PcsN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"을 발견 했다",
+	"vars":[
+		{"pos":"PA PcsN DECL.PST.ROOTF","cnt":"2"},
+		{"pos":"PA PcsN DECL.PST.REAL.INDQF","cnt":"1"}
+		]},
+	{"word":"을 뛰어 내려",
+	"vars":[
+		{"pos":"PA ACF ACF","cnt":"2"},
+		{"pos":"PA ACF IMP.ROOTF","cnt":"1"}
+		]},
+	{"word":"을 내려 놓고",
+	"vars":[
+		{"pos":"PA ACF ACF","cnt":"2"},
+		{"pos":"PA GF ACF","cnt":"1"}
+		]},
+	{"word":"을 경영 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"은 아니라 는",
+	"vars":[
+		{"pos":"DEL DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"DEL DECL.INDQF NCCF","cnt":"2"}
+		]},
+	{"word":"은 당연 한",
+	"vars":[
+		{"pos":"DEL SttN NPST.REAL.NCCF","cnt":"2"},
+		{"pos":"DEL SttN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"은 . ``",
+	"vars":[
+		{"pos":"PST.REAL.RELCF FPunct CQ","cnt":"1"},
+		{"pos":"DEL FPunct OQ","cnt":"2"}
+		]},
+	{"word":"으로 나 온",
+	"vars":[
+		{"pos":"PO ACF PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO ACF PST.RELCF","cnt":"1"},
+		{"pos":"PO ACF RELCF","cnt":"1"}
+		]},
+	{"word":"원 에 이른다",
+	"vars":[
+		{"pos":"Msur PO DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"Msur PO DECL.NPST.ROOTF","cnt":"2"}
+		]},
+	{"word":"왔다 는 것",
+	"vars":[
+		{"pos":"DECL.PST.INDQF NCCF MssN","cnt":"2"},
+		{"pos":"DECL.PST.INDQF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"와 ! ``",
+	"vars":[
+		{"pos":"IMP.ROOTF FPunct CQ","cnt":"1"},
+		{"pos":"ACF FPunct CQ","cnt":"1"},
+		{"pos":"PC FPunct CQ","cnt":"1"}
+		]},
+	{"word":"올 상반기 중",
+	"vars":[
+		{"pos":"ADJ MssN PRN","cnt":"1"},
+		{"pos":"ADJ MssN VadjN","cnt":"2"}
+		]},
+	{"word":"오후 6 시",
+	"vars":[
+		{"pos":"VadjN NM GrdN","cnt":"2"},
+		{"pos":"VadjN NM CntN","cnt":"1"}
+		]},
+	{"word":"예 , 장군님",
+	"vars":[
+		{"pos":"INTJ COMMA CntN","cnt":"2"},
+		{"pos":"CntN COMMA CntN","cnt":"1"}
+		]},
+	{"word":"에서 형성 된",
+	"vars":[
+		{"pos":"PO PcsN PST.REAL.NCCF","cnt":"2"},
+		{"pos":"PO PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에서 제외 해",
+	"vars":[
+		{"pos":"PO PcsN GF","cnt":"2"},
+		{"pos":"PO PcsN ACF","cnt":"1"}
+		]},
+	{"word":"에서 비롯 되는",
+	"vars":[
+		{"pos":"PO PcsN NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"PO PcsN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"에서 `` 이",
+	"vars":[
+		{"pos":"PO OQ PRN","cnt":"2"},
+		{"pos":"PO OQ ProN","cnt":"1"}
+		]},
+	{"word":"에게 많은 것",
+	"vars":[
+		{"pos":"PO PST.REAL.RELCF CntN","cnt":"2"},
+		{"pos":"PO REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"에 서 있는",
+	"vars":[
+		{"pos":"PO GF NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"PO GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"에 사용 하는",
+	"vars":[
+		{"pos":"PO PcsN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO PcsN NPST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"에 불과 한",
+	"vars":[
+		{"pos":"PO SttN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO SttN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"에 대한 불안감",
+	"vars":[
+		{"pos":"PO NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PO NPST.REAL.RELCF MssN","cnt":"2"}
+		]},
+	{"word":"에 는 아무",
+	"vars":[
+		{"pos":"PO DEL ADJ","cnt":"1"},
+		{"pos":"PO DEL ProN","cnt":"2"}
+		]},
+	{"word":"얻을 수 있다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"2"},
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"언제 까지 라도",
+	"vars":[
+		{"pos":"ProN PO DEL","cnt":"1"},
+		{"pos":"ProN PO ACF","cnt":"2"}
+		]},
+	{"word":"억 원 에서",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"2"},
+		{"pos":"NM Msur PO","cnt":"1"}
+		]},
+	{"word":"억 원 보다",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"2"},
+		{"pos":"NM Msur PO","cnt":"1"}
+		]},
+	{"word":"억 달러 의",
+	"vars":[
+		{"pos":"NMADJ Msur PG","cnt":"2"},
+		{"pos":"NM Msur PG","cnt":"1"}
+		]},
+	{"word":"억 달러 로",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"2"},
+		{"pos":"NM Msur PO","cnt":"1"}
+		]},
+	{"word":"어쩔 수 없는",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"어린 이 는",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"2"}
+		]},
+	{"word":"어떤 때 는",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN DEL","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF VadjN DEL","cnt":"1"}
+		]},
+	{"word":"않을 것 이다",
+	"vars":[
+		{"pos":"IRRL.NCCF MssN DECL.ROOTF","cnt":"2"},
+		{"pos":"IRRL.NMCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"아무 도 없다",
+	"vars":[
+		{"pos":"ProN DEL DECL.ROOTF","cnt":"2"},
+		{"pos":"ProN DEL DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"아니라 , 그",
+	"vars":[
+		{"pos":"ACF COMMA DADJ","cnt":"2"},
+		{"pos":"ACF COMMA ProN","cnt":"1"}
+		]},
+	{"word":"씨 는 그",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"2"}
+		]},
+	{"word":"쓸 만 한",
+	"vars":[
+		{"pos":"IRRL.NCCF SttN REAL.RELCF","cnt":"1"},
+		{"pos":"IRRL.NCCF SttN RELCF","cnt":"2"}
+		]},
+	{"word":"실정 `` 이라",
+	"vars":[
+		{"pos":"MssN CQ DECL.NPST.INDQF","cnt":"2"},
+		{"pos":"MssN CQ DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"신종 사채 발행",
+	"vars":[
+		{"pos":"MssN MssN PcsN","cnt":"2"},
+		{"pos":"UKN MssN UKN","cnt":"1"}
+		]},
+	{"word":"시간 이 흐를수록",
+	"vars":[
+		{"pos":"MssN PN UKN","cnt":"1"},
+		{"pos":"MssN PN ACF","cnt":"2"}
+		]},
+	{"word":"순간 에 그",
+	"vars":[
+		{"pos":"VadjN PO ProN","cnt":"2"},
+		{"pos":"VadjN PO DADJ","cnt":"1"}
+		]},
+	{"word":"수 있었던 것",
+	"vars":[
+		{"pos":"CntN PST.RET.NCCF MssN","cnt":"2"},
+		{"pos":"CntN PST.RET.NMCF MssN","cnt":"1"}
+		]},
+	{"word":"수 는 없는",
+	"vars":[
+		{"pos":"CntN DEL NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN DEL NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"수 가 없어",
+	"vars":[
+		{"pos":"CntN PN IMP.ROOTF","cnt":"1"},
+		{"pos":"CntN PN ACF","cnt":"2"}
+		]},
+	{"word":"손 을 들어",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"2"}
+		]},
+	{"word":"속 에 갇혀",
+	"vars":[
+		{"pos":"MssN PO ACF","cnt":"2"},
+		{"pos":"MssN PO GF","cnt":"1"}
+		]},
+	{"word":"세상 은 참",
+	"vars":[
+		{"pos":"MssN DEL MssN","cnt":"2"},
+		{"pos":"MssN DEL ADV","cnt":"1"}
+		]},
+	{"word":"세 율 을",
+	"vars":[
+		{"pos":"CntN MssN PA","cnt":"2"},
+		{"pos":"NMADJ MssN PA","cnt":"1"}
+		]},
+	{"word":"생겨 나고 있다",
+	"vars":[
+		{"pos":"ACF GF DECL.INDQF","cnt":"2"},
+		{"pos":"ACF GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"상승 에 따른",
+	"vars":[
+		{"pos":"PcsN PO PST.REAL.NCCF","cnt":"1"},
+		{"pos":"PcsN PO PST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"사채 등 신종",
+	"vars":[
+		{"pos":"MssN VadjN UKN","cnt":"1"},
+		{"pos":"MssN VadjN MssN","cnt":"2"}
+		]},
+	{"word":"볼 수 있을",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN IRRL.NCCF","cnt":"2"},
+		{"pos":"IRRL.RELCF CntN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"백 60 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"2"}
+		]},
+	{"word":"반영 하는 것",
+	"vars":[
+		{"pos":"PcsN NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"PcsN NPST.REAL.NCCF MssN","cnt":"2"}
+		]},
+	{"word":"밖에 없다 는",
+	"vars":[
+		{"pos":"DEL DECL.INDQF NCCF","cnt":"2"},
+		{"pos":"DEL DECL.INDQF RELCF","cnt":"1"}
+		]},
+	{"word":"문제 가 없다",
+	"vars":[
+		{"pos":"CntN PN DECL.INDQF","cnt":"1"},
+		{"pos":"CntN PN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"모든 것 은",
+	"vars":[
+		{"pos":"ADJ CntN DEL","cnt":"1"},
+		{"pos":"ADJ MssN DEL","cnt":"2"}
+		]},
+	{"word":"말 한 것",
+	"vars":[
+		{"pos":"PcsN PST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PcsN PST.REAL.RELCF CntN","cnt":"2"}
+		]},
+	{"word":"말 이니 ?",
+	"vars":[
+		{"pos":"CntN INT.ROOTF FPunct","cnt":"1"},
+		{"pos":"PcsN INT.ROOTF FPunct","cnt":"2"}
+		]},
+	{"word":"말 을 했다",
+	"vars":[
+		{"pos":"PcsN PA DECL.PST.ROOTF","cnt":"2"},
+		{"pos":"PcsN PA DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"많은 허위 의식",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN PcsN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PcsN","cnt":"2"}
+		]},
+	{"word":"만 달러 (",
+	"vars":[
+		{"pos":"NM Msur OParen","cnt":"1"},
+		{"pos":"NMADJ Msur OParen","cnt":"2"}
+		]},
+	{"word":"만 것 이다",
+	"vars":[
+		{"pos":"PST.NCCF MssN DECL.ROOTF","cnt":"2"},
+		{"pos":"NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"만 7 천",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"2"}
+		]},
+	{"word":"마음 에 들었다",
+	"vars":[
+		{"pos":"MssN PO DECL.PST.INDQF","cnt":"1"},
+		{"pos":"MssN PO DECL.PST.ROOTF","cnt":"2"}
+		]},
+	{"word":"를 할 때",
+	"vars":[
+		{"pos":"PA IRRL.RELCF VadjN","cnt":"2"},
+		{"pos":"PA IRRL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"를 한 것",
+	"vars":[
+		{"pos":"PA PST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PA NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PA PST.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"를 이용 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"2"},
+		{"pos":"PA PcsN PST.RELCF","cnt":"1"}
+		]},
+	{"word":"를 요구 하고",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"2"}
+		]},
+	{"word":"를 사랑 하고",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"2"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"를 비롯 해",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"2"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"를 보여 주는",
+	"vars":[
+		{"pos":"PA GF NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"PA ACF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"를 방문 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PA PcsN PST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"를 맞고 있다",
+	"vars":[
+		{"pos":"PA GF DECL.INDQF","cnt":"1"},
+		{"pos":"PA GF DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"를 기대 한다",
+	"vars":[
+		{"pos":"PA PcsN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"PA PcsN DECL.NPST.ROOTF","cnt":"2"}
+		]},
+	{"word":"로 하고 이",
+	"vars":[
+		{"pos":"PO ACF DADJ","cnt":"1"},
+		{"pos":"PO ACF ProN","cnt":"2"}
+		]},
+	{"word":"로 만드는 것",
+	"vars":[
+		{"pos":"PO NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"PO NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"라 니 ?",
+	"vars":[
+		{"pos":"DECL.INDQF INT.ROOTF FPunct","cnt":"2"},
+		{"pos":"DECL.INDQF ACF FPunct","cnt":"1"}
+		]},
+	{"word":"라 는 점",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"뛰어 내려 갔다",
+	"vars":[
+		{"pos":"ACF ACF DECL.PST.ROOTF","cnt":"2"},
+		{"pos":"ACF IMP.ROOTF DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"등 신종 사채",
+	"vars":[
+		{"pos":"VadjN MssN MssN","cnt":"2"},
+		{"pos":"VadjN UKN MssN","cnt":"1"}
+		]},
+	{"word":"듯 한 느낌",
+	"vars":[
+		{"pos":"VadjN NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"VadjN REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"듯 한 눈",
+	"vars":[
+		{"pos":"VadjN NPST.RELCF CntN","cnt":"2"},
+		{"pos":"VadjN REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"들 이 있었다",
+	"vars":[
+		{"pos":"PM PN DECL.PST.ROOTF","cnt":"2"},
+		{"pos":"PM PN DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"들 이 이",
+	"vars":[
+		{"pos":"PM PN DADJ","cnt":"2"},
+		{"pos":"PM PN ProN","cnt":"1"}
+		]},
+	{"word":"들 이 어떻게",
+	"vars":[
+		{"pos":"PM PN ACF","cnt":"2"},
+		{"pos":"PM PN DECL.NMCF","cnt":"1"}
+		]},
+	{"word":"들 이 많은",
+	"vars":[
+		{"pos":"PM PN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PM PN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PM PN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"들 과 만나",
+	"vars":[
+		{"pos":"PM PC GF","cnt":"1"},
+		{"pos":"PM PC ACF","cnt":"2"}
+		]},
+	{"word":"될 수 있는",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"될 때 까지",
+	"vars":[
+		{"pos":"IRRL.RELCF VadjN DEL","cnt":"1"},
+		{"pos":"IRRL.RELCF VadjN PO","cnt":"2"}
+		]},
+	{"word":"된 데 다",
+	"vars":[
+		{"pos":"PST.NCCF VadjN PO","cnt":"1"},
+		{"pos":"PST.REAL.NCCF VadjN PO","cnt":"2"}
+		]},
+	{"word":"되어 있다 는",
+	"vars":[
+		{"pos":"GF DECL.INDQF NCCF","cnt":"1"},
+		{"pos":"GF DECL.INDQF NPST.REAL.NCCF","cnt":"2"}
+		]},
+	{"word":"동수 야 .",
+	"vars":[
+		{"pos":"PRN PO FPunct","cnt":"1"},
+		{"pos":"PRN DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"PRN DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"도 이 날",
+	"vars":[
+		{"pos":"DEL DADJ VadjN","cnt":"2"},
+		{"pos":"CntN DADJ VadjN","cnt":"1"}
+		]},
+	{"word":"도 많다 고",
+	"vars":[
+		{"pos":"DEL DECL.NPST.INDQF Compzr","cnt":"2"},
+		{"pos":"DEL DECL.INDQF Compzr","cnt":"1"}
+		]},
+	{"word":"도 1 백",
+	"vars":[
+		{"pos":"DEL NM NMADJ","cnt":"1"},
+		{"pos":"DEL NM NM","cnt":"2"}
+		]},
+	{"word":"달아 올랐다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"2"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"달러 ( 약",
+	"vars":[
+		{"pos":"Msur OParen CntN","cnt":"1"},
+		{"pos":"Msur OParen ADV","cnt":"2"}
+		]},
+	{"word":"단 말 인가",
+	"vars":[
+		{"pos":"PST.NCCF PcsN INT.NMCF","cnt":"1"},
+		{"pos":"NCCF PcsN INT.NMCF","cnt":"2"}
+		]},
+	{"word":"다가 오는 인연",
+	"vars":[
+		{"pos":"ACF NPST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"GF NPST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"ACF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"는 잘못 된",
+	"vars":[
+		{"pos":"NCCF VadjN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"DEL VadjN PST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"는 의지 를",
+	"vars":[
+		{"pos":"NPST.RELCF MssN PA","cnt":"1"},
+		{"pos":"NCCF MssN PA","cnt":"2"}
+		]},
+	{"word":"는 얘기 도",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN DEL","cnt":"1"},
+		{"pos":"NCCF PcsN DEL","cnt":"2"}
+		]},
+	{"word":"는 수 십",
+	"vars":[
+		{"pos":"DEL NMADJ NMADJ","cnt":"2"},
+		{"pos":"DEL NMADJ NM","cnt":"1"}
+		]},
+	{"word":"는 사실 이",
+	"vars":[
+		{"pos":"DEL VadjN PN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN PN","cnt":"1"},
+		{"pos":"NCCF VadjN PN","cnt":"1"}
+		]},
+	{"word":"는 사실 은",
+	"vars":[
+		{"pos":"NCCF VadjN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN DEL","cnt":"2"}
+		]},
+	{"word":"는 비난 을",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN PA","cnt":"1"},
+		{"pos":"NCCF PcsN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"는 부모 가",
+	"vars":[
+		{"pos":"DEL CntN PN","cnt":"2"},
+		{"pos":"RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"는 모든 것",
+	"vars":[
+		{"pos":"DEL ADJ CntN","cnt":"2"},
+		{"pos":"DEL ADJ MssN","cnt":"1"}
+		]},
+	{"word":"는 말 이다",
+	"vars":[
+		{"pos":"NCCF PcsN DECL.ROOTF","cnt":"2"},
+		{"pos":"NCCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 뚜렷 한",
+	"vars":[
+		{"pos":"DEL SttN NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"NCCF SttN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"는 데 는",
+	"vars":[
+		{"pos":"NCCF VadjN DEL","cnt":"2"},
+		{"pos":"NPST.REAL.NCCF VadjN DEL","cnt":"1"}
+		]},
+	{"word":"는 깜짝 놀라",
+	"vars":[
+		{"pos":"DEL ADV ACF","cnt":"2"},
+		{"pos":"DEL ADV GF","cnt":"1"}
+		]},
+	{"word":"는 기분 이",
+	"vars":[
+		{"pos":"NCCF MssN PN","cnt":"1"},
+		{"pos":"DEL MssN PN","cnt":"2"}
+		]},
+	{"word":"는 것 '",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN CQ","cnt":"1"},
+		{"pos":"NCCF MssN CQ","cnt":"2"}
+		]},
+	{"word":"는 `` 이",
+	"vars":[
+		{"pos":"DEL OQ PRN","cnt":"2"},
+		{"pos":"DEL OQ DADJ","cnt":"1"}
+		]},
+	{"word":"는 1 천",
+	"vars":[
+		{"pos":"DEL NM NM","cnt":"2"},
+		{"pos":"DEL NM NMADJ","cnt":"1"}
+		]},
+	{"word":"놓여 있었다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"2"}
+		]},
+	{"word":"년 에 한",
+	"vars":[
+		{"pos":"GrdN PO NMADJ","cnt":"1"},
+		{"pos":"Msur PO NMADJ","cnt":"2"}
+		]},
+	{"word":"내 가 그",
+	"vars":[
+		{"pos":"ProN PN ProN","cnt":"1"},
+		{"pos":"ProN PN DADJ","cnt":"2"}
+		]},
+	{"word":"나 왔을 때",
+	"vars":[
+		{"pos":"ACF PST.IRRL.RELCF VadjN","cnt":"2"},
+		{"pos":"GF PST.IRRL.RELCF VadjN","cnt":"1"}
+		]},
+	{"word":"나 가야 할",
+	"vars":[
+		{"pos":"ACF ACF IRRL.NCCF","cnt":"2"},
+		{"pos":"ACF ACF IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"나 가는 것",
+	"vars":[
+		{"pos":"ACF NPST.REAL.NCCF MssN","cnt":"2"},
+		{"pos":"GF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"그 동안 의",
+	"vars":[
+		{"pos":"DADJ VadjN PG","cnt":"1"},
+		{"pos":"ProN VadjN PG","cnt":"2"}
+		]},
+	{"word":"그 것 이다",
+	"vars":[
+		{"pos":"DADJ MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"DADJ CntN DECL.ROOTF","cnt":"2"}
+		]},
+	{"word":"과 관련 한",
+	"vars":[
+		{"pos":"PC PcsN PST.REAL.RELCF","cnt":"2"},
+		{"pos":"PC PcsN PST.RELCF","cnt":"1"}
+		]},
+	{"word":"고 생각 하는",
+	"vars":[
+		{"pos":"Compzr PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"Compzr PcsN NPST.REAL.RELCF","cnt":"2"}
+		]},
+	{"word":"고 말 하고",
+	"vars":[
+		{"pos":"Compzr PcsN ACF","cnt":"1"},
+		{"pos":"Compzr PcsN GF","cnt":"2"}
+		]},
+	{"word":"계속 되고 있다",
+	"vars":[
+		{"pos":"VadjN GF DECL.INDQF","cnt":"2"},
+		{"pos":"VadjN GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"경우 에 도",
+	"vars":[
+		{"pos":"VadjN PO DEL","cnt":"2"},
+		{"pos":"VadjN PO CntN","cnt":"1"}
+		]},
+	{"word":"게 아니다 .",
+	"vars":[
+		{"pos":"CntN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN DECL.ROOTF FPunct","cnt":"2"}
+		]},
+	{"word":"게 게 아니다",
+	"vars":[
+		{"pos":"MssN MssN DECL.ROOTF","cnt":"2"},
+		{"pos":"CntN CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"것 저 것",
+	"vars":[
+		{"pos":"CntN DADJ MssN","cnt":"1"},
+		{"pos":"CntN DADJ CntN","cnt":"1"},
+		{"pos":"MssN DADJ MssN","cnt":"1"}
+		]},
+	{"word":"것 일 뿐",
+	"vars":[
+		{"pos":"CntN IRRL.NCCF MssN","cnt":"2"},
+		{"pos":"MssN IRRL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"것 일 게",
+	"vars":[
+		{"pos":"CntN IRRL.NCCF MssN","cnt":"2"},
+		{"pos":"MssN IRRL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"것 이 없기",
+	"vars":[
+		{"pos":"MssN PN DECL.NMCF","cnt":"1"},
+		{"pos":"CntN PN DECL.NMCF","cnt":"2"}
+		]},
+	{"word":"것 이 아닐까",
+	"vars":[
+		{"pos":"CntN PN INT.NMCF","cnt":"1"},
+		{"pos":"MssN PN INT.ROOTF","cnt":"2"}
+		]},
+	{"word":"것 을 다",
+	"vars":[
+		{"pos":"MssN PA ADV","cnt":"2"},
+		{"pos":"CntN PA ADV","cnt":"1"}
+		]},
+	{"word":"것 은 잘못",
+	"vars":[
+		{"pos":"CntN DEL VadjN","cnt":"1"},
+		{"pos":"MssN DEL VadjN","cnt":"2"}
+		]},
+	{"word":"것 은 자기",
+	"vars":[
+		{"pos":"MssN DEL ProN","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"2"}
+		]},
+	{"word":"것 은 우리",
+	"vars":[
+		{"pos":"MssN DEL ProN","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"2"}
+		]},
+	{"word":"것 은 아니라",
+	"vars":[
+		{"pos":"MssN DEL DECL.INDQF","cnt":"1"},
+		{"pos":"MssN DEL DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"CntN DEL DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"것 은 무엇",
+	"vars":[
+		{"pos":"MssN DEL ProN","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"2"}
+		]},
+	{"word":"것 도 없고",
+	"vars":[
+		{"pos":"CntN DEL ACF","cnt":"2"},
+		{"pos":"MssN DEL ACF","cnt":"1"}
+		]},
+	{"word":"걸 까 .",
+	"vars":[
+		{"pos":"MssN INT.NPST.IRRL.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN INT.IRRL.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN INT.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"거래 법 상",
+	"vars":[
+		{"pos":"PcsN CntN CntN","cnt":"1"},
+		{"pos":"PcsN CntN VadjN","cnt":"2"}
+		]},
+	{"word":"간다 는 것",
+	"vars":[
+		{"pos":"DECL.REAL.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.REAL.INDQF NCCF MssN","cnt":"2"}
+		]},
+	{"word":"가능 한 한",
+	"vars":[
+		{"pos":"SttN REAL.NCCF VadjN","cnt":"2"},
+		{"pos":"SttN NPST.REAL.RELCF VadjN","cnt":"1"}
+		]},
+	{"word":"가난 한 사람",
+	"vars":[
+		{"pos":"SttN REAL.RELCF CntN","cnt":"2"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"가 필요 할",
+	"vars":[
+		{"pos":"PN SttN IRRL.NCCF","cnt":"1"},
+		{"pos":"PN SttN IRRL.RELCF","cnt":"2"}
+		]},
+	{"word":"가 있다 ``",
+	"vars":[
+		{"pos":"PN DECL.INDQF CQ","cnt":"2"},
+		{"pos":"PN DECL.ROOTF CQ","cnt":"1"}
+		]},
+	{"word":"`` 왜 ,",
+	"vars":[
+		{"pos":"OQ ADV COMMA","cnt":"1"},
+		{"pos":"OQ INTJ COMMA","cnt":"2"}
+		]},
+	{"word":"`` 그래 요",
+	"vars":[
+		{"pos":"OQ DECL.NPST.ROOTF DM","cnt":"1"},
+		{"pos":"OQ DECL.ROOTF DM","cnt":"2"}
+		]},
+	{"word":"`` 그 동안",
+	"vars":[
+		{"pos":"OQ ProN VadjN","cnt":"2"},
+		{"pos":"OQ DADJ VadjN","cnt":"1"}
+		]},
+	{"word":"` 웃돈 '",
+	"vars":[
+		{"pos":"OQ CntN CQ","cnt":"2"},
+		{"pos":"OQ MssN CQ","cnt":"1"}
+		]},
+	{"word":"EMPTYSTEM 말 인가",
+	"vars":[
+		{"pos":"PST.NCCF PcsN INT.NMCF","cnt":"2"},
+		{"pos":"PST.REAL.NCCF PcsN INT.NMCF","cnt":"1"}
+		]},
+	{"word":"9 백 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"2"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"9 % 포인트",
+	"vars":[
+		{"pos":"NM Msur CntN","cnt":"1"},
+		{"pos":"NM Msur Msur","cnt":"2"}
+		]},
+	{"word":"88 년 말",
+	"vars":[
+		{"pos":"NM GrdN PcsN","cnt":"1"},
+		{"pos":"NM GrdN VadjN","cnt":"2"}
+		]},
+	{"word":"2 차 대전",
+	"vars":[
+		{"pos":"NM GrdN PcsN","cnt":"1"},
+		{"pos":"NM GrdN CntN","cnt":"2"}
+		]},
+	{"word":"2 백 개",
+	"vars":[
+		{"pos":"NM NMADJ Cssfr","cnt":"2"},
+		{"pos":"NM NM Cssfr","cnt":"1"}
+		]},
+	{"word":"14 일 이",
+	"vars":[
+		{"pos":"NM GrdN PRN","cnt":"2"},
+		{"pos":"NM GrdN ProN","cnt":"1"}
+		]},
+	{"word":"10 일 까지",
+	"vars":[
+		{"pos":"NM GrdN DEL","cnt":"1"},
+		{"pos":"NM GrdN PO","cnt":"2"}
+		]},
+	{"word":"10 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"2"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"1 천 여",
+	"vars":[
+		{"pos":"NM NMADJ NM","cnt":"1"},
+		{"pos":"NM NM NM","cnt":"2"}
+		]},
+	{"word":"1 백 여",
+	"vars":[
+		{"pos":"NM NMADJ NM","cnt":"1"},
+		{"pos":"NM NM NM","cnt":"2"}
+		]},
+	{"word":"1 백 만",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"2"}
+		]},
+	{"word":"1 만 달러",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"2"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":", 지금 까지",
+	"vars":[
+		{"pos":"COMMA VadjN DEL","cnt":"1"},
+		{"pos":"COMMA VadjN PO","cnt":"2"}
+		]},
+	{"word":", 그 동안",
+	"vars":[
+		{"pos":"COMMA ProN VadjN","cnt":"2"},
+		{"pos":"COMMA DADJ VadjN","cnt":"1"}
+		]},
+	{"word":"% 포인트 높은",
+	"vars":[
+		{"pos":"Msur Msur NPST.REAL.RELCF","cnt":"2"},
+		{"pos":"Msur CntN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"ᆫ 안 된다",
+	"vars":[
+		{"pos":"DEL ADV DECL.NPST.ROOTF","cnt":"2"},
+		{"pos":"DEL ADV DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"힘 들게 한",
+	"vars":[
+		{"pos":"MssN ACF PST.RELCF","cnt":"1"},
+		{"pos":"MssN ACF NMADJ","cnt":"1"}
+		]},
+	{"word":"힘 든 데",
+	"vars":[
+		{"pos":"MssN PST.REAL.NCCF VadjN","cnt":"1"},
+		{"pos":"MssN NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"흉 을 보는",
+	"vars":[
+		{"pos":"MssN PA NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"MssN PA NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"효과 가 있다",
+	"vars":[
+		{"pos":"MssN PN DECL.ROOTF","cnt":"1"},
+		{"pos":"MssN PN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"활용 하고 있다",
+	"vars":[
+		{"pos":"PcsN GF DECL.ROOTF","cnt":"1"},
+		{"pos":"PcsN GF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"확보 하려 는",
+	"vars":[
+		{"pos":"PcsN ACF RELCF","cnt":"1"},
+		{"pos":"PcsN ACF NCCF","cnt":"1"}
+		]},
+	{"word":"확대 하는 방안",
+	"vars":[
+		{"pos":"PcsN NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"PcsN NPST.REAL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"혼자 서 만",
+	"vars":[
+		{"pos":"VadjN PO DEL","cnt":"1"},
+		{"pos":"VadjN PN DEL","cnt":"1"}
+		]},
+	{"word":"호주머니 에 든",
+	"vars":[
+		{"pos":"CntN PO PST.RELCF","cnt":"1"},
+		{"pos":"CntN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"현대 등 49",
+	"vars":[
+		{"pos":"MssN VadjN NM","cnt":"1"},
+		{"pos":"MssN CntN NM","cnt":"1"}
+		]},
+	{"word":"헌법 기관 인",
+	"vars":[
+		{"pos":"MssN CntN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"MssN CntN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"향후 아파트 값",
+	"vars":[
+		{"pos":"VadjN CntN MssN","cnt":"1"},
+		{"pos":"UKN CntN MssN","cnt":"1"}
+		]},
+	{"word":"했어 ! ``",
+	"vars":[
+		{"pos":"INT.PST.ROOTF FPunct CQ","cnt":"1"},
+		{"pos":"DECL.PST.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"했다 는 점",
+	"vars":[
+		{"pos":"DECL.PST.INDQF NPST.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.PST.INDQF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"해야 할지 모르겠다",
+	"vars":[
+		{"pos":"ACF INT.NMCF DECL.IRRL.INDQF","cnt":"1"},
+		{"pos":"ACF INT.NMCF DECL.IRRL.ROOTF","cnt":"1"}
+		]},
+	{"word":"해야 한다 '",
+	"vars":[
+		{"pos":"ACF DECL.NPST.ROOTF CQ","cnt":"1"},
+		{"pos":"ACF DECL.NPST.ROOTF OQ","cnt":"1"}
+		]},
+	{"word":"해 진다 는",
+	"vars":[
+		{"pos":"GF DECL.REAL.INDQF NPST.NCCF","cnt":"1"},
+		{"pos":"GF DECL.NPST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"해 진 수혜",
+	"vars":[
+		{"pos":"GF PST.REAL.RELCF PRN","cnt":"1"},
+		{"pos":"GF PST.RELCF PRN","cnt":"1"}
+		]},
+	{"word":"해 지고 있는",
+	"vars":[
+		{"pos":"GF GF NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"GF GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"해 우리 나라",
+	"vars":[
+		{"pos":"GrdN ProN CntN","cnt":"1"},
+		{"pos":"Msur ProN CntN","cnt":"1"}
+		]},
+	{"word":"해 온 북방",
+	"vars":[
+		{"pos":"GF PST.RELCF MssN","cnt":"1"},
+		{"pos":"GF PST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"해 보세 요",
+	"vars":[
+		{"pos":"GF DECL.ROOTF DM","cnt":"1"},
+		{"pos":"GF IMP.HON.NPST.ROOTF DM","cnt":"1"}
+		]},
+	{"word":"해 마다 5",
+	"vars":[
+		{"pos":"ACF DEL NM","cnt":"1"},
+		{"pos":"GrdN DEL NM","cnt":"1"}
+		]},
+	{"word":"해 달라 ``",
+	"vars":[
+		{"pos":"GF IMP.INDQF CQ","cnt":"1"},
+		{"pos":"ACF IMP.INDQF CQ","cnt":"1"}
+		]},
+	{"word":"해 달 라는",
+	"vars":[
+		{"pos":"GF IMP.INDQF NCCF","cnt":"1"},
+		{"pos":"GF IMP.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"해 ? ``",
+	"vars":[
+		{"pos":"ACF FPunct CQ","cnt":"1"},
+		{"pos":"INT.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"할아버지 는 그",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"1"}
+		]},
+	{"word":"할 차례 ``",
+	"vars":[
+		{"pos":"IRRL.RELCF MssN CQ","cnt":"1"},
+		{"pos":"IRRL.NCCF MssN CQ","cnt":"1"}
+		]},
+	{"word":"할 일 이다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"IRRL.NCCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"할 일 이",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN PN","cnt":"1"},
+		{"pos":"IRRL.NCCF CntN PN","cnt":"1"}
+		]},
+	{"word":"할 수 있었던",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN PST.RET.NCCF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN PST.RET.RELCF","cnt":"1"}
+		]},
+	{"word":"한다 면 그",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF ACF ProN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF ACF DADJ","cnt":"1"}
+		]},
+	{"word":"한다 는 주장",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NCCF CntN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF CntN","cnt":"1"}
+		]},
+	{"word":"한다 는 절박",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NCCF SttN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.REAL.RELCF SttN","cnt":"1"}
+		]},
+	{"word":"한다 는 사실",
+	"vars":[
+		{"pos":"DECL.INDQF NCCF VadjN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"한다 는 방침",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"DECL.REAL.INDQF NPST.REAL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"한다 는 게",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"한다 는 거",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NPST.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.REAL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"한 환자 가",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PN","cnt":"1"},
+		{"pos":"NMADJ CntN PN","cnt":"1"}
+		]},
+	{"word":"한 표정 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.RELCF CntN PA","cnt":"1"}
+		]},
+	{"word":"한 천연 자원",
+	"vars":[
+		{"pos":"RELCF MssN MssN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN MssN","cnt":"1"}
+		]},
+	{"word":"한 책임 이",
+	"vars":[
+		{"pos":"REAL.RELCF MssN PN","cnt":"1"},
+		{"pos":"REAL.NCCF MssN PN","cnt":"1"}
+		]},
+	{"word":"한 쪽 어깨",
+	"vars":[
+		{"pos":"NMADJ MssN CntN","cnt":"1"},
+		{"pos":"NMADJ Msur CntN","cnt":"1"}
+		]},
+	{"word":"한 지도 자",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN CntN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF PcsN CntN","cnt":"1"}
+		]},
+	{"word":"한 지 불과",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN VadjN","cnt":"1"},
+		{"pos":"PST.NCCF MssN VadjN","cnt":"1"}
+		]},
+	{"word":"한 점 으로",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PO","cnt":"1"},
+		{"pos":"NMADJ CntN PO","cnt":"1"}
+		]},
+	{"word":"한 자금 을",
+	"vars":[
+		{"pos":"REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"RELCF CntN PA","cnt":"1"}
+		]},
+	{"word":"한 일 이다",
+	"vars":[
+		{"pos":"RELCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"한 인력 과",
+	"vars":[
+		{"pos":"REAL.RELCF MssN PC","cnt":"1"},
+		{"pos":"PST.REAL.RELCF MssN PC","cnt":"1"}
+		]},
+	{"word":"한 의미 를",
+	"vars":[
+		{"pos":"REAL.RELCF PcsN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"한 역할 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.RELCF CntN PA","cnt":"1"}
+		]},
+	{"word":"한 어둠 을",
+	"vars":[
+		{"pos":"NPST.RELCF MssN PA","cnt":"1"},
+		{"pos":"REAL.RELCF MssN PA","cnt":"1"}
+		]},
+	{"word":"한 쇠고기 수출",
+	"vars":[
+		{"pos":"REAL.RELCF CntN PcsN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN PcsN","cnt":"1"}
+		]},
+	{"word":"한 세상 에서",
+	"vars":[
+		{"pos":"REAL.RELCF MssN PO","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PO","cnt":"1"}
+		]},
+	{"word":"한 삶 이라",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN DECL.INDQF","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"한 부분 에",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PO","cnt":"1"},
+		{"pos":"NMADJ CntN PO","cnt":"1"}
+		]},
+	{"word":"한 미래 를",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"REAL.RELCF MssN PA","cnt":"1"}
+		]},
+	{"word":"한 모양 이다",
+	"vars":[
+		{"pos":"PST.REAL.RELCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"한 때 다",
+	"vars":[
+		{"pos":"REAL.RELCF VadjN DECL.ROOTF","cnt":"1"},
+		{"pos":"REAL.NCCF VadjN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"한 느낌 이",
+	"vars":[
+		{"pos":"REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF DECL.NMCF PN","cnt":"1"}
+		]},
+	{"word":"한 느낌 의",
+	"vars":[
+		{"pos":"REAL.RELCF MssN PG","cnt":"1"},
+		{"pos":"PST.REAL.RELCF MssN PG","cnt":"1"}
+		]},
+	{"word":"한 눈 을",
+	"vars":[
+		{"pos":"REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.RELCF CntN PA","cnt":"1"}
+		]},
+	{"word":"한 나라 의",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PG","cnt":"1"},
+		{"pos":"NMADJ CntN PG","cnt":"1"}
+		]},
+	{"word":"한 기지 이전",
+	"vars":[
+		{"pos":"REAL.RELCF CntN PcsN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN PcsN","cnt":"1"}
+		]},
+	{"word":"한 기분 이",
+	"vars":[
+		{"pos":"NPST.RELCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PN","cnt":"1"}
+		]},
+	{"word":"한 공기 가",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"한 것 인지",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN INT.NMCF","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN INT.NMCF","cnt":"1"}
+		]},
+	{"word":"한 것 들",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PM","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PM","cnt":"1"}
+		]},
+	{"word":"한 것 같다",
+	"vars":[
+		{"pos":"REAL.NCCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"한 것 .",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN FPunct","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN FPunct","cnt":"1"}
+		]},
+	{"word":"한 겁니까 ?",
+	"vars":[
+		{"pos":"PST.NCCF MssN FPunct","cnt":"1"},
+		{"pos":"NPST.NCCF MssN FPunct","cnt":"1"}
+		]},
+	{"word":"한 간격 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"PST.REAL.RELCF MssN PA","cnt":"1"}
+		]},
+	{"word":"학교 어린 이",
+	"vars":[
+		{"pos":"CntN NPST.REAL.NCCF CntN","cnt":"1"},
+		{"pos":"CntN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"하지 않다 는",
+	"vars":[
+		{"pos":"DECL.NMCF DECL.NPST.INDQF NPST.NCCF","cnt":"1"},
+		{"pos":"DECL.NMCF DECL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"하지 못했다 는",
+	"vars":[
+		{"pos":"DECL.NMCF DECL.PST.INDQF NCCF","cnt":"1"},
+		{"pos":"DECL.NMCF DECL.NPST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"하지 말아야 한다",
+	"vars":[
+		{"pos":"DECL.NMCF ACF DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF ACF DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"하자 , 그",
+	"vars":[
+		{"pos":"ACF COMMA DADJ","cnt":"1"},
+		{"pos":"ACF COMMA ProN","cnt":"1"}
+		]},
+	{"word":"하얀 손 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF Cssfr PA","cnt":"1"}
+		]},
+	{"word":"하다 는 지적",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF PcsN","cnt":"1"},
+		{"pos":"DECL.INDQF NPST.REAL.NCCF UnmdN","cnt":"1"}
+		]},
+	{"word":"하다 는 점",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"하다 는 생각",
+	"vars":[
+		{"pos":"DECL.INDQF NCCF PcsN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.NCCF PcsN","cnt":"1"}
+		]},
+	{"word":"하는 작업 에",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF PcsN PO","cnt":"1"}
+		]},
+	{"word":"하는 일 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"하는 일 까지",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PO","cnt":"1"}
+		]},
+	{"word":"하는 방안 도",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"하는 방안 과",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PC","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF CntN PC","cnt":"1"}
+		]},
+	{"word":"하는 듯 한",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF VadjN REAL.RELCF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"하는 데 좀",
+	"vars":[
+		{"pos":"RELCF VadjN ADV","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN ADV","cnt":"1"}
+		]},
+	{"word":"하는 데 서",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN PO","cnt":"1"}
+		]},
+	{"word":"하는 관계 로",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF PcsN PO","cnt":"1"}
+		]},
+	{"word":"하는 경우 에",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN PO","cnt":"1"}
+		]},
+	{"word":"하기 를 원한다",
+	"vars":[
+		{"pos":"DECL.NMCF PA DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"DECL.NMCF PA DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"하기 도 했다",
+	"vars":[
+		{"pos":"DECL.NMCF DEL DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"DECL.NMCF DEL DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"하기 까지 했다",
+	"vars":[
+		{"pos":"DECL.NMCF PO DECL.ROOTF","cnt":"1"},
+		{"pos":"DECL.NMCF PO DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"하기 가 쉽지",
+	"vars":[
+		{"pos":"DECL.NMCF PN UKN","cnt":"1"},
+		{"pos":"DECL.NMCF PN DECL.NMCF","cnt":"1"}
+		]},
+	{"word":"하고 무상 한",
+	"vars":[
+		{"pos":"ACF SttN REAL.RELCF","cnt":"1"},
+		{"pos":"ACF SttN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"하게 만들었다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"하게 만든 것",
+	"vars":[
+		{"pos":"GF PST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"GF PST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"하게 됨 에",
+	"vars":[
+		{"pos":"GF DECL.NMCF PO","cnt":"1"},
+		{"pos":"ACF DECL.NMCF PO","cnt":"1"}
+		]},
+	{"word":"필요 한 시설",
+	"vars":[
+		{"pos":"SttN REAL.RELCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"필요 한 때",
+	"vars":[
+		{"pos":"SttN REAL.NCCF VadjN","cnt":"1"},
+		{"pos":"SttN REAL.RELCF VadjN","cnt":"1"}
+		]},
+	{"word":"필요 로 할",
+	"vars":[
+		{"pos":"SttN PO IRRL.NCCF","cnt":"1"},
+		{"pos":"SttN PO IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"평균 1 억",
+	"vars":[
+		{"pos":"VadjN NM NM","cnt":"1"},
+		{"pos":"VadjN NM NMADJ","cnt":"1"}
+		]},
+	{"word":"편안 한 것",
+	"vars":[
+		{"pos":"SttN NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"SttN REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"팔아 부자 되는",
+	"vars":[
+		{"pos":"ACF CntN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ACF CntN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"팔기 도 했다",
+	"vars":[
+		{"pos":"DECL.NMCF DEL DECL.PST.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF DEL DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"판결 을 내렸다",
+	"vars":[
+		{"pos":"PcsN PA DECL.PST.INDQF","cnt":"1"},
+		{"pos":"PcsN PA DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"파란 하늘 에서",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PO","cnt":"1"},
+		{"pos":"NPST.RELCF CntN PO","cnt":"1"}
+		]},
+	{"word":"파란 불 이",
+	"vars":[
+		{"pos":"NPST.RELCF MssN PN","cnt":"1"},
+		{"pos":"RELCF MssN PN","cnt":"1"}
+		]},
+	{"word":"틀림 없어 .",
+	"vars":[
+		{"pos":"DECL.NMCF DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"DECL.NMCF DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"특정 기업 을",
+	"vars":[
+		{"pos":"UKN CntN PA","cnt":"1"},
+		{"pos":"SttN CntN PA","cnt":"1"}
+		]},
+	{"word":"텐 데 .",
+	"vars":[
+		{"pos":"MssN ACF FPunct","cnt":"1"},
+		{"pos":"MssN ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"태도 를 보여",
+	"vars":[
+		{"pos":"MssN PA GF","cnt":"1"},
+		{"pos":"MssN PA ACF","cnt":"1"}
+		]},
+	{"word":"키 로 한",
+	"vars":[
+		{"pos":"DECL.NPST.NMCF PO PST.REAL.NCCF","cnt":"1"},
+		{"pos":"DECL.NPST.NMCF PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"큰 힘 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PN","cnt":"1"}
+		]},
+	{"word":"큰 힘 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"큰 폭 의",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PG","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PG","cnt":"1"}
+		]},
+	{"word":"크게 작용 할",
+	"vars":[
+		{"pos":"ACF PcsN IRRL.RELCF","cnt":"1"},
+		{"pos":"ACF PcsN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"크게 기여 할",
+	"vars":[
+		{"pos":"ACF PcsN IRRL.RELCF","cnt":"1"},
+		{"pos":"ACF PcsN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"커 지게 될",
+	"vars":[
+		{"pos":"GF GF IRRL.NCCF","cnt":"1"},
+		{"pos":"GF ACF IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"치유 될 길",
+	"vars":[
+		{"pos":"PcsN IRRL.RELCF CntN","cnt":"1"},
+		{"pos":"PcsN IRRL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"치료 가 되는",
+	"vars":[
+		{"pos":"PcsN PN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PcsN PN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"추진 해 온",
+	"vars":[
+		{"pos":"PcsN GF PST.REAL.NCCF","cnt":"1"},
+		{"pos":"PcsN GF PST.RELCF","cnt":"1"}
+		]},
+	{"word":"철도 공사 쪽",
+	"vars":[
+		{"pos":"MssN PcsN MssN","cnt":"1"},
+		{"pos":"MssN CntN MssN","cnt":"1"}
+		]},
+	{"word":"천 개 전체",
+	"vars":[
+		{"pos":"NM Cssfr MssN","cnt":"1"},
+		{"pos":"NMADJ Cssfr MssN","cnt":"1"}
+		]},
+	{"word":"천 t )",
+	"vars":[
+		{"pos":"NMADJ Msur CParen","cnt":"1"},
+		{"pos":"NM Msur CParen","cnt":"1"}
+		]},
+	{"word":"찾을 수 없다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"참석 한 가운데",
+	"vars":[
+		{"pos":"PcsN PST.REAL.RELCF VadjN","cnt":"1"},
+		{"pos":"PcsN PST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"차지 하고 있다",
+	"vars":[
+		{"pos":"PcsN GF DECL.INDQF","cnt":"1"},
+		{"pos":"PcsN GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"차지 다 .",
+	"vars":[
+		{"pos":"PcsN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"PcsN PO FPunct","cnt":"1"}
+		]},
+	{"word":"쪽 어깨 가",
+	"vars":[
+		{"pos":"Msur CntN PN","cnt":"1"},
+		{"pos":"MssN CntN PN","cnt":"1"}
+		]},
+	{"word":"집 에 얹혀",
+	"vars":[
+		{"pos":"CntN PO ACF","cnt":"1"},
+		{"pos":"CntN PO GF","cnt":"1"}
+		]},
+	{"word":"집 에 돌아",
+	"vars":[
+		{"pos":"CntN PO ACF","cnt":"1"},
+		{"pos":"CntN PO GF","cnt":"1"}
+		]},
+	{"word":"진행 되는 동안",
+	"vars":[
+		{"pos":"PcsN NPST.REAL.RELCF VadjN","cnt":"1"},
+		{"pos":"PcsN NPST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"진정 한 보상",
+	"vars":[
+		{"pos":"VadjN NPST.REAL.RELCF PcsN","cnt":"1"},
+		{"pos":"VadjN REAL.RELCF PcsN","cnt":"1"}
+		]},
+	{"word":"진땀 을 흘리고",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"직 하지 않다",
+	"vars":[
+		{"pos":"SttN DECL.NMCF DECL.ROOTF","cnt":"1"},
+		{"pos":"SttN DECL.NMCF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"지정 한 데",
+	"vars":[
+		{"pos":"PcsN PST.NCCF VadjN","cnt":"1"},
+		{"pos":"PcsN PST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"지적 소유권 분야",
+	"vars":[
+		{"pos":"UnmdN MssN CntN","cnt":"1"},
+		{"pos":"PcsN MssN CntN","cnt":"1"}
+		]},
+	{"word":"지원 을 받은",
+	"vars":[
+		{"pos":"PcsN PA PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PcsN PA PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"지식 을 갖고",
+	"vars":[
+		{"pos":"MssN PA ACF","cnt":"1"},
+		{"pos":"MssN PA GF","cnt":"1"}
+		]},
+	{"word":"지내는 ' 일",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CQ CntN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CQ Msur","cnt":"1"}
+		]},
+	{"word":"지난 해 의",
+	"vars":[
+		{"pos":"PST.RELCF GrdN PG","cnt":"1"},
+		{"pos":"PST.REAL.RELCF GrdN PG","cnt":"1"}
+		]},
+	{"word":"지난 해 동기",
+	"vars":[
+		{"pos":"PST.RELCF GrdN UKN","cnt":"1"},
+		{"pos":"PST.RELCF GrdN MssN","cnt":"1"}
+		]},
+	{"word":"지난 해 국내",
+	"vars":[
+		{"pos":"PST.RELCF GrdN MssN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF GrdN MssN","cnt":"1"}
+		]},
+	{"word":"지난 해 같은",
+	"vars":[
+		{"pos":"PST.RELCF GrdN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PST.REAL.RELCF GrdN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"지난 88 년",
+	"vars":[
+		{"pos":"PST.REAL.RELCF NM Msur","cnt":"1"},
+		{"pos":"PST.REAL.RELCF NM GrdN","cnt":"1"}
+		]},
+	{"word":"지난 22 일",
+	"vars":[
+		{"pos":"PST.REAL.RELCF NM GrdN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF NM IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"지게 될 것",
+	"vars":[
+		{"pos":"ACF IRRL.NCCF MssN","cnt":"1"},
+		{"pos":"GF IRRL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"지 3 일",
+	"vars":[
+		{"pos":"MssN NM Msur","cnt":"1"},
+		{"pos":"MssN NM GrdN","cnt":"1"}
+		]},
+	{"word":"중요 한 의미",
+	"vars":[
+		{"pos":"SttN NPST.REAL.RELCF PcsN","cnt":"1"},
+		{"pos":"SttN REAL.RELCF PcsN","cnt":"1"}
+		]},
+	{"word":"중요 한 역할",
+	"vars":[
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"중요 한 수단",
+	"vars":[
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"SttN REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"중곡 4 동",
+	"vars":[
+		{"pos":"PRN NM GrdN","cnt":"1"},
+		{"pos":"PRN NM CntN","cnt":"1"}
+		]},
+	{"word":"중 이라 고",
+	"vars":[
+		{"pos":"VadjN DECL.NPST.INDQF Compzr","cnt":"1"},
+		{"pos":"VadjN DECL.INDQF Compzr","cnt":"1"}
+		]},
+	{"word":"줄 수 없다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"죽은 어린 이",
+	"vars":[
+		{"pos":"PST.REAL.RELCF NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF NPST.REAL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"주장 이 있다",
+	"vars":[
+		{"pos":"PcsN PN DECL.INDQF","cnt":"1"},
+		{"pos":"CntN PN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"주장 을 관철",
+	"vars":[
+		{"pos":"CntN PA PcsN","cnt":"1"},
+		{"pos":"PcsN PA PcsN","cnt":"1"}
+		]},
+	{"word":"주도 했다 는",
+	"vars":[
+		{"pos":"PcsN DECL.PST.INDQF RELCF","cnt":"1"},
+		{"pos":"PcsN DECL.PST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"주는 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NCCF MssN PN","cnt":"1"}
+		]},
+	{"word":"좋아 해요 .",
+	"vars":[
+		{"pos":"GF DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF GF FPunct","cnt":"1"}
+		]},
+	{"word":"좋아 한다 는",
+	"vars":[
+		{"pos":"GF DECL.INDQF NCCF","cnt":"1"},
+		{"pos":"GF DECL.NPST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"져야 한다 는",
+	"vars":[
+		{"pos":"ACF DECL.NPST.INDQF NCCF","cnt":"1"},
+		{"pos":"ACF DECL.INDQF NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"져 나 오는",
+	"vars":[
+		{"pos":"ACF ACF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ACF ACF NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"제 대로 해",
+	"vars":[
+		{"pos":"ProN VadjN GF","cnt":"1"},
+		{"pos":"ProN VadjN ACF","cnt":"1"}
+		]},
+	{"word":"정치 지도 자",
+	"vars":[
+		{"pos":"MssN PcsN CntN","cnt":"1"},
+		{"pos":"MssN CntN CntN","cnt":"1"}
+		]},
+	{"word":"정도 이다 .",
+	"vars":[
+		{"pos":"MssN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"VadjN DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"접어 들고 있다",
+	"vars":[
+		{"pos":"ACF GF DECL.ROOTF","cnt":"1"},
+		{"pos":"ACF GF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"전환 사채 발행",
+	"vars":[
+		{"pos":"UKN UKN UKN","cnt":"1"},
+		{"pos":"PcsN MssN PcsN","cnt":"1"}
+		]},
+	{"word":"전환 사채 등",
+	"vars":[
+		{"pos":"UKN MssN VadjN","cnt":"1"},
+		{"pos":"PcsN MssN VadjN","cnt":"1"}
+		]},
+	{"word":"전해 들었다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"전반 에 걸친",
+	"vars":[
+		{"pos":"MssN PO PST.REAL.NCCF","cnt":"1"},
+		{"pos":"MssN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"저해 해 온",
+	"vars":[
+		{"pos":"PcsN GF PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PcsN GF PST.RELCF","cnt":"1"}
+		]},
+	{"word":"잘못 된 것",
+	"vars":[
+		{"pos":"VadjN PST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"VadjN PST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"잘 해 줄",
+	"vars":[
+		{"pos":"ADV GF IRRL.RELCF","cnt":"1"},
+		{"pos":"ADV GF IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"작용 하고 있다",
+	"vars":[
+		{"pos":"PcsN GF DECL.INDQF","cnt":"1"},
+		{"pos":"PcsN GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"자체 에 대한",
+	"vars":[
+		{"pos":"UnmdN PO NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"UnmdN PO NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"자 , 그만",
+	"vars":[
+		{"pos":"CntN COMMA ADV","cnt":"1"},
+		{"pos":"INTJ COMMA ADV","cnt":"1"}
+		]},
+	{"word":"있다 ” 며",
+	"vars":[
+		{"pos":"DECL.INDQF CQ ACF","cnt":"1"},
+		{"pos":"DECL.ROOTF CQ ACF","cnt":"1"}
+		]},
+	{"word":"있는 반면 ,",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN COMMA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN COMMA","cnt":"1"}
+		]},
+	{"word":"있는 모양 이다",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"있는 거 냐",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN INT.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN INT.INDQF","cnt":"1"}
+		]},
+	{"word":"있게 된다 .",
+	"vars":[
+		{"pos":"GF DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"ACF DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"일지 도 모른다",
+	"vars":[
+		{"pos":"INT.NMCF DEL DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"INT.NMCF DEL DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"일정 한 간격",
+	"vars":[
+		{"pos":"SttN PST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF MssN","cnt":"1"}
+		]},
+	{"word":"일 이라 는",
+	"vars":[
+		{"pos":"CntN DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN DECL.NPST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"일 이 없어",
+	"vars":[
+		{"pos":"CntN PN GF","cnt":"1"},
+		{"pos":"CntN PN ACF","cnt":"1"}
+		]},
+	{"word":"일 등 이",
+	"vars":[
+		{"pos":"PRN VadjN PN","cnt":"1"},
+		{"pos":"CntN VadjN PN","cnt":"1"}
+		]},
+	{"word":"일 `` 이라",
+	"vars":[
+		{"pos":"CntN CQ DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"CntN OQ DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"인 측면 에서",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PO","cnt":"1"}
+		]},
+	{"word":"인 자세 를",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"인 선관위 의",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PG","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PG","cnt":"1"}
+		]},
+	{"word":"인 매입 과",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN PC","cnt":"1"},
+		{"pos":"RELCF PcsN PC","cnt":"1"}
+		]},
+	{"word":"인 듯 한",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF VadjN REAL.RELCF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"인 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"인 것 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"인 4 천",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF NM NM","cnt":"1"},
+		{"pos":"RELCF NM NM","cnt":"1"}
+		]},
+	{"word":"이렇게 물 을",
+	"vars":[
+		{"pos":"GF CntN PA","cnt":"1"},
+		{"pos":"ACF CntN PA","cnt":"1"}
+		]},
+	{"word":"이런 얘기 를",
+	"vars":[
+		{"pos":"REAL.RELCF PcsN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"이런 사정 을",
+	"vars":[
+		{"pos":"RELCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"}
+		]},
+	{"word":"이랬 지 ?",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF INT.PST.ROOTF FPunct","cnt":"1"},
+		{"pos":"DECL.INDQF INT.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"이라 한다 .",
+	"vars":[
+		{"pos":"DECL.INDQF DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"이라 는 증상",
+	"vars":[
+		{"pos":"DECL.INDQF RELCF CntN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF CntN","cnt":"1"}
+		]},
+	{"word":"이라 는 비난",
+	"vars":[
+		{"pos":"DECL.INDQF NCCF PcsN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF PcsN","cnt":"1"}
+		]},
+	{"word":"이라 고 한",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF Compzr NMADJ","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF Compzr PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"이라 고 상공",
+	"vars":[
+		{"pos":"DECL.INDQF Compzr ADJ","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF Compzr ADJ","cnt":"1"}
+		]},
+	{"word":"이 흘러 넘치는",
+	"vars":[
+		{"pos":"PN ACF NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PN ACF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"이 크다 ``",
+	"vars":[
+		{"pos":"PN DECL.INDQF CQ","cnt":"1"},
+		{"pos":"PN DECL.ROOTF CQ","cnt":"1"}
+		]},
+	{"word":"이 크게 늘어",
+	"vars":[
+		{"pos":"PN GF ACF","cnt":"1"},
+		{"pos":"PN ACF ACF","cnt":"1"}
+		]},
+	{"word":"이 참석 한",
+	"vars":[
+		{"pos":"PN PcsN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"PN PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"이 진행 되는",
+	"vars":[
+		{"pos":"PN PcsN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PN PcsN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"이 좋지 않은",
+	"vars":[
+		{"pos":"PN DECL.NMCF PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PN DECL.NMCF NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"이 존재 한다",
+	"vars":[
+		{"pos":"PN PcsN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"PN PcsN DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"이 자동 차",
+	"vars":[
+		{"pos":"PN MssN CntN","cnt":"1"},
+		{"pos":"DADJ MssN CntN","cnt":"1"}
+		]},
+	{"word":"이 있는 데",
+	"vars":[
+		{"pos":"PN NPST.NCCF VadjN","cnt":"1"},
+		{"pos":"PN NPST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"이 불가능 하다",
+	"vars":[
+		{"pos":"PN SttN DECL.INDQF","cnt":"1"},
+		{"pos":"PN SttN DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"이 부족 한",
+	"vars":[
+		{"pos":"DADJ SttN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PN SttN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"이 많다 고",
+	"vars":[
+		{"pos":"PN DECL.INDQF Compzr","cnt":"1"},
+		{"pos":"PN DECL.NPST.INDQF Compzr","cnt":"1"}
+		]},
+	{"word":"이 많기 때문",
+	"vars":[
+		{"pos":"PN DECL.NMCF MssN","cnt":"1"},
+		{"pos":"PN NMCF MssN","cnt":"1"}
+		]},
+	{"word":"이 둥둥 떠",
+	"vars":[
+		{"pos":"PN ADV GF","cnt":"1"},
+		{"pos":"PN ADV ACF","cnt":"1"}
+		]},
+	{"word":"이 되었던 것",
+	"vars":[
+		{"pos":"PN PST.RET.NCCF MssN","cnt":"1"},
+		{"pos":"PN PST.RET.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"이 되고 있다",
+	"vars":[
+		{"pos":"PN GF DECL.INDQF","cnt":"1"},
+		{"pos":"PN GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"이 돈 을",
+	"vars":[
+		{"pos":"DADJ CntN PA","cnt":"1"},
+		{"pos":"PN CntN PA","cnt":"1"}
+		]},
+	{"word":"이 높아 보인다",
+	"vars":[
+		{"pos":"PN GF DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"PN GF DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"이 끝 난",
+	"vars":[
+		{"pos":"PN MssN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PN MssN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"의한 대규모 기업",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN CntN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF MssN CntN","cnt":"1"}
+		]},
+	{"word":"의외 로 많다",
+	"vars":[
+		{"pos":"MssN PO DECL.ROOTF","cnt":"1"},
+		{"pos":"MssN PO DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"의 크기 에",
+	"vars":[
+		{"pos":"PG DECL.NMCF PO","cnt":"1"},
+		{"pos":"PG MssN PO","cnt":"1"}
+		]},
+	{"word":"의 철저 한",
+	"vars":[
+		{"pos":"PG SttN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PG SttN NPST.RELCF","cnt":"1"}
+		]},
+	{"word":"의 지속적 인",
+	"vars":[
+		{"pos":"PG UnmdN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PG UnmdN RELCF","cnt":"1"}
+		]},
+	{"word":"의 중요 한",
+	"vars":[
+		{"pos":"PG SttN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PG SttN NPST.RELCF","cnt":"1"}
+		]},
+	{"word":"의 정확 한",
+	"vars":[
+		{"pos":"PG SttN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PG SttN REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"의 유일 한",
+	"vars":[
+		{"pos":"PG SttN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PG SttN REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"의 망령 '",
+	"vars":[
+		{"pos":"PG MssN CQ","cnt":"1"},
+		{"pos":"PG MssN OQ","cnt":"1"}
+		]},
+	{"word":"의 따뜻 한",
+	"vars":[
+		{"pos":"PG SttN NPST.RELCF","cnt":"1"},
+		{"pos":"PG SttN REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"의 감자 를",
+	"vars":[
+		{"pos":"PG PcsN PA","cnt":"1"},
+		{"pos":"PG CntN PA","cnt":"1"}
+		]},
+	{"word":"의 갈등 은",
+	"vars":[
+		{"pos":"PG CntN DEL","cnt":"1"},
+		{"pos":"PG MssN DEL","cnt":"1"}
+		]},
+	{"word":"의 ` 웃돈",
+	"vars":[
+		{"pos":"PG OQ MssN","cnt":"1"},
+		{"pos":"PG OQ CntN","cnt":"1"}
+		]},
+	{"word":"을게 . ``",
+	"vars":[
+		{"pos":"MssN FPunct CQ","cnt":"1"},
+		{"pos":"CntN FPunct CQ","cnt":"1"}
+		]},
+	{"word":"을 해 줄",
+	"vars":[
+		{"pos":"PA GF IRRL.RELCF","cnt":"1"},
+		{"pos":"PA GF IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 표시 하고",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"을 찾고 있다",
+	"vars":[
+		{"pos":"PA GF DECL.ROOTF","cnt":"1"},
+		{"pos":"PA GF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"을 지난 해",
+	"vars":[
+		{"pos":"PA PST.RELCF GrdN","cnt":"1"},
+		{"pos":"PA PST.REAL.RELCF GrdN","cnt":"1"}
+		]},
+	{"word":"을 의식 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PA PcsN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 위한 법률",
+	"vars":[
+		{"pos":"PA UKN UKN","cnt":"1"},
+		{"pos":"PA NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"을 위한 것",
+	"vars":[
+		{"pos":"PA NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"PA NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"을 열어 주고",
+	"vars":[
+		{"pos":"PA GF GF","cnt":"1"},
+		{"pos":"PA GF ACF","cnt":"1"}
+		]},
+	{"word":"을 열고 들어",
+	"vars":[
+		{"pos":"PA ACF ACF","cnt":"1"},
+		{"pos":"PA ACF GF","cnt":"1"}
+		]},
+	{"word":"을 실시 할",
+	"vars":[
+		{"pos":"PA PcsN IRRL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"을 선호 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"을 상실 한",
+	"vars":[
+		{"pos":"PA PcsN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PA PcsN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 비난 하고",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN PC","cnt":"1"}
+		]},
+	{"word":"을 발견 하게",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"을 받게 될",
+	"vars":[
+		{"pos":"PA ACF IRRL.NCCF","cnt":"1"},
+		{"pos":"PA GF IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 망친다 는",
+	"vars":[
+		{"pos":"PA DECL.NPST.INDQF NCCF","cnt":"1"},
+		{"pos":"PA DECL.REAL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"을 따라야 한다",
+	"vars":[
+		{"pos":"PA ACF DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"PA ACF DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"을 다소 줄이는",
+	"vars":[
+		{"pos":"PA VadjN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PA VadjN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 내 밀",
+	"vars":[
+		{"pos":"PA ACF IRRL.RELCF","cnt":"1"},
+		{"pos":"PA ACF IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 골자 로",
+	"vars":[
+		{"pos":"PA MssN PO","cnt":"1"},
+		{"pos":"PA CntN PO","cnt":"1"}
+		]},
+	{"word":"을 검토 해",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"을 건설 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"을 건설 하고",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"을 갖고 있는",
+	"vars":[
+		{"pos":"PA GF NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PA GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 갖게 되는",
+	"vars":[
+		{"pos":"PA GF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA ACF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 가까이 하는",
+	"vars":[
+		{"pos":"PA VadjN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PA VadjN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"을 1 년",
+	"vars":[
+		{"pos":"PA NM GrdN","cnt":"1"},
+		{"pos":"PA NM Msur","cnt":"1"}
+		]},
+	{"word":"은행 을 넘기는",
+	"vars":[
+		{"pos":"CntN PA NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"CntN PA NPST.RELCF","cnt":"1"}
+		]},
+	{"word":"은 하고 있는",
+	"vars":[
+		{"pos":"DEL GF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"DEL GF NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"은 이 것",
+	"vars":[
+		{"pos":"DEL DADJ CntN","cnt":"1"},
+		{"pos":"DEL DADJ MssN","cnt":"1"}
+		]},
+	{"word":"은 안정 된",
+	"vars":[
+		{"pos":"DEL PcsN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"DEL PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"은 뭘 까",
+	"vars":[
+		{"pos":"DEL ProN INT.IRRL.ROOTF","cnt":"1"},
+		{"pos":"DEL ProN INT.ROOTF","cnt":"1"}
+		]},
+	{"word":"은 무엇 일까",
+	"vars":[
+		{"pos":"DEL ProN INT.IRRL.ROOTF","cnt":"1"},
+		{"pos":"DEL ProN INT.ROOTF","cnt":"1"}
+		]},
+	{"word":"은 그 중",
+	"vars":[
+		{"pos":"DEL DADJ VadjN","cnt":"1"},
+		{"pos":"DEL ProN VadjN","cnt":"1"}
+		]},
+	{"word":"으로 지정 된",
+	"vars":[
+		{"pos":"PO PcsN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"으로 주어 진",
+	"vars":[
+		{"pos":"PO GF PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO GF PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"으로 이어 지는",
+	"vars":[
+		{"pos":"PO GF NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"으로 이어 졌다",
+	"vars":[
+		{"pos":"PO GF DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"PO GF DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"으로 이루어 진",
+	"vars":[
+		{"pos":"PO GF PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO GF PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"으로 실시 한",
+	"vars":[
+		{"pos":"PO PcsN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"으로 가려 는",
+	"vars":[
+		{"pos":"PO ACF NPST.NCCF","cnt":"1"},
+		{"pos":"PO ACF RELCF","cnt":"1"}
+		]},
+	{"word":"월 1 백",
+	"vars":[
+		{"pos":"VadjN NM NM","cnt":"1"},
+		{"pos":"GrdN NM NMADJ","cnt":"1"}
+		]},
+	{"word":"원칙 으로 하고",
+	"vars":[
+		{"pos":"CntN PO GF","cnt":"1"},
+		{"pos":"CntN PO ACF","cnt":"1"}
+		]},
+	{"word":"원 을 넘어",
+	"vars":[
+		{"pos":"Msur PA ACF","cnt":"1"},
+		{"pos":"Msur PA UKN","cnt":"1"}
+		]},
+	{"word":"원 에 달할",
+	"vars":[
+		{"pos":"Msur PO IRRL.NCCF","cnt":"1"},
+		{"pos":"Msur PO IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"웃돈 ' 요구",
+	"vars":[
+		{"pos":"MssN CQ PcsN","cnt":"1"},
+		{"pos":"CntN CQ PcsN","cnt":"1"}
+		]},
+	{"word":"우리 에게 많은",
+	"vars":[
+		{"pos":"ProN PO REAL.RELCF","cnt":"1"},
+		{"pos":"ProN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"우리 가 이",
+	"vars":[
+		{"pos":"ProN PN ProN","cnt":"1"},
+		{"pos":"ProN PN DADJ","cnt":"1"}
+		]},
+	{"word":"우거진 수풀 사이",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN MssN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"1"}
+		]},
+	{"word":"외모 에 대해",
+	"vars":[
+		{"pos":"MssN PO ACF","cnt":"1"},
+		{"pos":"MssN PO CntN","cnt":"1"}
+		]},
+	{"word":"와 비슷 한",
+	"vars":[
+		{"pos":"PC SttN RELCF","cnt":"1"},
+		{"pos":"PC SttN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"와 다르지 않다",
+	"vars":[
+		{"pos":"PC DECL.NMCF DECL.ROOTF","cnt":"1"},
+		{"pos":"PC DECL.NPST.NMCF DECL.NPST.REAL.ROOTF","cnt":"1"}
+		]},
+	{"word":"와 눈 물",
+	"vars":[
+		{"pos":"PC CntN CntN","cnt":"1"},
+		{"pos":"ACF CntN CntN","cnt":"1"}
+		]},
+	{"word":"와 곰이 는",
+	"vars":[
+		{"pos":"PC PRN DEL","cnt":"1"},
+		{"pos":"ACF PRN DEL","cnt":"1"}
+		]},
+	{"word":"옷 을 찢어",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"올 수 있다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"온 미국 산",
+	"vars":[
+		{"pos":"RELCF PRN MssN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF PRN MssN","cnt":"1"}
+		]},
+	{"word":"온 것 은",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN DEL","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DEL","cnt":"1"}
+		]},
+	{"word":"오르는 게 게",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN CntN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"1"}
+		]},
+	{"word":"오래 라 는",
+	"vars":[
+		{"pos":"VadjN DECL.INDQF NCCF","cnt":"1"},
+		{"pos":"VadjN DECL.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"오는 인연 속",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN MssN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"1"}
+		]},
+	{"word":"예방 응징 '",
+	"vars":[
+		{"pos":"PcsN PcsN CQ","cnt":"1"},
+		{"pos":"PcsN PcsN OQ","cnt":"1"}
+		]},
+	{"word":"영향 을 끼쳤다",
+	"vars":[
+		{"pos":"MssN PA DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"MssN PA DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"에서 제외 할",
+	"vars":[
+		{"pos":"PO PcsN IRRL.RELCF","cnt":"1"},
+		{"pos":"PO PcsN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"에서 떠 오르는",
+	"vars":[
+		{"pos":"PO ACF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO ACF NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에서 도 이",
+	"vars":[
+		{"pos":"PO DEL DADJ","cnt":"1"},
+		{"pos":"PO DEL ProN","cnt":"1"}
+		]},
+	{"word":"에서 는 이",
+	"vars":[
+		{"pos":"PO DEL PRN","cnt":"1"},
+		{"pos":"PO DEL ProN","cnt":"1"}
+		]},
+	{"word":"에게 는 뜻",
+	"vars":[
+		{"pos":"PO DEL PcsN","cnt":"1"},
+		{"pos":"PO DEL MssN","cnt":"1"}
+		]},
+	{"word":"에 흠뻑 젖은",
+	"vars":[
+		{"pos":"PO ADV PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO ADV PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"에 필요 한",
+	"vars":[
+		{"pos":"PO SttN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO SttN REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에 참석 한",
+	"vars":[
+		{"pos":"PO PcsN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에 입원 시켜",
+	"vars":[
+		{"pos":"PO PcsN GF","cnt":"1"},
+		{"pos":"PO PcsN ACF","cnt":"1"}
+		]},
+	{"word":"에 의한 대규모",
+	"vars":[
+		{"pos":"PO PST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"PO PST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"에 예탁 되는",
+	"vars":[
+		{"pos":"PO PcsN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO PcsN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"에 어색 한",
+	"vars":[
+		{"pos":"PO SttN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO SttN NPST.RELCF","cnt":"1"}
+		]},
+	{"word":"에 사용 할",
+	"vars":[
+		{"pos":"PO PcsN IRRL.RELCF","cnt":"1"},
+		{"pos":"PO PcsN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"에 버금 가는",
+	"vars":[
+		{"pos":"PO MssN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO MssN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에 모든 것",
+	"vars":[
+		{"pos":"PO ADJ MssN","cnt":"1"},
+		{"pos":"PO ADJ CntN","cnt":"1"}
+		]},
+	{"word":"에 들어 가고",
+	"vars":[
+		{"pos":"PO ACF GF","cnt":"1"},
+		{"pos":"PO ACF ACF","cnt":"1"}
+		]},
+	{"word":"에 도착 한",
+	"vars":[
+		{"pos":"PO PcsN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO PcsN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에 도 같은",
+	"vars":[
+		{"pos":"PO DEL NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PO DEL NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"에 대해 관심",
+	"vars":[
+		{"pos":"PO ACF MssN","cnt":"1"},
+		{"pos":"PO CntN MssN","cnt":"1"}
+		]},
+	{"word":"에 대한 애정",
+	"vars":[
+		{"pos":"PO NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PO NPST.REAL.RELCF MssN","cnt":"1"}
+		]},
+	{"word":"에 관한 법률",
+	"vars":[
+		{"pos":"PO NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PO NPST.REAL.RELCF MssN","cnt":"1"}
+		]},
+	{"word":"없다 는 점",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.REAL.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"없다 ' 는",
+	"vars":[
+		{"pos":"DECL.ROOTF CQ NCCF","cnt":"1"},
+		{"pos":"DECL.ROOTF CQ NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"없는 건 건",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN CntN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN MssN","cnt":"1"}
+		]},
+	{"word":"얼마 나 큰",
+	"vars":[
+		{"pos":"ProN DEL NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ProN DEL NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"억 원 은",
+	"vars":[
+		{"pos":"NMADJ Msur DEL","cnt":"1"},
+		{"pos":"NM Msur DEL","cnt":"1"}
+		]},
+	{"word":"억 달러 에서",
+	"vars":[
+		{"pos":"NMADJ Msur PO","cnt":"1"},
+		{"pos":"NM Msur PO","cnt":"1"}
+		]},
+	{"word":"어쩔 수 없다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"어색 한 침묵",
+	"vars":[
+		{"pos":"SttN NPST.REAL.RELCF PcsN","cnt":"1"},
+		{"pos":"SttN NPST.RELCF PcsN","cnt":"1"}
+		]},
+	{"word":"어려운 데 다",
+	"vars":[
+		{"pos":"UKN VadjN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN PO","cnt":"1"}
+		]},
+	{"word":"어떤 경우 에",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF VadjN PO","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF VadjN PO","cnt":"1"}
+		]},
+	{"word":"앞 으로 이",
+	"vars":[
+		{"pos":"MssN PO ProN","cnt":"1"},
+		{"pos":"MssN PO DADJ","cnt":"1"}
+		]},
+	{"word":"알려 진 바",
+	"vars":[
+		{"pos":"GF PST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"GF PST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"않은 것 을",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"않았다 는 이유",
+	"vars":[
+		{"pos":"DECL.PST.INDQF NCCF CntN","cnt":"1"},
+		{"pos":"DECL.PST.INDQF NPST.REAL.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"안 된다 ”",
+	"vars":[
+		{"pos":"ADV DECL.NPST.ROOTF CQ","cnt":"1"},
+		{"pos":"ADV DECL.NPST.INDQF CQ","cnt":"1"}
+		]},
+	{"word":"아저씨 가 눈",
+	"vars":[
+		{"pos":"CntN PN CntN","cnt":"1"},
+		{"pos":"CntN PN PST.RELCF","cnt":"1"}
+		]},
+	{"word":"아련 한 꽃",
+	"vars":[
+		{"pos":"SttN PST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"아니라 는 것",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"아는 거 야",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN INT.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN INT.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"씩 이나 늘어",
+	"vars":[
+		{"pos":"ADV ACF ACF","cnt":"1"},
+		{"pos":"ADV DEL ACF","cnt":"1"}
+		]},
+	{"word":"쓸 데 없이",
+	"vars":[
+		{"pos":"IRRL.NCCF VadjN ADV","cnt":"1"},
+		{"pos":"IRRL.RELCF VadjN ADV","cnt":"1"}
+		]},
+	{"word":"십 억 달러",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NMADJ NM Msur","cnt":"1"}
+		]},
+	{"word":"십 년 을",
+	"vars":[
+		{"pos":"NM Msur PA","cnt":"1"},
+		{"pos":"NMADJ Msur PA","cnt":"1"}
+		]},
+	{"word":"시킬 수 있다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"시작 한다 는",
+	"vars":[
+		{"pos":"PcsN DECL.NPST.INDQF RELCF","cnt":"1"},
+		{"pos":"PcsN DECL.REAL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"시 30 분",
+	"vars":[
+		{"pos":"GrdN NM Msur","cnt":"1"},
+		{"pos":"GrdN NM GrdN","cnt":"1"}
+		]},
+	{"word":"숙제 를 하나",
+	"vars":[
+		{"pos":"CntN PA INT.ROOTF","cnt":"1"},
+		{"pos":"CntN PA NM","cnt":"1"}
+		]},
+	{"word":"수준 이라 고",
+	"vars":[
+		{"pos":"MssN DECL.NPST.INDQF Compzr","cnt":"1"},
+		{"pos":"MssN DECL.INDQF Compzr","cnt":"1"}
+		]},
+	{"word":"수입 은 1",
+	"vars":[
+		{"pos":"MssN DEL NM","cnt":"1"},
+		{"pos":"PcsN DEL NM","cnt":"1"}
+		]},
+	{"word":"수 있도록 하고",
+	"vars":[
+		{"pos":"CntN ACF GF","cnt":"1"},
+		{"pos":"CntN ACF ACF","cnt":"1"}
+		]},
+	{"word":"수 있는 데",
+	"vars":[
+		{"pos":"CntN NPST.REAL.RELCF VadjN","cnt":"1"},
+		{"pos":"CntN NPST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"수 있게 된다",
+	"vars":[
+		{"pos":"CntN ACF DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"CntN GF DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"수 없다 ”",
+	"vars":[
+		{"pos":"CntN DECL.ROOTF CQ","cnt":"1"},
+		{"pos":"CntN DECL.NPST.INDQF CQ","cnt":"1"}
+		]},
+	{"word":"수 없는 것",
+	"vars":[
+		{"pos":"CntN NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"CntN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"수 없게 된다",
+	"vars":[
+		{"pos":"CntN GF DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"CntN GF DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"수 십 억",
+	"vars":[
+		{"pos":"NMADJ NMADJ NM","cnt":"1"},
+		{"pos":"CntN NM NMADJ","cnt":"1"}
+		]},
+	{"word":"수 십 년",
+	"vars":[
+		{"pos":"NMADJ NMADJ GrdN","cnt":"1"},
+		{"pos":"NMADJ NMADJ Msur","cnt":"1"}
+		]},
+	{"word":"수 도 있는",
+	"vars":[
+		{"pos":"CntN DEL NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN DEL NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"수 도 없다",
+	"vars":[
+		{"pos":"CntN DEL DECL.ROOTF","cnt":"1"},
+		{"pos":"CntN DEL DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"속 에서 나",
+	"vars":[
+		{"pos":"MssN PO DEL","cnt":"1"},
+		{"pos":"MssN PO ProN","cnt":"1"}
+		]},
+	{"word":"소스 를 발라",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"세상 에 이런",
+	"vars":[
+		{"pos":"MssN PO REAL.RELCF","cnt":"1"},
+		{"pos":"MssN PO NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"세 나 상속",
+	"vars":[
+		{"pos":"CntN DEL PcsN","cnt":"1"},
+		{"pos":"ACF DEL PcsN","cnt":"1"}
+		]},
+	{"word":"선 이 됐다",
+	"vars":[
+		{"pos":"CntN PN DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"CntN PN DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"서 영택 국세청장",
+	"vars":[
+		{"pos":"PO PRN CntN","cnt":"1"},
+		{"pos":"PRN PRN CntN","cnt":"1"}
+		]},
+	{"word":"생각 했던 것",
+	"vars":[
+		{"pos":"PcsN PST.RET.NCCF MssN","cnt":"1"},
+		{"pos":"PcsN PST.RET.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"생각 이 들",
+	"vars":[
+		{"pos":"PcsN PN ACF","cnt":"1"},
+		{"pos":"PcsN PN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"새로운 힘 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PN","cnt":"1"}
+		]},
+	{"word":"상해 임시 정부",
+	"vars":[
+		{"pos":"PRN MssN CntN","cnt":"1"},
+		{"pos":"MssN MssN CntN","cnt":"1"}
+		]},
+	{"word":"살아야 한다 는",
+	"vars":[
+		{"pos":"ACF DECL.NPST.INDQF NPST.REAL.NMCF","cnt":"1"},
+		{"pos":"ACF DECL.REAL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"살 테 니",
+	"vars":[
+		{"pos":"IRRL.NCCF MssN ACF","cnt":"1"},
+		{"pos":"IRRL.NCCF MssN NPST.ACF","cnt":"1"}
+		]},
+	{"word":"사이 에 도",
+	"vars":[
+		{"pos":"MssN PO DEL","cnt":"1"},
+		{"pos":"VadjN PO DEL","cnt":"1"}
+		]},
+	{"word":"사람 은 그",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"1"}
+		]},
+	{"word":"빠져 나 가는",
+	"vars":[
+		{"pos":"ACF ACF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ACF GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"비롯 된 것",
+	"vars":[
+		{"pos":"PcsN PST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"PcsN PST.NCCF CntN","cnt":"1"}
+		]},
+	{"word":"비굴 한 웃음",
+	"vars":[
+		{"pos":"SttN REAL.RELCF MssN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF MssN","cnt":"1"}
+		]},
+	{"word":"불행 으로 몰아",
+	"vars":[
+		{"pos":"SttN PO GF","cnt":"1"},
+		{"pos":"SttN PO ACF","cnt":"1"}
+		]},
+	{"word":"불안 한 마음",
+	"vars":[
+		{"pos":"SttN NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF MssN","cnt":"1"}
+		]},
+	{"word":"불법 부당 한",
+	"vars":[
+		{"pos":"SttN SttN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"SttN SttN REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"불과 한 것",
+	"vars":[
+		{"pos":"SttN NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"불가능 하다 는",
+	"vars":[
+		{"pos":"SttN DECL.NPST.INDQF RELCF","cnt":"1"},
+		{"pos":"SttN DECL.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"분 의 2",
+	"vars":[
+		{"pos":"MssN PG NM","cnt":"1"},
+		{"pos":"GrdN PG NM","cnt":"1"}
+		]},
+	{"word":"부끄럽다 는 생각",
+	"vars":[
+		{"pos":"DECL.INDQF NPST.REAL.NCCF PcsN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NPST.NCCF PcsN","cnt":"1"}
+		]},
+	{"word":"볼 수 없다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"볼 때 마다",
+	"vars":[
+		{"pos":"IRRL.NCCF VadjN DEL","cnt":"1"},
+		{"pos":"IRRL.RELCF VadjN DEL","cnt":"1"}
+		]},
+	{"word":"보인다 ” 고",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF CQ Compzr","cnt":"1"},
+		{"pos":"DECL.NPST.ROOTF CQ Compzr","cnt":"1"}
+		]},
+	{"word":"보여 주는 것",
+	"vars":[
+		{"pos":"ACF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"GF NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"보세 요 .",
+	"vars":[
+		{"pos":"IMP.HON.NPST.ROOTF DM FPunct","cnt":"1"},
+		{"pos":"IMP.NPST.ROOTF DM FPunct","cnt":"1"}
+		]},
+	{"word":"보답 할 차례",
+	"vars":[
+		{"pos":"PcsN IRRL.RELCF MssN","cnt":"1"},
+		{"pos":"PcsN IRRL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"보내며 ' 지내는",
+	"vars":[
+		{"pos":"ACF OQ NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ACF OQ NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"벗어 나야 할",
+	"vars":[
+		{"pos":"ACF ACF IRRL.NCCF","cnt":"1"},
+		{"pos":"ACF ACF IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"법 이 없다",
+	"vars":[
+		{"pos":"CntN PN DECL.INDQF","cnt":"1"},
+		{"pos":"CntN PN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"법 에 의한",
+	"vars":[
+		{"pos":"CntN PO PST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"백 선 이",
+	"vars":[
+		{"pos":"NM CntN PN","cnt":"1"},
+		{"pos":"NMADJ CntN PN","cnt":"1"}
+		]},
+	{"word":"백 달러 짜리",
+	"vars":[
+		{"pos":"NM Msur MssN","cnt":"1"},
+		{"pos":"NMADJ Msur MssN","cnt":"1"}
+		]},
+	{"word":"백 개 수준",
+	"vars":[
+		{"pos":"NM Cssfr MssN","cnt":"1"},
+		{"pos":"NMADJ Cssfr MssN","cnt":"1"}
+		]},
+	{"word":"백 75 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"백 66 만",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"백 60 만",
+	"vars":[
+		{"pos":"NMADJ NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"백 42 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"백 31 .",
+	"vars":[
+		{"pos":"NM NM FPunct","cnt":"1"},
+		{"pos":"NM NM IPunct","cnt":"1"}
+		]},
+	{"word":"백 30 선",
+	"vars":[
+		{"pos":"NM NM CntN","cnt":"1"},
+		{"pos":"NMADJ NM CntN","cnt":"1"}
+		]},
+	{"word":"백 20 가구",
+	"vars":[
+		{"pos":"NM NM CntN","cnt":"1"},
+		{"pos":"NMADJ NM CntN","cnt":"1"}
+		]},
+	{"word":"밭 을 팔아",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"방치 할 경우",
+	"vars":[
+		{"pos":"PcsN IRRL.RELCF VadjN","cnt":"1"},
+		{"pos":"PcsN IRRL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"방 으로 올라",
+	"vars":[
+		{"pos":"CntN PO GF","cnt":"1"},
+		{"pos":"CntN PO ACF","cnt":"1"}
+		]},
+	{"word":"발 을 내",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"받을 것 이다",
+	"vars":[
+		{"pos":"IRRL.NCCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"IRRL.NMCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"받게 될 것",
+	"vars":[
+		{"pos":"ACF IRRL.NCCF MssN","cnt":"1"},
+		{"pos":"GF IRRL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"받게 된다 .",
+	"vars":[
+		{"pos":"GF DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"ACF DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"바탕 으로 한",
+	"vars":[
+		{"pos":"MssN PO PST.REAL.NCCF","cnt":"1"},
+		{"pos":"MssN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"미래 에 대한",
+	"vars":[
+		{"pos":"MssN PO NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"MssN PO NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"뭘 뭘 할",
+	"vars":[
+		{"pos":"ProN ProN IRRL.NCCF","cnt":"1"},
+		{"pos":"ProN ProN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"문제 인가 하는",
+	"vars":[
+		{"pos":"CntN INT.NMCF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN INT.NMCF NPST.REAL.NMCF","cnt":"1"}
+		]},
+	{"word":"문제 는 그",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"1"}
+		]},
+	{"word":"문제 가 있다",
+	"vars":[
+		{"pos":"CntN PN DECL.INDQF","cnt":"1"},
+		{"pos":"CntN PN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"문제 가 될",
+	"vars":[
+		{"pos":"CntN PN IRRL.RELCF","cnt":"1"},
+		{"pos":"CntN PN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"무서운 속도 로",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PO","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF MssN PO","cnt":"1"}
+		]},
+	{"word":"무상 한 세상",
+	"vars":[
+		{"pos":"SttN REAL.RELCF MssN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF MssN","cnt":"1"}
+		]},
+	{"word":"무대 에 선",
+	"vars":[
+		{"pos":"CntN PO PST.RELCF","cnt":"1"},
+		{"pos":"CntN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"못하고 있다 는",
+	"vars":[
+		{"pos":"GF DECL.NPST.REAL.INDQF NPST.NCCF","cnt":"1"},
+		{"pos":"GF DECL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"모임 은 그",
+	"vars":[
+		{"pos":"CntN DEL DADJ","cnt":"1"},
+		{"pos":"CntN DEL ProN","cnt":"1"}
+		]},
+	{"word":"모습 을 보여",
+	"vars":[
+		{"pos":"MssN PA ACF","cnt":"1"},
+		{"pos":"MssN PA GF","cnt":"1"}
+		]},
+	{"word":"모습 을 보고",
+	"vars":[
+		{"pos":"MssN PA GF","cnt":"1"},
+		{"pos":"MssN PA ACF","cnt":"1"}
+		]},
+	{"word":"모습 . 이",
+	"vars":[
+		{"pos":"MssN FPunct DADJ","cnt":"1"},
+		{"pos":"MssN FPunct PRN","cnt":"1"}
+		]},
+	{"word":"명 에 이른다",
+	"vars":[
+		{"pos":"Cssfr PO DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"Cssfr PO DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"말아야 할 것",
+	"vars":[
+		{"pos":"ACF IRRL.NCCF MssN","cnt":"1"},
+		{"pos":"ACF IRRL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"말 이야 .",
+	"vars":[
+		{"pos":"PcsN DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"PcsN DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"말 을 한다",
+	"vars":[
+		{"pos":"PcsN PA DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"PcsN PA DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"많은 일 들",
+	"vars":[
+		{"pos":"PST.REAL.RELCF CntN PM","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PM","cnt":"1"}
+		]},
+	{"word":"만족 하지 않는다",
+	"vars":[
+		{"pos":"PcsN DECL.NMCF DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"PcsN DECL.NMCF DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"만드는 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"만 한 사람",
+	"vars":[
+		{"pos":"SttN RELCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"만 한 것",
+	"vars":[
+		{"pos":"SttN RELCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"만 평 이",
+	"vars":[
+		{"pos":"NMADJ Msur PN","cnt":"1"},
+		{"pos":"NM Msur PN","cnt":"1"}
+		]},
+	{"word":"만 원 중",
+	"vars":[
+		{"pos":"NM Msur VadjN","cnt":"1"},
+		{"pos":"NMADJ Msur VadjN","cnt":"1"}
+		]},
+	{"word":"만 다가 오지",
+	"vars":[
+		{"pos":"DEL ACF DECL.ROOTF","cnt":"1"},
+		{"pos":"DEL GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"마주 하게 될",
+	"vars":[
+		{"pos":"ADV GF IRRL.NCCF","cnt":"1"},
+		{"pos":"ADV ACF IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"마음 이 아플",
+	"vars":[
+		{"pos":"MssN PN IRRL.NCCF","cnt":"1"},
+		{"pos":"MssN PN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"마음 이 아파",
+	"vars":[
+		{"pos":"MssN PN DECL.ROOTF","cnt":"1"},
+		{"pos":"MssN PN GF","cnt":"1"}
+		]},
+	{"word":"마는 걸 까",
+	"vars":[
+		{"pos":"NCCF MssN INT.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN INT.ROOTF","cnt":"1"}
+		]},
+	{"word":"리더 가 될",
+	"vars":[
+		{"pos":"CntN PN IRRL.RELCF","cnt":"1"},
+		{"pos":"CntN PN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"를 한다 는",
+	"vars":[
+		{"pos":"PA DECL.NPST.INDQF NCCF","cnt":"1"},
+		{"pos":"PA DECL.NPST.INDQF NPST.NCCF","cnt":"1"}
+		]},
+	{"word":"를 하겠다 는",
+	"vars":[
+		{"pos":"PA DECL.IRRL.INDQF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA DECL.IRRL.INDQF RELCF","cnt":"1"}
+		]},
+	{"word":"를 시작 한다",
+	"vars":[
+		{"pos":"PA PcsN DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"PA PcsN DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"를 설치 해",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"를 선정 했다",
+	"vars":[
+		{"pos":"PA PcsN DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"PA PcsN DECL.PST.REAL.INDQF","cnt":"1"}
+		]},
+	{"word":"를 사랑 한다",
+	"vars":[
+		{"pos":"PA PcsN DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"PA PcsN DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"를 사랑 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"를 보는 데",
+	"vars":[
+		{"pos":"PA RELCF VadjN","cnt":"1"},
+		{"pos":"PA NPST.REAL.RELCF VadjN","cnt":"1"}
+		]},
+	{"word":"를 발휘 하고",
+	"vars":[
+		{"pos":"PA PcsN ACF","cnt":"1"},
+		{"pos":"PA PcsN GF","cnt":"1"}
+		]},
+	{"word":"를 반영 하는",
+	"vars":[
+		{"pos":"PA PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PA PcsN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"를 못 잊어",
+	"vars":[
+		{"pos":"PA ADV GF","cnt":"1"},
+		{"pos":"PA ADV ACF","cnt":"1"}
+		]},
+	{"word":"를 많이 보고",
+	"vars":[
+		{"pos":"PA ADV GF","cnt":"1"},
+		{"pos":"PA ADV PcsN","cnt":"1"}
+		]},
+	{"word":"로 암시 하는",
+	"vars":[
+		{"pos":"PO PcsN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"PO PcsN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"로 많다 .",
+	"vars":[
+		{"pos":"PO DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"PO DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"로 뛰어 가",
+	"vars":[
+		{"pos":"PO ACF GF","cnt":"1"},
+		{"pos":"PO ACF ACF","cnt":"1"}
+		]},
+	{"word":"로 돌아 가",
+	"vars":[
+		{"pos":"PO ACF GF","cnt":"1"},
+		{"pos":"PO ACF ACF","cnt":"1"}
+		]},
+	{"word":"란 말 인가",
+	"vars":[
+		{"pos":"DECL.INDQF PcsN INT.NMCF","cnt":"1"},
+		{"pos":"DEL PcsN INT.NMCF","cnt":"1"}
+		]},
+	{"word":"라 는 이름",
+	"vars":[
+		{"pos":"DECL.INDQF RELCF CntN","cnt":"1"},
+		{"pos":"DECL.INDQF NCCF CntN","cnt":"1"}
+		]},
+	{"word":"똥 보 야",
+	"vars":[
+		{"pos":"CntN CntN PO","cnt":"1"},
+		{"pos":"CntN CntN DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"등 을 다룬",
+	"vars":[
+		{"pos":"VadjN PA PST.REAL.NCCF","cnt":"1"},
+		{"pos":"VadjN PA PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"등 뒤 에서",
+	"vars":[
+		{"pos":"VadjN VadjN PO","cnt":"1"},
+		{"pos":"CntN MssN PO","cnt":"1"}
+		]},
+	{"word":"등 49 개",
+	"vars":[
+		{"pos":"CntN NM Cssfr","cnt":"1"},
+		{"pos":"VadjN NM Cssfr","cnt":"1"}
+		]},
+	{"word":"듯 한 목",
+	"vars":[
+		{"pos":"VadjN NPST.RELCF CntN","cnt":"1"},
+		{"pos":"VadjN PST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"들여 온 미국",
+	"vars":[
+		{"pos":"ACF PST.REAL.RELCF PRN","cnt":"1"},
+		{"pos":"ACF RELCF PRN","cnt":"1"}
+		]},
+	{"word":"들어 요 .",
+	"vars":[
+		{"pos":"DECL.ROOTF DM FPunct","cnt":"1"},
+		{"pos":"IMP.NPST.ROOTF DM FPunct","cnt":"1"}
+		]},
+	{"word":"들어 간다 는",
+	"vars":[
+		{"pos":"ACF DECL.REAL.INDQF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"ACF DECL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"들 이 이런",
+	"vars":[
+		{"pos":"PM PN REAL.RELCF","cnt":"1"},
+		{"pos":"PM PN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"들 의 수",
+	"vars":[
+		{"pos":"PM PG NMADJ","cnt":"1"},
+		{"pos":"PM PG CntN","cnt":"1"}
+		]},
+	{"word":"들 은 지난",
+	"vars":[
+		{"pos":"PM DEL PST.RELCF","cnt":"1"},
+		{"pos":"PM DEL PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"들 은 일",
+	"vars":[
+		{"pos":"PM DEL PRN","cnt":"1"},
+		{"pos":"PM DEL CntN","cnt":"1"}
+		]},
+	{"word":"들 에 의해",
+	"vars":[
+		{"pos":"PM PO ACF","cnt":"1"},
+		{"pos":"PM PO GF","cnt":"1"}
+		]},
+	{"word":"들 만 다가",
+	"vars":[
+		{"pos":"PM DEL GF","cnt":"1"},
+		{"pos":"PM DEL ACF","cnt":"1"}
+		]},
+	{"word":"든 것 이다",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"드라마 를 할",
+	"vars":[
+		{"pos":"CntN PA IRRL.NCCF","cnt":"1"},
+		{"pos":"CntN PA IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"뒤 에 는",
+	"vars":[
+		{"pos":"MssN PO DEL","cnt":"1"},
+		{"pos":"VadjN PO DEL","cnt":"1"}
+		]},
+	{"word":"될 수 없다",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN DECL.INDQF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"된다 는 것",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"DECL.NPST.INDQF NCCF MssN","cnt":"1"}
+		]},
+	{"word":"된다 `` 고",
+	"vars":[
+		{"pos":"DECL.NPST.INDQF CQ Compzr","cnt":"1"},
+		{"pos":"DECL.NPST.ROOTF CQ Compzr","cnt":"1"}
+		]},
+	{"word":"된 것 이",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"PST.REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"되지 않고 있다",
+	"vars":[
+		{"pos":"DECL.NMCF GF DECL.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"되어 가고 있는",
+	"vars":[
+		{"pos":"ACF GF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"GF GF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"되는 것 을",
+	"vars":[
+		{"pos":"NCCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"되기 도 했다",
+	"vars":[
+		{"pos":"DECL.NMCF DEL DECL.PST.INDQF","cnt":"1"},
+		{"pos":"DECL.NMCF DEL DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"동안 말 없이",
+	"vars":[
+		{"pos":"VadjN PcsN ADV","cnt":"1"},
+		{"pos":"MssN PcsN ADV","cnt":"1"}
+		]},
+	{"word":"동 에 있는",
+	"vars":[
+		{"pos":"CntN PO NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"CntN PO NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"돌아 왔다 .",
+	"vars":[
+		{"pos":"ACF DECL.PST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"도움 을 줄",
+	"vars":[
+		{"pos":"MssN PA IRRL.NCCF","cnt":"1"},
+		{"pos":"MssN PA IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"도 힘 든",
+	"vars":[
+		{"pos":"DEL MssN NCCF","cnt":"1"},
+		{"pos":"DEL MssN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"도 적지 않다",
+	"vars":[
+		{"pos":"DEL DECL.NMCF DECL.ROOTF","cnt":"1"},
+		{"pos":"DEL DECL.NMCF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"도 안 될",
+	"vars":[
+		{"pos":"DEL ADV IRRL.NCCF","cnt":"1"},
+		{"pos":"DEL ADV IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"도 안 된다",
+	"vars":[
+		{"pos":"DEL ADV DECL.NPST.INDQF","cnt":"1"},
+		{"pos":"DEL ADV DECL.NPST.ROOTF","cnt":"1"}
+		]},
+	{"word":"더 큰 힘",
+	"vars":[
+		{"pos":"ADV NPST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"ADV NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"더 나을 것",
+	"vars":[
+		{"pos":"ADV IRRL.RELCF CntN","cnt":"1"},
+		{"pos":"ADV IRRL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"대해 관심 을",
+	"vars":[
+		{"pos":"CntN MssN PA","cnt":"1"},
+		{"pos":"ACF MssN PA","cnt":"1"}
+		]},
+	{"word":"대상 이 되고",
+	"vars":[
+		{"pos":"CntN PN GF","cnt":"1"},
+		{"pos":"CntN PN ACF","cnt":"1"}
+		]},
+	{"word":"대 교수 가",
+	"vars":[
+		{"pos":"CntN CntN PN","cnt":"1"},
+		{"pos":"GrdN CntN PN","cnt":"1"}
+		]},
+	{"word":"대 . ``",
+	"vars":[
+		{"pos":"DECL.ROOTF FPunct CQ","cnt":"1"},
+		{"pos":"DECL.NPST.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"당연 한 일",
+	"vars":[
+		{"pos":"SttN NPST.REAL.NCCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"달순 아 !",
+	"vars":[
+		{"pos":"PRN PO FPunct","cnt":"1"},
+		{"pos":"PRN INTJ FPunct","cnt":"1"}
+		]},
+	{"word":"닦아 왔다 는",
+	"vars":[
+		{"pos":"GF DECL.PST.INDQF NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"GF DECL.PST.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"다소 줄이는 데",
+	"vars":[
+		{"pos":"VadjN NPST.REAL.RELCF VadjN","cnt":"1"},
+		{"pos":"VadjN NPST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"다른 의원 들",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PM","cnt":"1"},
+		{"pos":"GF CntN PM","cnt":"1"}
+		]},
+	{"word":"다가 오지 .",
+	"vars":[
+		{"pos":"ACF DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"니까 ? ``",
+	"vars":[
+		{"pos":"INT.NPST.ROOTF FPunct CQ","cnt":"1"},
+		{"pos":"ACF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"늘어 나는 등",
+	"vars":[
+		{"pos":"ACF NPST.REAL.NCCF VadjN","cnt":"1"},
+		{"pos":"ACF NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"는 판정 을",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN PA","cnt":"1"},
+		{"pos":"NCCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"는 지적 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN DECL.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF UnmdN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 지적 도",
+	"vars":[
+		{"pos":"RELCF PcsN DEL","cnt":"1"},
+		{"pos":"NCCF PcsN DEL","cnt":"1"}
+		]},
+	{"word":"는 점 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NCCF MssN PN","cnt":"1"}
+		]},
+	{"word":"는 점 도",
+	"vars":[
+		{"pos":"NPST.NCCF MssN DEL","cnt":"1"},
+		{"pos":"NCCF MssN DEL","cnt":"1"}
+		]},
+	{"word":"는 자세 를",
+	"vars":[
+		{"pos":"NCCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"는 의식 이",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN PN","cnt":"1"},
+		{"pos":"NCCF PcsN PN","cnt":"1"}
+		]},
+	{"word":"는 우리 의",
+	"vars":[
+		{"pos":"DEL ProN PG","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF ProN PG","cnt":"1"}
+		]},
+	{"word":"는 연락 이",
+	"vars":[
+		{"pos":"DEL PcsN PN","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF PcsN PN","cnt":"1"}
+		]},
+	{"word":"는 않은 것",
+	"vars":[
+		{"pos":"DEL PST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"DEL PST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"는 아이 들",
+	"vars":[
+		{"pos":"DEL CntN PM","cnt":"1"},
+		{"pos":"RELCF CntN PM","cnt":"1"}
+		]},
+	{"word":"는 소문 을",
+	"vars":[
+		{"pos":"NPST.NCCF CntN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"는 생각 이었다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"NCCF PcsN DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 생각 은",
+	"vars":[
+		{"pos":"NPST.NCCF PcsN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF PcsN DEL","cnt":"1"}
+		]},
+	{"word":"는 사람 들",
+	"vars":[
+		{"pos":"DEL CntN PM","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PM","cnt":"1"}
+		]},
+	{"word":"는 비판 을",
+	"vars":[
+		{"pos":"RELCF PcsN PA","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"는 반응 을",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN PA","cnt":"1"},
+		{"pos":"NCCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"는 말 할",
+	"vars":[
+		{"pos":"DEL PcsN IRRL.RELCF","cnt":"1"},
+		{"pos":"DEL PcsN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"는 말 도",
+	"vars":[
+		{"pos":"NPST.NCCF PcsN DEL","cnt":"1"},
+		{"pos":"RELCF PcsN DEL","cnt":"1"}
+		]},
+	{"word":"는 마음 의",
+	"vars":[
+		{"pos":"NCCF MssN PG","cnt":"1"},
+		{"pos":"DEL MssN PG","cnt":"1"}
+		]},
+	{"word":"는 뜻 으로",
+	"vars":[
+		{"pos":"NCCF MssN PO","cnt":"1"},
+		{"pos":"NCCF PcsN PO","cnt":"1"}
+		]},
+	{"word":"는 뜻 밖",
+	"vars":[
+		{"pos":"DEL MssN MssN","cnt":"1"},
+		{"pos":"DEL PcsN MssN","cnt":"1"}
+		]},
+	{"word":"는 대답 을",
+	"vars":[
+		{"pos":"NCCF PcsN PA","cnt":"1"},
+		{"pos":"DEL PcsN PA","cnt":"1"}
+		]},
+	{"word":"는 느낌 을",
+	"vars":[
+		{"pos":"NCCF DECL.NMCF PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"는 노력 은",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF PcsN DEL","cnt":"1"},
+		{"pos":"NCCF PcsN DEL","cnt":"1"}
+		]},
+	{"word":"는 나 를",
+	"vars":[
+		{"pos":"PA ProN PA","cnt":"1"},
+		{"pos":"DEL ProN PA","cnt":"1"}
+		]},
+	{"word":"는 끝 났다",
+	"vars":[
+		{"pos":"DEL MssN DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"DEL MssN DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"는 계산 이다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF PcsN DECL.ROOTF","cnt":"1"},
+		{"pos":"NCCF PcsN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 결심 을",
+	"vars":[
+		{"pos":"DEL MssN PA","cnt":"1"},
+		{"pos":"NCCF PcsN PA","cnt":"1"}
+		]},
+	{"word":"는 것 이었다",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"NCCF MssN DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"는 `` 그",
+	"vars":[
+		{"pos":"DEL OQ DADJ","cnt":"1"},
+		{"pos":"DEL OQ ProN","cnt":"1"}
+		]},
+	{"word":"는 5 만",
+	"vars":[
+		{"pos":"DEL NM NM","cnt":"1"},
+		{"pos":"DEL NM NMADJ","cnt":"1"}
+		]},
+	{"word":"는 3 일",
+	"vars":[
+		{"pos":"DEL NM GrdN","cnt":"1"},
+		{"pos":"DEL NM Msur","cnt":"1"}
+		]},
+	{"word":"는 3 년",
+	"vars":[
+		{"pos":"DEL NM GrdN","cnt":"1"},
+		{"pos":"DEL NM Msur","cnt":"1"}
+		]},
+	{"word":"는  ……",
+	"vars":[
+		{"pos":"DEL FPunct FPunct","cnt":"1"},
+		{"pos":"NPST.NCCF FPunct FPunct","cnt":"1"}
+		]},
+	{"word":"느낌 이 들었다",
+	"vars":[
+		{"pos":"MssN PN DECL.PST.INDQF","cnt":"1"},
+		{"pos":"MssN PN DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"누 가 만들어",
+	"vars":[
+		{"pos":"ProN PN GF","cnt":"1"},
+		{"pos":"ProN PN ACF","cnt":"1"}
+		]},
+	{"word":"놓여 있다 .",
+	"vars":[
+		{"pos":"GF DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"년 이 지난",
+	"vars":[
+		{"pos":"Msur PN PST.REAL.NCCF","cnt":"1"},
+		{"pos":"Msur PN PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"년 ) 은",
+	"vars":[
+		{"pos":"GrdN CParen DEL","cnt":"1"},
+		{"pos":"Msur CParen DEL","cnt":"1"}
+		]},
+	{"word":"넣는 것 은",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN DEL","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN DEL","cnt":"1"}
+		]},
+	{"word":"내버 려 두라",
+	"vars":[
+		{"pos":"ACF ACF IMP.INDQF","cnt":"1"},
+		{"pos":"ACF GF IMP.INDQF","cnt":"1"}
+		]},
+	{"word":"내 차지 다",
+	"vars":[
+		{"pos":"ProN PcsN PO","cnt":"1"},
+		{"pos":"ProN PcsN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"나 있었다 .",
+	"vars":[
+		{"pos":"DEL DECL.PST.ROOTF FPunct","cnt":"1"},
+		{"pos":"GF DECL.PST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"나 와 이",
+	"vars":[
+		{"pos":"ACF ACF ProN","cnt":"1"},
+		{"pos":"ACF ACF NM","cnt":"1"}
+		]},
+	{"word":"나 는 이",
+	"vars":[
+		{"pos":"ProN DEL PRN","cnt":"1"},
+		{"pos":"ProN DEL ProN","cnt":"1"}
+		]},
+	{"word":"나 갈지 ,",
+	"vars":[
+		{"pos":"ACF INT.NMCF COMMA","cnt":"1"},
+		{"pos":"GF INT.NMCF COMMA","cnt":"1"}
+		]},
+	{"word":"나 간 듯",
+	"vars":[
+		{"pos":"ACF PST.NCCF VadjN","cnt":"1"},
+		{"pos":"GF PST.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"나 가는 데",
+	"vars":[
+		{"pos":"ACF NPST.REAL.RELCF VadjN","cnt":"1"},
+		{"pos":"ACF NPST.REAL.NCCF VadjN","cnt":"1"}
+		]},
+	{"word":"까지 한다 .",
+	"vars":[
+		{"pos":"DEL DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"PO DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"까지 나 와",
+	"vars":[
+		{"pos":"DEL ACF ACF","cnt":"1"},
+		{"pos":"PO ACF ACF","cnt":"1"}
+		]},
+	{"word":"까지 나 오고",
+	"vars":[
+		{"pos":"PO ACF GF","cnt":"1"},
+		{"pos":"DEL ACF GF","cnt":"1"}
+		]},
+	{"word":"까 ? ``",
+	"vars":[
+		{"pos":"INT.IRRL.NMCF FPunct CQ","cnt":"1"},
+		{"pos":"INT.ROOTF FPunct CQ","cnt":"1"}
+		]},
+	{"word":"기업 을 위한",
+	"vars":[
+		{"pos":"CntN PA NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN PA UKN","cnt":"1"}
+		]},
+	{"word":"기억 하고 있다",
+	"vars":[
+		{"pos":"PcsN ACF DECL.ROOTF","cnt":"1"},
+		{"pos":"PcsN GF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"기술 개발 을",
+	"vars":[
+		{"pos":"PcsN PcsN PA","cnt":"1"},
+		{"pos":"CntN PcsN PA","cnt":"1"}
+		]},
+	{"word":"기쁜 소식 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF CntN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF CntN PA","cnt":"1"}
+		]},
+	{"word":"기록 돼 있다",
+	"vars":[
+		{"pos":"PcsN GF DECL.INDQF","cnt":"1"},
+		{"pos":"PcsN GF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"기관 인 선관위",
+	"vars":[
+		{"pos":"CntN NPST.REAL.RELCF MssN","cnt":"1"},
+		{"pos":"CntN NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"그렇게 재미 있는",
+	"vars":[
+		{"pos":"ACF MssN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"ACF MssN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"그렇게 말 하고",
+	"vars":[
+		{"pos":"ACF PcsN GF","cnt":"1"},
+		{"pos":"ACF PcsN ACF","cnt":"1"}
+		]},
+	{"word":"그러나 이런 사정",
+	"vars":[
+		{"pos":"INT.NMCF REAL.RELCF MssN","cnt":"1"},
+		{"pos":"ACF RELCF MssN","cnt":"1"}
+		]},
+	{"word":"그래 그래 .",
+	"vars":[
+		{"pos":"DECL.ROOTF DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"ACF DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"그래 , 그럼",
+	"vars":[
+		{"pos":"ACF COMMA DECL.NMCF","cnt":"1"},
+		{"pos":"DECL.ROOTF COMMA DECL.NMCF","cnt":"1"}
+		]},
+	{"word":"그 자체 가",
+	"vars":[
+		{"pos":"ProN UnmdN PN","cnt":"1"},
+		{"pos":"DADJ UnmdN PN","cnt":"1"}
+		]},
+	{"word":"그 위 에",
+	"vars":[
+		{"pos":"DADJ MssN PO","cnt":"1"},
+		{"pos":"ProN MssN PO","cnt":"1"}
+		]},
+	{"word":"그 것 만",
+	"vars":[
+		{"pos":"DADJ CntN SttN","cnt":"1"},
+		{"pos":"DADJ CntN DEL","cnt":"1"}
+		]},
+	{"word":"국세청 은 지난",
+	"vars":[
+		{"pos":"PRN DEL PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PRN DEL PST.RELCF","cnt":"1"}
+		]},
+	{"word":"국민 학교 어린",
+	"vars":[
+		{"pos":"CntN CntN NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"CntN CntN NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"구두 닦는 일",
+	"vars":[
+		{"pos":"CntN NPST.REAL.NCCF CntN","cnt":"1"},
+		{"pos":"CntN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"관심 을 갖는",
+	"vars":[
+		{"pos":"MssN PA NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"MssN PA NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"관심 을 가질",
+	"vars":[
+		{"pos":"MssN PA IRRL.NCCF","cnt":"1"},
+		{"pos":"MssN PA IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"관망 하는 바람",
+	"vars":[
+		{"pos":"PcsN NPST.REAL.NCCF MssN","cnt":"1"},
+		{"pos":"PcsN NCCF MssN","cnt":"1"}
+		]},
+	{"word":"과 기쁨 을",
+	"vars":[
+		{"pos":"PC DECL.NMCF PA","cnt":"1"},
+		{"pos":"PC MssN PA","cnt":"1"}
+		]},
+	{"word":"과 2 층",
+	"vars":[
+		{"pos":"PC NM Msur","cnt":"1"},
+		{"pos":"PC NM GrdN","cnt":"1"}
+		]},
+	{"word":"과 1 백",
+	"vars":[
+		{"pos":"PC NM NM","cnt":"1"},
+		{"pos":"PC NM NMADJ","cnt":"1"}
+		]},
+	{"word":"고 주장 해",
+	"vars":[
+		{"pos":"Compzr PcsN ACF","cnt":"1"},
+		{"pos":"Compzr PcsN GF","cnt":"1"}
+		]},
+	{"word":"고 주장 하는",
+	"vars":[
+		{"pos":"Compzr PcsN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"Compzr PcsN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"고 제안 했다",
+	"vars":[
+		{"pos":"Compzr PcsN DECL.PST.ROOTF","cnt":"1"},
+		{"pos":"Compzr PcsN DECL.PST.INDQF","cnt":"1"}
+		]},
+	{"word":"고 생각 해",
+	"vars":[
+		{"pos":"Compzr PcsN ACF","cnt":"1"},
+		{"pos":"Compzr PcsN GF","cnt":"1"}
+		]},
+	{"word":"계획 `` 이라",
+	"vars":[
+		{"pos":"PcsN CQ DECL.INDQF","cnt":"1"},
+		{"pos":"PcsN CQ DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"계속 하겠다 는",
+	"vars":[
+		{"pos":"VadjN DECL.IRRL.INDQF NCCF","cnt":"1"},
+		{"pos":"VadjN DECL.NPST.IRRL.INDQF RELCF","cnt":"1"}
+		]},
+	{"word":"결론 을 내려",
+	"vars":[
+		{"pos":"CntN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"게 게 없었다",
+	"vars":[
+		{"pos":"CntN CntN DECL.PST.INDQF","cnt":"1"},
+		{"pos":"CntN CntN DECL.PST.ROOTF","cnt":"1"}
+		]},
+	{"word":"게 게 아니고",
+	"vars":[
+		{"pos":"MssN MssN ACF","cnt":"1"},
+		{"pos":"CntN CntN ACF","cnt":"1"}
+		]},
+	{"word":"게 게 뭐",
+	"vars":[
+		{"pos":"CntN CntN ProN","cnt":"1"},
+		{"pos":"MssN MssN ProN","cnt":"1"}
+		]},
+	{"word":"게 게 그렇게",
+	"vars":[
+		{"pos":"MssN MssN ACF","cnt":"1"},
+		{"pos":"MssN MssN GF","cnt":"1"}
+		]},
+	{"word":"것 처럼 보이는",
+	"vars":[
+		{"pos":"MssN PO NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"MssN PO NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"것 이었음 을",
+	"vars":[
+		{"pos":"MssN DECL.PST.NMCF PA","cnt":"1"},
+		{"pos":"CntN DECL.PST.NMCF PA","cnt":"1"}
+		]},
+	{"word":"것 이 정부",
+	"vars":[
+		{"pos":"CntN PN CntN","cnt":"1"},
+		{"pos":"MssN PN CntN","cnt":"1"}
+		]},
+	{"word":"것 이 있다",
+	"vars":[
+		{"pos":"CntN PN DECL.ROOTF","cnt":"1"},
+		{"pos":"MssN PN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"것 이 애",
+	"vars":[
+		{"pos":"CntN PN CntN","cnt":"1"},
+		{"pos":"MssN PN CntN","cnt":"1"}
+		]},
+	{"word":"것 이 아니기",
+	"vars":[
+		{"pos":"MssN PN DECL.NMCF","cnt":"1"},
+		{"pos":"CntN PN DECL.NMCF","cnt":"1"}
+		]},
+	{"word":"것 이 사실",
+	"vars":[
+		{"pos":"MssN PN VadjN","cnt":"1"},
+		{"pos":"CntN PN VadjN","cnt":"1"}
+		]},
+	{"word":"것 이 될",
+	"vars":[
+		{"pos":"CntN PN IRRL.RELCF","cnt":"1"},
+		{"pos":"MssN PN IRRL.NCCF","cnt":"1"}
+		]},
+	{"word":"것 이 그렇게",
+	"vars":[
+		{"pos":"MssN PN ACF","cnt":"1"},
+		{"pos":"CntN PN ACF","cnt":"1"}
+		]},
+	{"word":"것 이 그",
+	"vars":[
+		{"pos":"CntN PN ProN","cnt":"1"},
+		{"pos":"MssN PN DADJ","cnt":"1"}
+		]},
+	{"word":"것 이 가장",
+	"vars":[
+		{"pos":"CntN PN ADV","cnt":"1"},
+		{"pos":"MssN PN ADV","cnt":"1"}
+		]},
+	{"word":"것 을 알고",
+	"vars":[
+		{"pos":"MssN PA GF","cnt":"1"},
+		{"pos":"CntN PA ACF","cnt":"1"}
+		]},
+	{"word":"것 을 그",
+	"vars":[
+		{"pos":"CntN PA ProN","cnt":"1"},
+		{"pos":"MssN PA DADJ","cnt":"1"}
+		]},
+	{"word":"것 은 정부",
+	"vars":[
+		{"pos":"MssN DEL CntN","cnt":"1"},
+		{"pos":"CntN DEL CntN","cnt":"1"}
+		]},
+	{"word":"것 은 나",
+	"vars":[
+		{"pos":"MssN DEL ProN","cnt":"1"},
+		{"pos":"MssN DEL ACF","cnt":"1"}
+		]},
+	{"word":"것 은 경제",
+	"vars":[
+		{"pos":"CntN DEL MssN","cnt":"1"},
+		{"pos":"MssN DEL MssN","cnt":"1"}
+		]},
+	{"word":"것 은 거의",
+	"vars":[
+		{"pos":"CntN DEL VadjN","cnt":"1"},
+		{"pos":"MssN DEL VadjN","cnt":"1"}
+		]},
+	{"word":"것 으로 ,",
+	"vars":[
+		{"pos":"CntN PO COMMA","cnt":"1"},
+		{"pos":"MssN PO COMMA","cnt":"1"}
+		]},
+	{"word":"것 에 대한",
+	"vars":[
+		{"pos":"CntN PO NPST.REAL.RELCF","cnt":"1"},
+		{"pos":"MssN PO NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"것 에 는",
+	"vars":[
+		{"pos":"MssN PO DEL","cnt":"1"},
+		{"pos":"CntN PO DEL","cnt":"1"}
+		]},
+	{"word":"거 예요 ?",
+	"vars":[
+		{"pos":"MssN INT.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"MssN DECL.NPST.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"거 아닌가 요",
+	"vars":[
+		{"pos":"CntN INT.NMCF DM","cnt":"1"},
+		{"pos":"MssN INT.NMCF DM","cnt":"1"}
+		]},
+	{"word":"거 아니겠습니까 ?",
+	"vars":[
+		{"pos":"MssN INT.NRET.ROOTF FPunct","cnt":"1"},
+		{"pos":"CntN INT.NRET.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"개정 해야 한다",
+	"vars":[
+		{"pos":"PcsN ACF DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"PcsN ACF DECL.NPST.INDQF","cnt":"1"}
+		]},
+	{"word":"같은 것 이",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF MssN PN","cnt":"1"},
+		{"pos":"NPST.REAL.RELCF CntN PN","cnt":"1"}
+		]},
+	{"word":"강한 불만 을",
+	"vars":[
+		{"pos":"NPST.REAL.RELCF MssN PA","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN PA","cnt":"1"}
+		]},
+	{"word":"갈 수 있게",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN GF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN ACF","cnt":"1"}
+		]},
+	{"word":"간단 한 일",
+	"vars":[
+		{"pos":"SttN REAL.RELCF CntN","cnt":"1"},
+		{"pos":"SttN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"간 것 이다",
+	"vars":[
+		{"pos":"PST.REAL.NCCF MssN DECL.ROOTF","cnt":"1"},
+		{"pos":"PST.NCCF MssN DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"가질 수 있는",
+	"vars":[
+		{"pos":"IRRL.RELCF CntN NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"IRRL.RELCF CntN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"가장 큰 이유",
+	"vars":[
+		{"pos":"ADV NPST.REAL.RELCF CntN","cnt":"1"},
+		{"pos":"CntN NPST.REAL.RELCF CntN","cnt":"1"}
+		]},
+	{"word":"가장 바람 직",
+	"vars":[
+		{"pos":"PcsN DECL.NMCF SttN","cnt":"1"},
+		{"pos":"ADV DECL.NMCF SttN","cnt":"1"}
+		]},
+	{"word":"가슴 에 안긴",
+	"vars":[
+		{"pos":"CntN PO PST.REAL.NCCF","cnt":"1"},
+		{"pos":"CntN PO PST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"가려 는 거",
+	"vars":[
+		{"pos":"ACF NCCF MssN","cnt":"1"},
+		{"pos":"ACF NPST.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"가능성 도 있다",
+	"vars":[
+		{"pos":"MssN DEL DECL.INDQF","cnt":"1"},
+		{"pos":"MssN DEL DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"가는 거 야",
+	"vars":[
+		{"pos":"NPST.REAL.NCCF CntN DECL.NPST.ROOTF","cnt":"1"},
+		{"pos":"NPST.REAL.NCCF MssN INT.ROOTF","cnt":"1"}
+		]},
+	{"word":"가 크게 늘어",
+	"vars":[
+		{"pos":"PN GF ACF","cnt":"1"},
+		{"pos":"PN ACF ACF","cnt":"1"}
+		]},
+	{"word":"가 정말 싫어",
+	"vars":[
+		{"pos":"PN VadjN DECL.ROOTF","cnt":"1"},
+		{"pos":"PN VadjN GF","cnt":"1"}
+		]},
+	{"word":"가 없다 는",
+	"vars":[
+		{"pos":"PN DECL.INDQF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"PN DECL.NPST.REAL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"가 안 돼",
+	"vars":[
+		{"pos":"PN ADV GF","cnt":"1"},
+		{"pos":"PN ADV ACF","cnt":"1"}
+		]},
+	{"word":"가 쉽지 않다",
+	"vars":[
+		{"pos":"PN DECL.NMCF DECL.ROOTF","cnt":"1"},
+		{"pos":"PN DECL.NMCF DECL.INDQF","cnt":"1"}
+		]},
+	{"word":"가 보답 할",
+	"vars":[
+		{"pos":"PN PcsN IRRL.NCCF","cnt":"1"},
+		{"pos":"PN PcsN IRRL.RELCF","cnt":"1"}
+		]},
+	{"word":"가 돌아 가시고",
+	"vars":[
+		{"pos":"PN ACF HON.GF","cnt":"1"},
+		{"pos":"PN ACF HON.ACF","cnt":"1"}
+		]},
+	{"word":"가 대표적 인",
+	"vars":[
+		{"pos":"PN UnmdN RELCF","cnt":"1"},
+		{"pos":"PN UnmdN NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"가 나란 히",
+	"vars":[
+		{"pos":"PN SttN ADV","cnt":"1"},
+		{"pos":"ACF SttN ADV","cnt":"1"}
+		]},
+	{"word":"가 끝 난",
+	"vars":[
+		{"pos":"PN MssN PST.REAL.RELCF","cnt":"1"},
+		{"pos":"PN MssN PST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"가 궁금 하게",
+	"vars":[
+		{"pos":"PN SttN ACF","cnt":"1"},
+		{"pos":"ACF SttN ACF","cnt":"1"}
+		]},
+	{"word":"가 가 이",
+	"vars":[
+		{"pos":"INT.NMCF PN DADJ","cnt":"1"},
+		{"pos":"PN PN DADJ","cnt":"1"}
+		]},
+	{"word":"가 4 일",
+	"vars":[
+		{"pos":"PN NM Msur","cnt":"1"},
+		{"pos":"PN NM GrdN","cnt":"1"}
+		]},
+	{"word":"～ 2 억",
+	"vars":[
+		{"pos":"IPunct NM NM","cnt":"1"},
+		{"pos":"IPunct NM NMADJ","cnt":"1"}
+		]},
+	{"word":"～ 2 만",
+	"vars":[
+		{"pos":"IPunct NM NM","cnt":"1"},
+		{"pos":"IPunct NM NMADJ","cnt":"1"}
+		]},
+	{"word":"’ 이라 는",
+	"vars":[
+		{"pos":"CQ DECL.NPST.REAL.INDQF NCCF","cnt":"1"},
+		{"pos":"CQ DECL.INDQF RELCF","cnt":"1"}
+		]},
+	{"word":"`` 이라 는",
+	"vars":[
+		{"pos":"CQ DECL.INDQF NCCF","cnt":"1"},
+		{"pos":"CQ DECL.NPST.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"`` 라 는",
+	"vars":[
+		{"pos":"OQ DECL.INDQF NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CQ DECL.INDQF NPST.REAL.NCCF","cnt":"1"}
+		]},
+	{"word":"`` 달순 아",
+	"vars":[
+		{"pos":"OQ PRN PO","cnt":"1"},
+		{"pos":"OQ PRN INTJ","cnt":"1"}
+		]},
+	{"word":"`` 는 식",
+	"vars":[
+		{"pos":"CQ NCCF MssN","cnt":"1"},
+		{"pos":"CQ NPST.REAL.NCCF MssN","cnt":"1"}
+		]},
+	{"word":"`` 그래 그래",
+	"vars":[
+		{"pos":"OQ ACF DECL.ROOTF","cnt":"1"},
+		{"pos":"OQ DECL.ROOTF DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"`` 고 강한",
+	"vars":[
+		{"pos":"CQ Compzr NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CQ Compzr NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"`` / `",
+	"vars":[
+		{"pos":"OQ IPunct OQ","cnt":"1"},
+		{"pos":"CQ IPunct OQ","cnt":"1"}
+		]},
+	{"word":"EMPTYSTEM 말 이",
+	"vars":[
+		{"pos":"NCCF PcsN PN","cnt":"1"},
+		{"pos":"PST.NCCF PcsN PN","cnt":"1"}
+		]},
+	{"word":"EMPTYSTEM 것 은",
+	"vars":[
+		{"pos":"PST.NCCF MssN DEL","cnt":"1"},
+		{"pos":"PST.REAL.NCCF MssN DEL","cnt":"1"}
+		]},
+	{"word":"99 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"86 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"75 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"7 백 30",
+	"vars":[
+		{"pos":"NM NMADJ NM","cnt":"1"},
+		{"pos":"NM NM NM","cnt":"1"}
+		]},
+	{"word":"6 천 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"6 천 개",
+	"vars":[
+		{"pos":"NM NMADJ Cssfr","cnt":"1"},
+		{"pos":"NM NM Cssfr","cnt":"1"}
+		]},
+	{"word":"5 백 달러",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"42 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"4 백 20",
+	"vars":[
+		{"pos":"NM NMADJ NM","cnt":"1"},
+		{"pos":"NM NM NM","cnt":"1"}
+		]},
+	{"word":"31 . 6",
+	"vars":[
+		{"pos":"NM FPunct NM","cnt":"1"},
+		{"pos":"NM IPunct NM","cnt":"1"}
+		]},
+	{"word":"3 만 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"24 일 한",
+	"vars":[
+		{"pos":"NM GrdN PRN","cnt":"1"},
+		{"pos":"NM GrdN NMADJ","cnt":"1"}
+		]},
+	{"word":"2 조 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"2 백 억",
+	"vars":[
+		{"pos":"NM NM NM","cnt":"1"},
+		{"pos":"NM NM NMADJ","cnt":"1"}
+		]},
+	{"word":"2 % 나",
+	"vars":[
+		{"pos":"NM Msur DEL","cnt":"1"},
+		{"pos":"NM Msur ACF","cnt":"1"}
+		]},
+	{"word":"11 억 원",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"1 회 로",
+	"vars":[
+		{"pos":"NM GrdN PO","cnt":"1"},
+		{"pos":"NM Cssfr PO","cnt":"1"}
+		]},
+	{"word":"1 백 %",
+	"vars":[
+		{"pos":"NM NMADJ Msur","cnt":"1"},
+		{"pos":"NM NM Msur","cnt":"1"}
+		]},
+	{"word":"1 년 만",
+	"vars":[
+		{"pos":"NM Msur UnmdN","cnt":"1"},
+		{"pos":"NM Msur DEL","cnt":"1"}
+		]},
+	{"word":"07 근로 자",
+	"vars":[
+		{"pos":"NM PcsN CntN","cnt":"1"},
+		{"pos":"NM PcsN ACF","cnt":"1"}
+		]},
+	{"word":", 저 쪽",
+	"vars":[
+		{"pos":"COMMA DADJ MssN","cnt":"1"},
+		{"pos":"COMMA DADJ CntN","cnt":"1"}
+		]},
+	{"word":", 매 달",
+	"vars":[
+		{"pos":"COMMA ADJ GrdN","cnt":"1"},
+		{"pos":"COMMA CntN GrdN","cnt":"1"}
+		]},
+	{"word":", 그래 .",
+	"vars":[
+		{"pos":"COMMA DECL.NPST.ROOTF FPunct","cnt":"1"},
+		{"pos":"COMMA DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":", 그 밖",
+	"vars":[
+		{"pos":"COMMA ProN MssN","cnt":"1"},
+		{"pos":"COMMA DADJ MssN","cnt":"1"}
+		]},
+	{"word":", 5 일",
+	"vars":[
+		{"pos":"COMMA NM Msur","cnt":"1"},
+		{"pos":"COMMA NM GrdN","cnt":"1"}
+		]},
+	{"word":") 라 는",
+	"vars":[
+		{"pos":"CParen DECL.INDQF RELCF","cnt":"1"},
+		{"pos":"CParen DECL.INDQF NCCF","cnt":"1"}
+		]},
+	{"word":"( 3 백",
+	"vars":[
+		{"pos":"OParen NM NMADJ","cnt":"1"},
+		{"pos":"OParen NM NM","cnt":"1"}
+		]},
+	{"word":"' 지내는 '",
+	"vars":[
+		{"pos":"OQ NPST.REAL.NCCF CQ","cnt":"1"},
+		{"pos":"OQ NPST.REAL.RELCF CQ","cnt":"1"}
+		]},
+	{"word":"' 일 이다",
+	"vars":[
+		{"pos":"CQ CntN DECL.ROOTF","cnt":"1"},
+		{"pos":"CQ Msur DECL.ROOTF","cnt":"1"}
+		]},
+	{"word":"' 을 하는",
+	"vars":[
+		{"pos":"CQ PA NPST.REAL.NCCF","cnt":"1"},
+		{"pos":"CQ PA NPST.REAL.RELCF","cnt":"1"}
+		]},
+	{"word":"' 을 불러",
+	"vars":[
+		{"pos":"CQ PA ACF","cnt":"1"},
+		{"pos":"OQ PA ACF","cnt":"1"}
+		]},
+	{"word":"' 다 .",
+	"vars":[
+		{"pos":"OQ DECL.ROOTF FPunct","cnt":"1"},
+		{"pos":"CQ DECL.ROOTF FPunct","cnt":"1"}
+		]},
+	{"word":"' 6 월",
+	"vars":[
+		{"pos":"OQ NM GrdN","cnt":"1"},
+		{"pos":"CQ NM GrdN","cnt":"1"}
+		]},
+	{"word":"% 인 4",
+	"vars":[
+		{"pos":"Msur RELCF NM","cnt":"1"},
+		{"pos":"Msur NPST.REAL.RELCF NM","cnt":"1"}
+		]},
+	{"word":"ᆫ 하지만 그",
+	"vars":[
+		{"pos":"DEL ACF ProN","cnt":"1"},
+		{"pos":"DEL ACF DADJ","cnt":"1"}
+		]}
+]}
