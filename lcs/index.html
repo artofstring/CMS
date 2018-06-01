@@ -5,8 +5,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="author" content="dhjin">
 <style>
 /* Style the tab content */
+.infoTable {
+	border:1px solid black;
+	vertical-align: top;
+	width: 300px; 
+}
+.infoTD {
+	border:1px solid black;
+	vertical-align: top;
+}
 .tabcontent2 {
     display: none;
     padding: 6px 12px;
@@ -70,7 +80,7 @@
 }
 </style>
 </head>
-<script src="./lib/search.js">/* CORPUS SEARCH MODULE */</script>
+<script src="./lib/search.js" charset="utf-8">/* CORPUS SEARCH MODULE */</script>
 
 <script src="./js/Chart.js"></script>
 <script src="./js/jsdiff.js"></script>
@@ -95,6 +105,8 @@
 	var winfochart;
 	var ann = "annotator";
 	var searchRes = {};
+	//for Word Info panel..
+	var searchRes2 = {};
 	var parseVal;
 	var prevScheme = "";
 	var statTemplate = {};
@@ -123,21 +135,24 @@
 	function loadStat(newArr){
 		stat = getStat(newArr);		
 	}	
-	function plotWord(stat,kwd){
+	function plotWord(stat, kwd){
 
 		var vnx2 = document.getElementById("wordplot");
 		while(vnx2.firstChild){
 			vnx2.removeChild(vnx2.firstChild);
 		}
+
 		var wch2 = document.createElement("CANVAS");
 		wch2.setAttribute("id","winfochart");
-		wch2.setAttribute("width",100);
-		wch2.setAttribute("height",100);
-		oHash2 = getStatByLex(stat,kwd);
-		
+		wch2.setAttribute("width",90);
+		wch2.setAttribute("height",90);
+
+		res_stat = searchRes2["stat"];
+		var oHash2 = getStatByPattern(res_stat);
+
 		var bgcolor2 = [];
 		var bdcolor2 = [];
-		for (i=0;i<oHash2["pos_word"].length;i++){
+		for (i=0;i<oHash2["lexemes"].length;i++){
 			var num2 = i%6;
 			bgcolor2.push(bgColor[num2]);
 			bdcolor2.push(bdColor[num2]);
@@ -147,7 +162,7 @@
 		winfochart = new Chart(ctx2, {
 			type: 'pie',
 			data: {
-				labels: oHash2["pos_word"],
+				labels: oHash2["lexemes"],
 				datasets: [{
 					label: '# of '+kwd,
 					data: oHash2["counts"],
@@ -183,8 +198,8 @@
 		vnx.appendChild(h3);
 		var wch = document.createElement("CANVAS");
 		wch.setAttribute("id","myChart");
-		wch.setAttribute("width",160);
-		wch.setAttribute("height",30);
+		wch.setAttribute("width",100);
+		wch.setAttribute("height","15%");
 		oHash = getStatBysform(stat,kwd);
 		var bgcolor = [];
 		var bdcolor = [];
@@ -223,7 +238,8 @@
 					var value = wchart.data.datasets[firstPoint._datasetIndex].data[firstPoint._index];
 					var wpos = label.split(" ");
 					findConc(kwd,wpos[0],wpos[1]);
-					plotWord(stat,wpos[1]);
+
+
        			 }
 			},
 			
@@ -354,7 +370,7 @@ function undisableTxt() {
 					<dl>
 					<div style="width:90%; min-width:960">
 						<div align="right">
-							<input type="hidden" id="tagerdis" onclick="loadvn();">3 taggers disagreement</input>
+							<input type="hidden" id="tagerdis" onclick="loadvn();"><font backgroundColor="green">3 taggers disagreement</font></input>
 							<input type="hidden" id="loadvn" onclick="loadVngram();"><font color="red"> load variation n-grams</font></input>
 							</td>
 							<td>
@@ -481,8 +497,10 @@ function undisableTxt() {
 					ejValid = ejValid + nsg[i];
 					newSeg.push(nsg[i]);
 				}
-				if (ejValid!=original_ej){
-					alert("This segmentation does not include original string sequence!");
+				//if (ejValid!=original_ej){
+				//	alert("This segmentation does not include original string sequence!");
+				if(false){
+
 				}else{
 					/* 2) Diff and re-organize data. */
 					var diffst = diffString(original_seg,corr);
@@ -881,7 +899,7 @@ function undisableTxt() {
 				if(eNum in changeLog){
 					intd.style.backgroundColor = "yellow";
 				}
-				intd.setAttribute("id",cnt.toString()+"-"+i.toString());
+				intd.setAttribute("id",cnt.toString()+"_"+i.toString());
 				var wd = s.sform;
 
 				if(wd in dic){
@@ -895,12 +913,16 @@ function undisableTxt() {
 				}
 				intd.addEventListener("click", function(){
 					var idz = this.getAttribute("id");
-					var idxz = idz.split("-");
+					var idxz = idz.split("_");
 					var sid = idxz[0];
 					var searchKey = this.textContent;
+					//
 					plotStat(stat,searchKey);
-					openTab(event,"statistics");
+					//Select Statistics Tab : We don't use it now.
+					//openTab(event,"statistics");
 					setOneSentence(sid);
+					//Set Word Info Tab.
+					plotWordInfo(idz);
 					if (selectedSid!=""){
 						var selectedTR = document.getElementById(selectedSid);
 						if (selectedTR){
@@ -1026,13 +1048,38 @@ function undisableTxt() {
 </div>
 <div id="wordinfo" class="tabcontent">
 	<h3>Word Info</h3>
-	<table >
+	<table style="vertical-align: top">
 		<tr>
-			<td style="width:80%;min-height:100px">
+			<td style="width:200px;min-height:100px; vertical-align:top;">
 				<div id="wordplot" style="min-width:200px">
 				</div>
 			</td>
+			<td style="width:200px;min-height:100px; vertical-align:top;" class="infoTD">
+				<h3>Senses</h3>
+				<div id="winfo" align="left">
+					
+					<table></table>
+				</div>
+				<div id="homo" style="overflow:auto;align-content: left;height: 140px;border: 1px;">
+					<table style="width: 200px">
+						<tr>
+							<td>
+								<table></table>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+			<td style="width:200px;min-height:100px; vertical-align:top;" class="infoTD">
+				<h3>INFLECTIONS or WORD FORMS</h3>
+				<div id="infl" style="overflow:auto;align-content: left;height: 140px;border: 1px;"></div>
+			</td>
+			<td style="width:200px;min-height:100px; vertical-align:top;" class="infoTD">
+				<h3>ANNOTATION HISTORY</h3>
+				<div div id="ahistory" style="overflow:auto;align-content: left;height: 140px;border: 1px;"></div>
+			</td>
 		</tr>
+
 	</table>
 </div>
 <div id="changelog" class="tabcontent" valign="top">
@@ -1042,19 +1089,6 @@ function undisableTxt() {
 <script>document.getElementById("statistics").style.display = "block";</script>							
 </div>
 <script>
-function openTab2(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent2");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
 
 function openTab(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -1073,11 +1107,11 @@ function openTab(evt, cityName) {
 </script>
 <div style="font-size: 8; overflow:auto; border:1px solid black;width:90%; height:253px; min-width:960px;" id="vn" class="text">
 <table><tr><td style="border: 1px solid black;"><table style="height: 250px;"><tr><td style="overflow: auto">
-<div id="vnt" valign="top" style="width: 70%; min-width:700px; height: 240px;">
+<div id="vnt" valign="top" style="width: 500px; min-width:700px; height: 240px;">
 	<h3>CONCORDANCE</h3>
 	<div id="vnfind" style="overflow: auto; font-size: 8; border: 1px; width: 60%; height: 250px;"></div>
-</div></td></tr></table></td><td>
-<div id="vnt2" valign="top" style="width:400px; height: 240px;">
+	</div></td></tr></table></td><td>
+	<div id="vnt2" valign="top" style="width:400px; height: 240px;">
 <h3>PATTERN SEARCH</h3>
 	<div id="regex" style=" font-size: 8; width: 40%;" valign="top">
 	<input type="text" size="60" id="patternsearch" onkeypress="searchPattern(event);"/><button onclick="downStat()">검색결과 탬플릿으로 내려받기</button>
@@ -1116,6 +1150,7 @@ function openTab(evt, cityName) {
         a.click();
         window.URL.revokeObjectURL(url);
 	}
+
 	function downloadCorpus(){
 		var link = document.createElement("a");
 		link.download = "sejong.json";
@@ -1215,65 +1250,10 @@ function openTab(evt, cityName) {
 		}
 		var sres = getConc(ar,3);
 		setConcPanel(sres);
+
 	}
 
- 	function findVngrams(keys){
-		var div = document.getElementById('vnt');
 
-		while(div.firstChild){
-		    div.removeChild(div.firstChild);
-		}
-        var fvtbl = document.createElement('TABLE');
-        fvtbl.setAttribute("id","fvtbl");
-		for ( k in keys){	
-			var se = keys[k];
-			var bb = se.split("_");
-			var sn = parseInt(bb[0]);
-			var wn = parseInt(bb[1]);
-			if (sn < newArr.sents.length){
-				var tr = document.createElement('TR');
-				var sent = newArr.sents[sn].sen;
-				var numtd = document.createElement('TD');
-				var numbtn = document.createElement('BUTTON');
-				numbtn.addEventListener("click", function(){
-					var searchKey = this.textContent;
-					setOneSentence(searchKey);	
-				});
-				
-				numbtn.innerHTML = sn;
-				numtd.appendChild(numbtn);
-				tr.appendChild(numtd);
-				for (si=wn-2;si<sent.length&&si<wn+keys.length+2;si++){
-					if(si>-1){
-						var wd = sent[si].sform;
-						var pos = sent[si].pos;
-						var td = document.createElement('TD');
-						td.innerHTML = wd;
-						tr.appendChild(td);
-					}
-				}
-				var tr2 = document.createElement('TR');
-				var xtd = document.createElement('TD');
-				var xbtn = document.createElement('BUTTON');
-				xtd.appendChild(xbtn);
-				tr2.appendChild(xtd);
-				for (si=wn-2;si<sent.length&&si<wn+keys.length+2;si++){
-					if(si>-1){
-						var pos = sent[si].pos;
-						var td2 = document.createElement('TD');
-						var btn = document.createElement('BUTTON');
-						btn.innerHTML = pos;
-						td2.appendChild(btn);
-						tr2.appendChild(td2);
-					}
-				}
-                       		fvtbl.appendChild(tr);
-                       		fvtbl.appendChild(tr2);
-			}
-		}
-         	var textcontent = document.getElementById("vnfind");
-         	textcontent.appendChild(fvtbl);
-	}
 	function searchPattern(evt){
 		var keyCode = evt.which?evt.which:event.keyCode;
 		if (keyCode=="13" | keyCode=="188"){
@@ -1292,15 +1272,14 @@ function openTab(evt, cityName) {
 				searchRes={};
 			}
 			parseVal = parsePattern(val);
-
 			//Speed-up
 			if ("result" in searchRes){
 				searchRes = searchByPattern(searchRes,parseVal);
 			}else{
 				searchRes = searchByPattern(newArr,parseVal);
 			}
+			//alert(Object.keys(searchRes).length);
 			var sres = getConc(searchRes["result"],3);
-			
 			var res_stat = getStatByPattern(searchRes["stat"]);
 			
 			if("INST_P" in parseVal){
@@ -1341,14 +1320,277 @@ function openTab(evt, cityName) {
 				}
 				
 			}
-
-
 			setConcPanel(sres);
 			plotPatternStat(res_stat,val)
 			prevScheme = val;
 		}
 	}
 
+function searchWithWordInfo(parseVal){
+	
+	sch_res = searchByPattern(searchRes2,parseVal);
+
+	var sres = getConc(sch_res["result"],3);
+	
+	setConcPanel(sres);
+	return res_stat;
+}
+//For Word Click. in main Panel..
+function plotWordInfo(wid){
+
+	var wnx = document.getElementById("winfo");
+	while(wnx.firstChild){
+		wnx.removeChild(wnx.firstChild);
+	}
+
+	//SEARCH.
+	searchRes2 = getStatByLex(newArr,wid);
+
+	var wtbl = document.createElement('TABLE');
+	wtbl.setAttribute("id","wtbl");
+	wtbl.setAttribute("class","infoTable");
+	var trx = document.createElement('TR');
+	var tr0 = document.createElement('TR');
+	var tr1 = document.createElement('TR');
+	var tdx = document.createElement('TD');
+	var tdxx = document.createElement('TD');
+	tdxx.setAttribute("id","wdid");
+	var td0 = document.createElement('TD');
+	var td1 = document.createElement('TD');
+	var td2 = document.createElement('TD');
+	var td3 = document.createElement('TD');
+
+	
+
+	var kzz = wid.split("_");
+	var wd = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sform;
+	var pos = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].pos;
+	var lex = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].lex;
+	var sens = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sens;
+	tdx.innerHTML = "WORD ID:  ";
+	tdxx.innerHTML = wid;
+	td0.innerHTML = "WORD: ";
+	td1.innerHTML = "POS: ";
+	td2.innerHTML = "LEMMA: ";
+	td3.innerHTML = "SENSE: ";
+
+
+	trx.appendChild(tdx);
+	trx.appendChild(tdxx);
+	wtbl.appendChild(trx);
+	//Make a Chart.
+	plotWord(stat,lex);
+
+	var btn0 = document.createElement('BUTTON');
+	btn0.innerHTML = wd;
+	btn0.setAttribute("id","wbtn")
+
+	var chk0 = document.createElement("INPUT");
+	chk0.setAttribute("type", "checkbox");
+
+	var chk2 = document.createElement("INPUT");
+	chk2.setAttribute("type", "checkbox");
+	chk2.setAttribute("id", "posCheck");
+
+	var btn1 = document.createElement('BUTTON');
+	btn1.innerHTML = pos;
+	btn1.setAttribute("id","pbtn")
+	//CheckBox for Lemma and Sense.
+	var chk1 = document.createElement("INPUT");
+	chk1.setAttribute("type", "checkbox");
+	chk1.setAttribute("checked", true);
+	chk1.setAttribute("disabled", true);
+
+
+	var btn2 = document.createElement('BUTTON');
+	btn2.innerHTML = lex;
+	btn2.setAttribute("id","lbtn")
+	//Add Lister at word checkBox
+	chk2.addEventListener('change',function(){
+		if(this.checked){
+			var wdid = document.getElementById("wdid").textContent;
+			var pbtn = document.getElementById("pbtn").textContent;
+
+			searchRes2 = getStatByPOS(newArr,wdid,pbtn);
+
+			plotWord(searchRes2["stat"],"POS:"+wbtn+", lemma: "+lbtn);
+			setSenseTable();
+		}else{
+			var wdid = document.getElementById("wdid").textContent;
+			var wbtn = document.getElementById("wbtn").textContent;
+			searchRes2 = getStatByLex(newArr,wdid);
+			plotWord(searchRes2["stat"],"word:"+wbtn);
+			setSenseTable();
+		}
+    });
+
+	chk0.addEventListener('change',function(){
+		if(this.checked){
+			var wdid = document.getElementById("wdid").textContent;
+			var wbtn = document.getElementById("wbtn").textContent;
+			var lbtn = document.getElementById("lbtn").textContent;
+			searchRes2 = getStatByLex(newArr,wdid,wbtn);
+
+			plotWord(searchRes2["stat"],"word:"+wbtn+", lemma: "+lbtn);
+			setSenseTable();
+		}else{
+			var wdid = document.getElementById("wdid").textContent;
+			var wbtn = document.getElementById("wbtn").textContent;
+			searchRes2 = getStatByLex(newArr,wdid);
+			plotWord(searchRes2["stat"],"word:"+wbtn);
+			setSenseTable();
+		}
+    });
+
+	var btn3 = document.createElement('BUTTON');
+	btn3.innerHTML = sens;
+	btn3.addEventListener("click",function(){
+		var zz = this.textContent;
+		var corr = prompt("Type new Annotation.", zz);
+		var wdid = document.getElementById("wdid").textContent;
+		var kzz = wdid.split("_");
+		var eNum = newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].enum;
+		var pointer = findPointer(newArr.sents[parseInt(kzz[0])].sen,eNum,kzz)
+		if(corr){
+			newArr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])].sens = corr;
+			var d = new Date().getTime();
+			if (eNum in changeLog){
+				var cglist = changeLog[eNum];
+				cglist.push([kzz[0],wd,zz,corr,d.toString(),pointer,ann,""]);
+				changeLog[eNum] = cglist;
+			}else{
+				var cglist = [];
+				cglist.push([kzz[0],wd,zz,corr,d.toString(),pointer,ann,""]);
+				changeLog[eNum] = cglist;
+			}
+			updateChangeLog(changeLog);
+			this.innerHTML = corr;
+		}
+    });
+	//Add CheckBox
+	td0.appendChild(chk0);
+	td0.appendChild(btn0);
+	td1.appendChild(chk2);	
+	td1.appendChild(btn1);	
+
+
+	tr0.appendChild(td0);
+	tr0.appendChild(td1);
+	td2.appendChild(chk1);
+	td2.appendChild(btn2);
+
+	td3.appendChild(btn3);
+
+	tr1.appendChild(td2);
+	tr1.appendChild(td3);
+
+	wtbl.appendChild(tr0);
+	wtbl.appendChild(tr1);
+
+	wnx.appendChild(wtbl);
+
+	setSenseTable();
+}
+
+function setInflectionTable(sch_res){
+	var inx = document.getElementById("infl");
+	while(inx.firstChild){
+		inx.removeChild(inx.firstChild);
+	}
+	var itbl = document.createElement('TABLE');
+	itbl.setAttribute("id","itbl");
+	itbl.setAttribute("class","infoTable");
+	var res_stat = sch_res["stat"];
+	var types = Object.keys(res_stat).length;
+	var tr = document.createElement('TR');
+	var td = document.createElement('TD');
+	td.innerHTML = types.toString()+"TYPE(S)";
+	tr.appendChild(td);
+	itbl.appendChild(tr);
+	var pck = document.getElementById("posCheck");
+	if (pck.checked){
+		for (k in res_stat){
+			var trk = document.createElement('TR');
+			var tdk1 = document.createElement('TD');
+			tdk1.style.backgroundColor = bgColor[cnt%6];
+			tdk1.innerHTML = k;
+			tdk1.addEventListener("click", function(){
+				var searchKey = this.textContent;
+				var prsVal = {"W":searchKey};
+				searchWithWordInfo(prsVal);
+			});
+			var tdk2 = document.createElement('TD');
+			tdk2.innerHTML = res_stat[k];
+			trk.appendChild(tdk1);
+			trk.appendChild(tdk2);
+			itbl.appendChild(trk);
+			cnt+=1;
+		}
+	}else{
+		for (k in res_stat){
+			var trk = document.createElement('TR');
+			var tdk1 = document.createElement('TD');
+			tdk1.style.backgroundColor = bgColor[cnt%6];
+			tdk1.innerHTML = k;
+			tdk1.addEventListener("click", function(){
+				var searchKey = this.textContent;
+				var prsVal = {"P":searchKey};
+				searchWithWordInfo(prsVal);
+			});
+			var tdk2 = document.createElement('TD');
+			tdk2.innerHTML = res_stat[k];
+			trk.appendChild(tdk1);
+			trk.appendChild(tdk2);
+			itbl.appendChild(trk);
+			cnt+=1;
+		}
+	}
+	
+	inx.appendChild(itbl);
+}
+function setSenseTable(){
+	var hnx = document.getElementById("homo");
+
+	while(hnx.firstChild){
+		hnx.removeChild(hnx.firstChild);
+	}
+
+	var htbl = document.createElement('TABLE');
+	htbl.setAttribute("id","htbl");
+	htbl.setAttribute("class","infoTable");
+
+	var res_stat = searchRes2["stat"];
+	cnt = 0;
+	for (k in res_stat){
+		var trk = document.createElement('TR');
+		var tdk1 = document.createElement('TD');
+		tdk1.style.backgroundColor = bgColor[cnt%6];
+		tdk1.innerHTML = k;
+		tdk1.addEventListener("click", function(){
+			var searchKey = this.textContent;
+			var prsVal = {"S":searchKey};
+			searchWithWordInfo(prsVal);
+			var pck = document.getElementById("posCheck");
+			
+			if(pck.checked){
+				prsVal = {"S":searchKey,"W":""};
+				sch_res = searchByPattern(searchRes2,prsVal);
+			}else{
+				prsVal = {"S":searchKey,"P":""};
+				sch_res = searchByPattern(searchRes2,prsVal);
+			}		
+			setInflectionTable(sch_res);
+		});
+
+		var tdk2 = document.createElement('TD');
+		tdk2.innerHTML = res_stat[k];
+		trk.appendChild(tdk1);
+		trk.appendChild(tdk2);
+		htbl.appendChild(trk);
+		cnt+=1;
+	}
+	hnx.appendChild(htbl);
+}
 
 function plotPatternStat(stat,kwd){
 		
@@ -1466,14 +1708,6 @@ function plotPatternStat(stat,kwd){
          		textcontent.appendChild(vtbl);
 			}/*find v-ngram or find Word Information*/
 		}
-	}
-// When the user clicks on <div>, open the popup
-	function annotation(num) {
-		var popup = window.open('tagAutoComplete.html', 'name', 'width=700,height=350');
-		if (popup!=null){
-       		x="Hello " + name + "! How are you today?";
-      		alert(x);
-  		}
 	}
 
 	</script>
