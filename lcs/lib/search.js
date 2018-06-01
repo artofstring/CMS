@@ -1,4 +1,6 @@
 
+// -*- coding: utf-8 -*-
+
 //1.1 Return list of match result for keyword.
 function search(arr,param,b){
 	var result = {};
@@ -11,8 +13,13 @@ function search(arr,param,b){
 			sfm = wd.sform;
 			ps = wd.pos;
 			lx = wd.lex;
+			ss = wd.sens;
 			if(param=="W"){
 				if (sfm==b){
+					matches[i.toString()+"_"+j.toString()]=arr.sents[i];
+				}
+			}else if(param=="S"){
+				if (ss==b){
 					matches[i.toString()+"_"+j.toString()]=arr.sents[i];
 				}
 			}else if(param=="P"){
@@ -43,7 +50,7 @@ function search(arr,param,b){
 }
 
 function findByContextPrev(sn,wnum,param,key){
-	params = param.split("-");
+	params = param.split("_");
 	if(params[1]=="1"){
 		if (wnum-1>-1){
 			if(params[0]=="W" && sn.sen[wnum-1].sform==key){
@@ -135,7 +142,7 @@ function countContextElement(sn,wn,param){
 			}
 		}
 	}
-	params = param.split("-");
+	params = param.split("_");
 	//alert(params);
 	if(params.length==2){
 		if(params[1]=="1"){
@@ -183,6 +190,7 @@ function searchInResult(arr_res, param, b){
 			sfm = wd.sform;
 			ps = wd.pos;
 			lx = wd.lex;
+			ss = wd.sens;
 			if (param=="W"){
 				if (sfm==b){
 					matches[kw]=sn;
@@ -205,6 +213,10 @@ function searchInResult(arr_res, param, b){
 				if (cxt1){
 					matches[kw]=sn;
 				}
+			}else if(param=="S"){
+				if (ss==b){
+					matches[kw]=sn;
+				}
 			}
 		}
 		stat[b] = Object.keys(matches).length;
@@ -217,6 +229,7 @@ function searchInResult(arr_res, param, b){
 			sfm = wd.sform;
 			ps = wd.pos;
 			lx = wd.lex;
+			ss = wd.sens;
 			if (param=="W"){
 				if (sfm in stat){
 					stat[sfm] = stat[sfm]+1;
@@ -228,6 +241,12 @@ function searchInResult(arr_res, param, b){
 					stat[ps] = stat[ps]+1;
 				}else{
 					stat[ps] = 1;
+				}
+			}else if(param=="S"){
+				if (ss in stat){
+					stat[ss] = stat[ss]+1;
+				}else{
+					stat[ss] = 1;
 				}
 			}else if(param=="L"){
 				if (lx in stat){
@@ -268,6 +287,23 @@ function searchLex(arr,b,p,l){
 			ps = wd.pos;
 			lx = wd.lex;
 			if (sfm==b && ps==p && lx==l){
+				matches[i.toString()+"_"+j.toString()]=arr.sents[i];
+			}
+		}
+	}
+	return matches;
+}
+//1.2 Search list of match result by keyword and POS.
+function searchSense(arr,b,l,s){
+	var matches = {};
+	for (i=0;i<arr.sents.length;i++){
+		var sn = arr.sents[i];
+		for(j=0;j<sn.sen.length;j++){
+			var wd = sn.sen[j];
+			sfm = wd.sform;
+			lx = wd.lex;
+			ss = wd.sens;
+			if (sfm==b && lx==l && ss==s){
 				matches[i.toString()+"_"+j.toString()]=arr.sents[i];
 			}
 		}
@@ -360,6 +396,7 @@ function getStat(arr){
 			var sfm = wd.sform;
 			var pos = wd.pos;
 			var lex = wd.lex;
+			var ss = wd.lex;
 			if (lex in wgCnt){
 				wgCnt[lex] = wgCnt[lex]+1;
 			}else{
@@ -455,23 +492,38 @@ function getStatBysform(stat,sfm){
 	return out;
 }
 
-function getStatByLex(stat,lex){
-	//var ohash = makeOrderedHash();
-	var ohash = {}; 
-	var lexemes = [];
-	var counts = [];
-	var lexicon = stat["words"];
-	if (lex in lexicon){
-		var wdz = lexicon[lex];
-		for (wp in wdz){
-			lexemes.push(wp);
-			counts.push(wdz[wp]);
-		}
+function getStatByLex(arr,idz,sfm){
+	var kzz = idz.split("_");
+	var wd = arr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])]
+	var lex = wd.lex;
+	var ss = wd.sens;
+	var scheme = {};
+	if(sfm){
+		scheme["W"] = sfm;
 	}
-	var out = {};
-	out["pos_word"] = lexemes;
-	out["counts"] = counts;
-	return out;
+	scheme["L"] = lex;
+	scheme["S"] = "";
+
+	var sch_res = searchByPattern(arr,scheme);
+
+	return sch_res;
+}
+
+function getStatByPOS(arr,idz,pos){
+	var kzz = idz.split("_");
+	var wd = arr.sents[parseInt(kzz[0])].sen[parseInt(kzz[1])]
+	var lex = wd.lex;
+	var ss = wd.sens;
+	var scheme = {};
+	if(sfm){
+		scheme["P"] = pos;
+	}
+	scheme["L"] = lex;
+	scheme["S"] = "";
+
+	var sch_res = searchByPattern(arr,scheme);
+
+	return sch_res;
 }
 
 //Parse Pattern. 
@@ -513,7 +565,7 @@ function parsePattern(patt){
 					if (cnd.length==2){
 						scheme[cnd[0].trim()] = cnd[1].trim();
 					}else{
-						if(cond[i]=="W"|cond[i]=="P"|cond[i]=="L"|cond[i]=="W+1"|cond[i]=="P+1"|cond[i]=="L+1"|cond[i]=="W+2"|cond[i]=="P+2"|cond[i]=="L+2"){
+						if(cond[i]=="S"|cond[i]=="W"|cond[i]=="P"|cond[i]=="L"|cond[i]=="W+1"|cond[i]=="P+1"|cond[i]=="L+1"|cond[i]=="W+2"|cond[i]=="P+2"|cond[i]=="L+2"){
 							scheme[cond[i].trim()] = "";
 						}else if(cond[i]=="W-1"|cond[i]=="P-1"|cond[i]=="L-1"|cond[i]=="W-2"|cond[i]=="P-2"|cond[i]=="L-2"){
 							scheme[cond[i].trim()] = "";
@@ -533,10 +585,9 @@ function parsePattern(patt){
 function searchByPattern(arr,scheme){
 	var sch_res = {};
 	for (j in scheme){
-		if("W"==j|"P"==j|"L"==j|"W+1"==j|"P+1"==j|"L+1"==j|"W-1"==j|"P-1"==j|"L-1"==j|"W+2"==j|"P+2"==j|"L+2"==j|"W-2"==j|"P-2"==j|"L-2"==j){
+		if("S"==j|"W"==j|"P"==j|"L"==j|"W+1"==j|"P+1"==j|"L+1"==j|"W-1"==j|"P-1"==j|"L-1"==j|"W+2"==j|"P+2"==j|"L+2"==j|"W-2"==j|"P-2"==j|"L-2"==j){
 			
 			if("result" in sch_res){
-				
 				sch_res = searchInResult(sch_res["result"],j,scheme[j]);
 			}else{
 				if("result" in arr){
@@ -565,25 +616,24 @@ function getStatByPattern(sch_arr){
 	return out;
 }
 
+function selectPOS(stat,op){
 
-        function selectPOS(stat,op){
-
-                oHash2 = getStatBysform(stat,op);
-                var cntz = oHash["counts"];
-                var lxmz = oHash["lexemes"];
-                maxCnt = 0;
-                maxPos = "";
-                for(i=0;i<cntz.length;i++){
-                        if (cntz[i]>maxCnt){
-                                p_l = lxmz[i].split(" ");
-                                maxPos = p_l[0];
-                                maxLex = p_l[1];
-                                maxCnt = cntz[i];
-                        }
-                }
-                var out = [maxPos,maxLex]
-                return out;
-        }
+		oHash2 = getStatBysform(stat,op);
+		var cntz = oHash["counts"];
+		var lxmz = oHash["lexemes"];
+		maxCnt = 0;
+		maxPos = "";
+		for(i=0;i<cntz.length;i++){
+				if (cntz[i]>maxCnt){
+						p_l = lxmz[i].split(" ");
+						maxPos = p_l[0];
+						maxLex = p_l[1];
+						maxCnt = cntz[i];
+				}
+		}
+		var out = [maxPos,maxLex]
+		return out;
+}
 
 
 		function loadVngram() {
@@ -639,3 +689,62 @@ function getStatByPattern(sch_arr){
 			 updateColor();
 			alert (donCnt+" Variation N-grams loaded!");
 		   }
+
+
+		   function findVngrams(keys){
+			var div = document.getElementById('vnt');
+	
+			while(div.firstChild){
+				div.removeChild(div.firstChild);
+			}
+			var fvtbl = document.createElement('TABLE');
+			fvtbl.setAttribute("id","fvtbl");
+			for ( k in keys){	
+				var se = keys[k];
+				var bb = se.split("_");
+				var sn = parseInt(bb[0]);
+				var wn = parseInt(bb[1]);
+				if (sn < newArr.sents.length){
+					var tr = document.createElement('TR');
+					var sent = newArr.sents[sn].sen;
+					var numtd = document.createElement('TD');
+					var numbtn = document.createElement('BUTTON');
+					numbtn.addEventListener("click", function(){
+						var searchKey = this.textContent;
+						setOneSentence(searchKey);	
+					});
+					
+					numbtn.innerHTML = sn;
+					numtd.appendChild(numbtn);
+					tr.appendChild(numtd);
+					for (si=wn-2;si<sent.length&&si<wn+keys.length+2;si++){
+						if(si>-1){
+							var wd = sent[si].sform;
+							var pos = sent[si].pos;
+							var td = document.createElement('TD');
+							td.innerHTML = wd;
+							tr.appendChild(td);
+						}
+					}
+					var tr2 = document.createElement('TR');
+					var xtd = document.createElement('TD');
+					var xbtn = document.createElement('BUTTON');
+					xtd.appendChild(xbtn);
+					tr2.appendChild(xtd);
+					for (si=wn-2;si<sent.length&&si<wn+keys.length+2;si++){
+						if(si>-1){
+							var pos = sent[si].pos;
+							var td2 = document.createElement('TD');
+							var btn = document.createElement('BUTTON');
+							btn.innerHTML = pos;
+							td2.appendChild(btn);
+							tr2.appendChild(td2);
+						}
+					}
+								   fvtbl.appendChild(tr);
+								   fvtbl.appendChild(tr2);
+				}
+			}
+				 var textcontent = document.getElementById("vnfind");
+				 textcontent.appendChild(fvtbl);
+		}
